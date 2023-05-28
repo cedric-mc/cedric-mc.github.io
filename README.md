@@ -1,83 +1,36 @@
-# Getting Started with Create React App
+# Portfolio de Cédric Mariya Constantine
+## Description
+Mon portfolio web est une vitrine de mes compétences, de mes projets. Il présente mes réalisations et met en valeur mes capacités en matière de conception web, de développement front-end... à compléter.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Démonstration
+Vous pouvez consulter mon portfolio web en ligne à l'adresse suivante : [Lien vers mon portfolio](https://perso-etudiant.u-pem.fr/~mariyaconsta02).
+Vous pouvez naviguer plus facilement à travers le site web en cliquant sur les liens de la barre de navigation : METTRE IMAGE DE LA BARRE DE NAVIGATION
 
-## Available Scripts
+## Technologies utilisées
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more
-information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will
-remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right
-into your project so you have full control over them. All of the commands except `eject` will still work, but they will
-point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you
-shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't
-customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in
-the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved
-here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Utilisation
+Si vous possédez mon Portfolio, vous pouvez ouvrir le fichier 'index.html' dans votre navigateur web.
+### Informations complémentaires concernant les fichiers du Portfolio
+- Le dossier 'style' contient les fichiers CSS du Portfolio.
+    - Le fichier 'style.css' est le fichier CSS principal du Portfolio.
+    - Le fichier 'bootstrap.min.css' est le fichier CSS de Bootstrap.
+    - Le fichier 'fonts.css' est le fichier CSS de Fonts avec l'initialisation des polices utilisées dans le Portfolio.
+    - Le fichier 'animation.css' est le fichier CSS de l'animation des éléments du Portfolio.
+    - Le fichier 'responsive.css' est le fichier CSS de la version responsive du Portfolio.
+    - Le fichier 'navigation.css' est le fichier CSS de la barre de navigation du Portfolio.
+- Le dossier 'fonts' contient les polices de caractères utilisées dans le Portfolio.
+    - Le fichier '[Birds-of-Paradise-Font.ttf](https://www.dafont.com/birds-of-paradise.font)' est la police de caractères utilisée pour le titre principal du Portfolio.
+    - Le fichier '[Blaster-Font.otf](https://www.dafont.com/blaster-6.font)' est la police de caractères utilisée pour le titre des sections du Portfolio.
+- Le dossier 'script' contient les fichiers JavaScript du Portfolio.
+    - Le fichier 'script.js' est le fichier JavaScript principal du Portfolio.
+    - Le fichier 'bootstrap.min.js' est le fichier JavaScript de Bootstrap.
+- Le dossier 'img' contient les images utilisées dans le Portfolio.
+- Le dossier 'doc' contient les documents utilisés dans le Portfolio.
+    - Le fichier 'CV.pdf' est le fichier PDF de mon CV.
+    - Le fichier 'Lettre_de_motivation.pdf' est le fichier PDF de ma lettre de motivation.
+- Le fichier 'index.html' est la page d'accueil du Portfolio.
+- Le fichier 'README.md' est le fichier de description du Portfolio, vous le lisez actuellement ;).
