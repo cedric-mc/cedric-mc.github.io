@@ -1,19 +1,19 @@
-@font-face { /* Initialisation de la police Birds-of-Paradise */
+@font-face {
     font-family: "Birds-of-Paradise";
     src: url("../fonts/Birds-of-Paradise-Font.ttf") format("truetype");
 }
 
-@font-face { /* Initialisation de la police Blaster */
+@font-face {
     font-family: "Blaster";
     src: url("../fonts/Blaster-Font.otf") format("opentype");
 }
 
-@font-face { /* Initialisation de la police Lato */
+@font-face {
     font-family: "Lato";
     src: url("../fonts/Lato-Regular.ttf") format("truetype");
 }
 
-@font-face { /* Initialisation de la police Lexend */
+@font-face {
     font-family: "Lexend";
     src: url("../fonts/Lexend-Regular.ttf") format("truetype");
 }
