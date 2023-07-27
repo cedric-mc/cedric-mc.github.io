@@ -23,11 +23,11 @@
         <!-- Fichiers CSS -->
     </head>
 
+    
 
     <body class="full-page">
         <div id="arrow-container">
             <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.000000 100.000000">
-            
                 <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)" stroke="none">
                     <path d="M0 737 l0 -193 245 -237 c135 -130 250 -237 255 -237 5 0 120 107
                     255 237 l245 237 0 193 c0 148 -3 193 -12 193 -7 0 -118 -101 -246 -225 -129
@@ -43,8 +43,12 @@
         <nav class="navbar sticky-top navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#top-page">
-                    <img src="../img/navbar/home.png" width="30" height="30" class="d-inline-block align-text-top">
-                    Accueil
+                    <div>
+                        <img src="../img/navbar/home.png" class="d-inline-block align-text-top" />
+                        <span class="nav-text">
+                            Accueil
+                        </span>
+                    </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -53,57 +57,57 @@
                     <ul class="navbar-nav custom-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#about-me">
-                                <img src="../img/navbar/about-me.png" class="d-inline-block align-text-top" width="25" height="25"> Me Connaître
+                                <img src="../img/navbar/about-me.png" class="d-inline-block align-text-top nav-img"> Me Connaître
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#skills">
-                                <img src="../img/navbar/skills.png" class="d-inline-block align-text-top" width="25" height="25"> Compétences
+                                <img src="../img/navbar/skills.png" class="d-inline-block align-text-top"> Compétences
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle active" href="#projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="../img/navbar/projects.png" class="d-inline-block align-text-top" width="25" height="25">
+                                <img src="../img/navbar/projects.png" class="d-inline-block align-text-top">
                                 Projets
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="#projects-web">
-                                        <img src="../img/navbar/projects-web.png" class="d-inline-block align-text-top" width="25" height="25"> Projets Web
+                                        <img src="../img/navbar/projects-web.png" class="d-inline-block align-text-top"> Projets Web
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="#projects-programmation">
-                                        <img src="../img/navbar/projects-programmation.png" class="d-inline-block align-text-top" width="25" height="25"> Projets de Programmation
+                                        <img src="../img/navbar/projects-programmation.png" class="d-inline-block align-text-top"> Projets de Programmation
                                     </a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="#projects-videos">
-                                        <img src="../img/navbar/projects-videos.png" class="d-inline-block align-text-top" width="25" height="25"> Projets Vidéos
+                                        <img src="../img/navbar/projects-videos.png" class="d-inline-block align-text-top"> Projets Vidéos
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#contact">
-                                <img src="../img/navbar/contact.png" class="d-inline-block align-text-top" width="25" height="25"> Me Contacter
+                                <img src="../img/navbar/contact.png" class="d-inline-block align-text-top"> Me Contacter
                             </a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle active" href="#projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="../img/navbar/languages.png" class="d-inline-block align-text-top" width="25" height="25">
+                                <img src="../img/navbar/languages.png" class="d-inline-block align-text-top">
                                 Langues
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="../eng/index.html">
-                                        <img src="../img/navbar/united-kingdom.png" class="d-inline-block align-text-top" width="25" height="25"> Anglais
+                                        <img src="../img/navbar/united-kingdom.png" class="d-inline-block align-text-top"> Anglais
                                     </a>
                                 </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item disabled">
-                                        <img src="../img/navbar/france.png" class="d-inline-block align-text-top" width="25" height="25"> Français
+                                        <img src="../img/navbar/france.png" class="d-inline-block align-text-top"> Français
                                     </a>
                                 </li>
                             </ul>
@@ -145,7 +149,7 @@
                 </p>
                 <p class="paragraphe-section">
                     Voici mon CV, il est à votre disposition :
-                    <a class="btn btn-info wobble-hor-bottom heartbeat" href="../doc/CV_CEDRIC_MARIYA CONSTANTINE.pdf" target="_blank">Télécharger</a>
+                    <a class="btn btn-info heartbeat heartbeat-hover" href="../doc/CV_CEDRIC_MARIYA CONSTANTINE.pdf" target="_blank">Télécharger</a>
                     <br>
                 </p>
                 <p class="paragraphe-section">
@@ -163,26 +167,48 @@
                     <br>
                     BUT Informatique, Parcours A : Réalisation d’applications : conception, développement, validation. (BC : Bloc de compétences)
                     <br>
-                    <ul>
-                        <li>
-                            <h3 class="skills-title">BC1 : Réaliser un développement d'application</h3>
-                        </li>
-                        <li>
-                            <h3 class="skills-title">BC2 : Optimiser des applications informatiques</h3>
-                        </li>
-                        <li>
-                            <h3 class="skills-title">BC3 : Administrer des systèmes informatiques communicants complexes</h3>
-                        </li>
-                        <li>
-                            <h3 class="skills-title">BC4 : Gérer des données de l'information</h3>
-                        </li>
-                        <li>
-                            <h3 class="skills-title">BC5 : Conduire un projet</h3>
-                        </li>
-                        <li>
-                            <h3 class="skills-title">BC6 : Travailler dans une équipe informatique</h3>
-                        </li>
-                    </ul>
+                    <h3 class="skills-title">BC1 : Réaliser un développement d'application</h3>
+                    <p class="paragraphe-section">
+                        <span class="italic-text">
+                            Développer — c’est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.
+                        </span>
+                        <br>
+                        <ul class="skills-details-">
+                            <li>Développer des applications informatiques simples</li>
+                        </ul>
+                    </p>
+                    <h3 class="skills-title">BC2 : Optimiser des applications informatiques</h3>
+                    <p class="paragraphe-section">
+                        <span class="italic-text">
+                            Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d’exécution, précision, consommation de ressources...
+                        </span>
+                    </p>
+                    <h3 class="skills-title">BC3 : Administrer des systèmes informatiques communicants complexes</h3>
+                    <p class="paragraphe-section">
+                        <span class="italic-text">
+                            Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, 
+                            des services et des réseaux et optimiser le système informatique d’une organisation.
+                        </span>
+                    </p>
+                    <h3 class="skills-title">BC4 : Gérer des données de l'information</h3>
+                    <p class="paragraphe-section">
+                        <span class="italic-text">
+                            Concevoir, gérer, administrer et exploiter les données de l’entreprise et mettre à disposition toutes les informations pour un bon pilotage de l’entreprise.
+                        </span>
+                    </p>
+                    <h3 class="skills-title">BC5 : Conduire un projet</h3>
+                    <p class="paragraphe-section">
+                        <span class="italic-text">
+                            Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, 
+                            organiser et piloter un projet informatique avec des méthodes classiques ou agiles.
+                        </span>
+                    </p>
+                    <h3 class="skills-title">BC6 : Travailler dans une équipe informatique</h3>
+                    <p class="paragraphe-section">
+                        <span class="italic-text">
+                            Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique.
+                        </span>
+                    </p>
                 </p>
                 <h1>IGNORONS EN-DESSOUS</h1>
                 <h3>Langages informatiques :</h3>
