@@ -57,6 +57,11 @@
 	animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
+.heartbeat-hover:hover {
+	-webkit-animation: heartbeat 0.5s ease-in-out infinite both;
+	animation: heartbeat 0.5s ease-in-out infinite both;
+}
+
 @-webkit-keyframes heartbeat {
 	from {
 		-webkit-transform: scale(1);

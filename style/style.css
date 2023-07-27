@@ -39,6 +39,7 @@ html {
 
 main {
     font-family: "Lato";
+    font-size: 1.2rem;
 }
 
 /* pour l'animation de la bordure */
@@ -51,10 +52,9 @@ main {
 }
 
 .full-page {
-    font-family: "Lexend" !important;
-    overflow-x: hidden !important;
-    color: #fff !important;
-    background-color: rgba(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
+    overflow-x: hidden;
+    color: #fff;
+    background-color: rgba(13, 110, 253, var(--bs-bg-opacity, 1));
 }
 
 .navbar {
@@ -62,12 +62,29 @@ main {
     color: #000000;
 }
 
-.navbar .container-fluid ul li img {
+.navbar .container-fluid ul li img,
+.navbar .container-fluid a.navbar-brand img {
     transition: transform 0.3s ease-out;
 }
 
-.navbar .container-fluid ul li img:hover {
+.navbar .container-fluid ul li img:hover,
+.navbar .container-fluid a.navbar-brand img:hover {
     transform: scale(1.5) rotate(360deg);
+}
+
+.navbar-brand img,
+.navbar-brand {
+    width: 2rem !important;
+    height: auto;
+}
+
+.nav-text {
+    font-size: 1.5rem;
+}
+
+.nav-item .nav-link img {
+    width: 1.5rem;
+    height: auto;
 }
 
 /* titre de bloc / section */
@@ -76,8 +93,8 @@ main {
     font-size: 2.5rem;
 }
 
-.paragraphe-section {
-    font-size: 1.2rem;
+.italic-text {
+    font-style: italic;
 }
 
 .skills-title {
@@ -85,7 +102,6 @@ main {
     font-size: 2rem;
 }
 
-/* Conteneur du nom / prénom et profession */
 #name-container {
     text-align: center;
     height: 70vh;
@@ -106,8 +122,21 @@ main {
     margin: 30px 30px 0 30px;
     padding: 30px 30px 0 30px;
     top: 10%;
-    animation: animatetop 1.5s ease-in-out;
-    /* Pour l'animation d'arrivée */
+    animation: zoomIn 3s infinite;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 #wrapper {
@@ -123,13 +152,9 @@ main {
     font-family: "Monocraft";
 }
 
-p {
-    font-size: 1rem;
-}
-
 .p-img {
     /* Pour l'image à la même taille que le texte */
-    width: 2rem;
+    width: 2rem !important;
     height: auto;
     transition: transform 0.3s ease-out;
 }
