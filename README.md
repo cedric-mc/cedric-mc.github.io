@@ -1,4 +1,4 @@
-# Portfolio de Cédric Mariya Constantine
+# Documentation du portfolio de Cédric Mariya Constantine
 ## Description
 Mon portfolio web est une vitrine de mes compétences, de mes projets. Il présente mes réalisations et met en valeur mes capacités en matière de conception web, de développement front-end, de développement back-end et de gestion de projet. Il est également un moyen de me contacter et de me suivre sur les réseaux sociaux. Il est disponible en français et en anglais. Il est responsive et s'adapte à tous les types d'écrans (ordinateurs, tablettes et smartphones).
 
