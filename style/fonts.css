@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Birds-of-Paradise";
+    src: url("../fonts/Birds-of-Paradise-Font.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Blaster";
+    src: url("../fonts/Blaster-Font.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: url("../fonts/Lexend-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Autolova";
+    src: url("../fonts/Autolova.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Monocraft";
+    src: url("../fonts/Monocraft.otf") format("opentype");
+}
