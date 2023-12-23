@@ -1,0 +1,37 @@
+Passer horizontale lorsque tablette en paysage
+Texte plus grand
+Projet BDD
+Présentation du prénom, propositions : 
+- Barre vers l'intérieur ou l'extérieur comme contour
+- Mettre des images derrières
+
+
+
+
+Cours PPP :
+1 - Votre profil -> courte présentation :
+- Qui vous êtes ✓
+- Ce que vous faites ✓
+- Où vous en êtes ✓
+- 3 qualités / compétences (mots) qui me caractérise ✓
+
+2 - Votre parcours => timeline :
+- de formation (diplômant, certifiant, qualifiant) ✓
+- expérience professionnelle (stage, alternance, emploi) ✓
+
+3 - Vos projets :
+- académiques (SAE)
+- professionnels
+- personnels
+
+4 - Vos compétences (auto évaluation) :
+- soft skills
+- hard skills
+=> 3 savoirs
+
+5 - Loisirs
+
+6 - Contact :
+- mail
+- téléphone
+- réseaux sociaux
