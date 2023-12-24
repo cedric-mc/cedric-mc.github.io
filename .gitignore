@@ -26,3 +26,8 @@ yarn-error.log*
 .idea/
 .vscode
 conf.php
+conf.php
+Projects/*
+!Projects/index.php
+!Projects/style.css
+!Projects/logoRS-UGE.png
