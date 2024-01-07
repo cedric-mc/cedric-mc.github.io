@@ -12,23 +12,24 @@ if (isset($_GET['lang'])) {
     header('Location: ./');
 }
 $lang = $_SESSION['lang'];
-if ($lang == 'eng') {
-     include('languages/eng.php');
-    $language = "Language";
-    $flag = "img/navbar/eng.png";
-    $language_name = "English";
-    $disabled = "fr";
-    $disabled_name = "French";
-    $disabled_flag = "img/navbar/fr.png";
-} else {
-     include("languages/fr.php");
-    $language = "Langue";
-    $flag = "img/navbar/fr.png";
-    $language_name = "Français";
-    $disabled = "eng";
-    $disabled_name = "Anglais";
-    $disabled_flag = "img/navbar/eng.png";
-}
+//if ($lang == 'eng') {
+//    include('languages/eng.php');
+//    $flag = "img/navbar/eng.png";
+//    $language_name = "English";
+//    $disabled = "fr";
+//    $disabled_name = "French";
+//    $disabled_flag = "img/navbar/fr.png";
+//} else if ($lang == 'fr') {
+//    include("languages/" . $lang . ".php");
+//    $flag = "img/navbar/fr.png";
+//    $language_name = "Français";
+//    $disabled = "eng";
+//    $disabled_name = "Anglais";
+//    $disabled_flag = "img/navbar/eng.png";
+//}
+include("includes/languages.php");
+$flag = "img/navbar/" . $lang . ".png";
+$disabledFlag = "img/navbar/" . $disabled . ".png";
 ?>
 <!DOCTYPE html>
 <html>
@@ -537,6 +538,15 @@ if ($lang == 'eng') {
                             </div>
                             <button type="submit" class="btn btn-primary">Envoyer</button>
                         </form>
+                        <?php
+                        if (isset($_GET['success'])) {
+                            echo "<script>alert('Votre message a bien été envoyé !')</script>";
+                            header("Location: ./#contact");
+                        } elseif (isset($_GET['error'])) {
+                            echo "<script>alert('Une erreur est survenue, veuillez réessayer.')</script>";
+                            header("Location: ./#contact");
+                        }
+                        ?>
                     </div>
                     <div class="col-md-6"> <!-- Contenu à gauche -->
                         <h4>Réseaux sociaux</h4>
