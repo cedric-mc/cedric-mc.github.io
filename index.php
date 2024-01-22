@@ -101,8 +101,7 @@
         <main id="home">
              <section id="about-me">
                 <div class="container">
-                    <h2 class="title-section"><?php //echo $titleSection1;
-            ?></h2>
+                    <h2 class="title-section">Qui suis-je ?</h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-md-6">
                             <p>
@@ -110,7 +109,7 @@
                                 Je suis actuellement en recherche d'un contrat en alternance.<br>
                                 Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
                                 <br>
-                                Tout au long de ce portfolio, vous trouverez des liens menant vers mes différents projets 
+                                Tout au long de ce portfolio, vous trouverez des liens menant vers mes différents projets
                                 <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> ou leur documentation
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon">.
                                 <br>
@@ -134,7 +133,7 @@
             </section>
             <!--<section id="about-me">
                 <div class="container">
-                    <h2 class="title-section"><?php /*echo $titleSection1;*/?></h2>
+                    <h2 class="title-section">Qui suis-je ?</h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-md-6">
                             <p>
@@ -160,7 +159,7 @@
             </section>-->
 
             <section id="parcours">
-                <h2 class="title-section"><?php echo $titleSection2;?></h2>
+                <h2 class="title-section">Mon Parcours</h2>
                 <p>
                 <h3>Mon Parcours de Formation</h3>
                 <ul>
@@ -208,7 +207,7 @@
 
 
             <section id="skills">
-                <h2 class="title-section"><?php echo $titleSection3;?></h2>
+                <h2 class="title-section">Mes Compétences</h2>
                 <p>
                     Je suis actuellement en 2<sup>ème</sup> année de BUT Informatique avec le Parcours de Réalisation d'applications : Conception, Développement et Validation.
                     <br>
@@ -235,7 +234,7 @@
 
 
             <section id="projects">
-                <h2 class="title-section"><?php echo $titleSection4;?></h2>
+                <h2 class="title-section">Mes Projets</h2>
                 <p>
                     Ceci <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> représente un lien cliquable sur lequel vous serez redirigé vers le code ou le site du projet.<br>
                     Ceci <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> représente un lien cliquable sur lequel vous serez redirigé vers la documentation du projet.<br>
@@ -251,7 +250,7 @@
                             <a href="Projects/Toledo/index.php" target="_blank">
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a><br>
-                            <!-- Documentation :&ensp; <a href="#" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a> -->
+<!--                            Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>-->
                         </p>
                         <div id="carousel1" class="carousel my-carousel" data-bs-ride="carousel">
                             <div class="carousel-indicators">
