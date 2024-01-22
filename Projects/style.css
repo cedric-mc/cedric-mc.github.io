@@ -40,7 +40,7 @@ h1 {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-family: "Nunito", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .folder-icon::before {
@@ -65,5 +65,5 @@ h1 {
 }
 
 .back-link {
-    font-family: "Nabla", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
