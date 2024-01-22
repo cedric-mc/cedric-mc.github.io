@@ -29,7 +29,7 @@ $lang = $_SESSION['lang'];
 //}
 include("includes/languages.php");
 $flag = "img/navbar/" . $lang . ".png";
-$disabledFlag = "img/navbar/" . $disabled . ".png";
+$disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
 ?>
 <!DOCTYPE html>
 <html>
