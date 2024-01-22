@@ -1,36 +1,3 @@
-<?php
-// Afficher les erreurs PHP
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
-session_start();
-if (!isset($_SESSION['lang'])) {
-    $_SESSION['lang'] = 'fr';
-}
-if (isset($_GET['lang'])) {
-    $_SESSION['lang'] = $_GET['lang'];
-    header('Location: ./');
-}
-$lang = $_SESSION['lang'];
-//if ($lang == 'eng') {
-//    include('languages/eng.php');
-//    $flag = "img/navbar/eng.png";
-//    $language_name = "English";
-//    $disabled = "fr";
-//    $disabled_name = "French";
-//    $disabled_flag = "img/navbar/fr.png";
-//} else if ($lang == 'fr') {
-//    include("languages/" . $lang . ".php");
-//    $flag = "img/navbar/fr.png";
-//    $language_name = "Français";
-//    $disabled = "eng";
-//    $disabled_name = "Anglais";
-//    $disabled_flag = "img/navbar/eng.png";
-//}
-include("includes/languages.php");
-$flag = "img/navbar/" . $lang . ".png";
-$disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -83,7 +50,8 @@ $disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
             <div class="container-fluid">
                 <a class="navbar-brand" href="#top-page">
                     <img src="img/navbar/home.png" class="d-inline-block align-text-top">
-                    <?php echo $navbar1; ?> </a>
+                    Accueil
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -91,43 +59,24 @@ $disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
                     <ul class="navbar-nav custom-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#about-me">
-                                <img src="img/navbar/about-me.png" class="d-inline-block align-text-top nav-img"> <?php echo $navbar2; ?>
+                                <img src="img/navbar/about-me.png" class="d-inline-block align-text-top nav-img"> Me Connaître
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#skills">
-                                <img src="img/navbar/skills.png" class="d-inline-block align-text-top"> <?php echo $navbar3; ?>
+                                <img src="img/navbar/skills.png" class="d-inline-block align-text-top"> Compétences
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#projects">
-                                <img src="img/navbar/projects.png" class="d-inline-block align-text-top">
-                                <?php echo $navbar4; ?>
+                                <img src="img/navbar/projects.png" class="d-inline-block align-text-top"> Projets
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#contact">
-                                <img src="img/navbar/contact.png" class="d-inline-block align-text-top"> <?php echo $navbar5; ?>
+                                <img src="img/navbar/contact.png" class="d-inline-block align-text-top"> Me Contacter
                             </a>
                         </li>
-<!--                        <li class="nav-item">-->
-<!--                            <a class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-<!--                                <img src="img/navbar/languages.png" class="d-inline-block align-text-top">--><?php //echo $language; ?>
-<!--                            </a>-->
-<!--                            <ul class="dropdown-menu dropdown-menu-end">-->
-<!--                                <li>-->
-<!--                                    <a class="dropdown-item" href="?lang=--><?php //echo $disabled ?><!--">-->
-<!--                                        <img src="--><?php //echo $disabled_flag; ?><!--" class="d-inline-block align-text-top"> --><?php //echo $disabled_name; ?><!-- </a>-->
-<!--                                </li>-->
-<!--                                <li>-->
-<!--                                    <hr class="dropdown-divider">-->
-<!--                                </li>-->
-<!--                                <li>-->
-<!--                                    <a class="dropdown-item disabled" href="index.php">-->
-<!--                                        <img src="--><?php //echo $flag; ?><!--" class="d-inline-block align-text-top"> --><?php //echo $language_name; ?><!-- </a>-->
-<!--                                </li>-->
-<!--                            </ul>-->
-<!--                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -140,9 +89,9 @@ $disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
         <!-- Header -->
         <header id="top-page">
             <div id="name-container">
-                <h1 class="name"><?php echo $header1;?></h1>
+                <h1 class="name">Cédric Mariya Constantine</h1>
                 <div id="wrapper">
-                    <h2 class="etudiant-animation"><?php echo $header2;?></h2>
+                    <h2 class="etudiant-animation">Étudiant en Informatique</h2>
                 </div>
             </div>
         </header>
@@ -150,7 +99,7 @@ $disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
 
         <!-- Main -->
         <main id="home">
-            <!-- <section id="about-me">
+             <section id="about-me">
                 <div class="container">
                     <h2 class="title-section"><?php //echo $titleSection1;
             ?></h2>
@@ -161,7 +110,7 @@ $disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
                                 Je suis actuellement en recherche d'un contrat en alternance.<br>
                                 Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
                                 <br>
-                                Tout au long de ce portfolio, vous trouverez des liens menant vers mes différents projets (code)
+                                Tout au long de ce portfolio, vous trouverez des liens menant vers mes différents projets 
                                 <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> ou leur documentation
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon">.
                                 <br>
@@ -182,10 +131,10 @@ $disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
                         </div>
                     </div>
                 </div>
-            </section> -->
-            <section id="about-me">
+            </section>
+            <!--<section id="about-me">
                 <div class="container">
-                    <h2 class="title-section"><?php echo $titleSection1;?></h2>
+                    <h2 class="title-section"><?php /*echo $titleSection1;*/?></h2>
                     <div class="row d-flex align-items-center">
                         <div class="col-md-6">
                             <p>
@@ -202,16 +151,13 @@ $disabledFlag = "img/navbar/" . $disabledLanguageName . ".png";
                             <p>
                                 Anglais <img class="p-img" src='img/navbar/eng.png'><br>Tamil <img class='p-img' src='img/tamil.png'>
                             </p>
-<!--                            --><?php
-//                            echo $container1;
-//                            ?>
                         </div>
                         <div class="col-md-6">
                             <img src="img/Cedric.png" alt="Photo de profil" class="profil-photo img-fluid">
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>-->
 
             <section id="parcours">
                 <h2 class="title-section"><?php echo $titleSection2;?></h2>
