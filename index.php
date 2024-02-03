@@ -11,14 +11,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="index,follow">
         <!-- Balises meta -->
-
+        <!-- Balises link -->
         <link rel="shortcut icon" href="img/favicon.png"><!-- Favicon -->
-
-        <!-- Fichiers CSS -->
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/animation.css">
         <link rel="stylesheet" href="style/fonts.css">
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <!-- Balises link -->
         <style>
             pre {
                 font-family: 'Courier New', Courier, monospace;
@@ -99,11 +98,11 @@
 
         <!-- Main -->
         <main id="home">
-             <section id="about-me">
+            <section id="about-me">
                 <div class="container">
-                    <h2 class="title-section">Qui suis-je ?</h2>
-                    <div class="row d-flex align-items-center">
-                        <div class="col-md-6">
+                    <h2 class="title-section text-left">Qui suis-je ?</h2>
+                    <div class="row">
+                        <div class="col-6">
                             <p>
                                 Je suis un étudiant à l'Université de Gustave Eiffel en 2<sup>ème</sup> année du BUT Informatique.<br>
                                 Je suis actuellement en recherche d'un contrat en alternance.<br>
@@ -125,38 +124,13 @@
                                 bien entendu et le Tamil <img class="p-img" src="img/tamil.png" alt="icon flag tamil"> (langue maternelle).
                             </p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6 profil-photo-container">
                             <img src="img/Cedric.png" alt="Photo de profil" class="profil-photo img-fluid">
                         </div>
                     </div>
                 </div>
             </section>
-            <!--<section id="about-me">
-                <div class="container">
-                    <h2 class="title-section">Qui suis-je ?</h2>
-                    <div class="row d-flex align-items-center">
-                        <div class="col-md-6">
-                            <p>
-                                Je vous invite à me découvrir, à travers ce Portfolio, tout en prenant une petite collation ! <br>
-                                BUT Informatique 2<sup>ème</sup> année.<br>
-                                Je suis actuellement en recherche d'un contrat en alternance.<br>
-                                Je suis quelqu'un de persévérant, empathique et altruiste.<br>
-                            </p>
-                            <p>
-                                CV :
-                                <a class='btn btn-danger heartbeat heartbeat-hover text-light' href='doc/CV_CEDRIC_MARIYA CONSTANTINE.pdf' target='_blank'>Télécharger</a>
-                                <br>
-                            </p>
-                            <p>
-                                Anglais <img class="p-img" src='img/navbar/eng.png'><br>Tamil <img class='p-img' src='img/tamil.png'>
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="img/Cedric.png" alt="Photo de profil" class="profil-photo img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </section>-->
+
 
             <section id="parcours">
                 <h2 class="title-section">Mon Parcours</h2>
@@ -234,23 +208,22 @@
 
 
             <section id="projects">
-                <h2 class="title-section">Mes Projets</h2>
+                <!--<h2 class="title-section">Mes Projets</h2>
                 <p>
                     Ceci <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> représente un lien cliquable sur lequel vous serez redirigé vers le code ou le site du projet.<br>
                     Ceci <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> représente un lien cliquable sur lequel vous serez redirigé vers la documentation du projet.<br>
                 </p>
                 <div class="project-container">
                     <div class="project-item">
-                        <h3 class="title-project"></h3>
-                        <h4 class="project-title"></h4>
+                        <h3 class="title-project">Banklink, Portail Web de Gestion de paiements par carte bancaire</h3>
+                        <h4 class="project-title">HTML, CSS, PHP, SQL, JS</h4>
                         <p>
-
                             Site :&ensp;
-                            <a href="Projects/Toledo/index.php" target="_blank">
+                            <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/Banklink/" target="_blank">
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a><br>
                             Documentation :&ensp;
-                            <a href="" target="_blank">
+                            <a href="https://github.com/cedric-mc/Banklink" target="_blank">
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
                             </a>
                         </p>
@@ -277,7 +250,7 @@
                             </button>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
                 <div class="project-container">
                     <div class="project-item">
@@ -290,7 +263,7 @@
                             <a href="Projects/Toledo/index.php" target="_blank">
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a><br>
-<!--                            Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>-->
+                            <!--                            Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>-->
                         </p>
                         <div id="projectToledo" class="carousel my-carousel" data-bs-ride="carousel">
                             <div class="carousel-indicators">
@@ -340,13 +313,13 @@
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a><br>
                             Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>
-                            <pre>
-                                <code>
-                                    Client : <br>
-                                    Identitifant : <span class="fst-italic">CDUPONT</span> <br>
-                                    Mot de passe : <span class="fst-italic">1234</span> <br>
-                                </code>
-                            </pre>
+                        <pre>
+                                        <code>
+                                            Client : <br>
+                                            Identitifant : <span class="fst-italic">CDUPONT</span> <br>
+                                            Mot de passe : <span class="fst-italic">1234</span> <br>
+                                        </code>
+                                    </pre>
                         </p>
                         <div id="projectHedelma" class="carousel my-carousel" data-bs-ride="carousel">
                             <div class="carousel-indicators">
@@ -559,5 +532,4 @@
         <script src="script/script.js"></script>
         <!-- Scripts -->
     </body>
-
 </html>
