@@ -36,12 +36,7 @@ Si vous avez cloner le dépôt, vous pouvez consulter mon portfolio web dans un 
     - Le dossier 'software' contient les images des logiciels présentés dans le Portfolio.
 - Le dossier 'doc' contient les documents utilisés dans le Portfolio.
     - Le fichier 'CÉDRIC_MARIYA_CONSTANTINE_CV.pdf' est le fichier PDF de mon CV.
-    - Le fichier 'CÉDRIC_MARIYA CONSTANTINE_Lettre.pdf' est le fichier PDF de ma lettre de motivation générique.
-- Le dossier 'video' contient les vidéos utilisées dans le Portfolio.
-    - Le fichier 'BDB-complet.mp4' est le fichier vidéo de présentation du jeu "Bataille de Boules".
-    - Le fichier 'BDB-variantes.mp4' est le fichier vidéo de présentation des variantes du jeu "Bataille de Boules".
 - Le fichier 'README.md' est le fichier de description du Portfolio que vous le lisez actuellement ;).
-- Les dossiers 'fr' et 'eng' contiennent exactement, mais l'un est en français et l'autre en anglais, les mêmes fichiers du Portfolio :
-    - Le fichier 'index.html' est le fichier HTML principal du Portfolio.
-    - Le fichier 'mentions-legales.html' ou 'legal-notice.html' est le fichier HTML des mentions légales du Portfolio.
-    - Le fichier 'contact.php' est le fichier PHP d'envoi de mail du Portfolio. Cette page n'est pas visible par l'utilisateur.
+- Le fichier 'index.php' est le fichier de la page d'accueil du Portfolio.
+- Le fichier 'mentions-legales.php' est le fichier de la page des mentions légales du Portfolio.
+- Le fichier 'contact.php' est un fichier permettant l'envoi du formulaire de contact du Portfolio (index.php).
