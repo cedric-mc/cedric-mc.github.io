@@ -1,6 +1,7 @@
 # Documentation : Portfolio de Cédric Mariya Constantine
 ## Description
-Mon portfolio web est une vitrine de mes compétences, de mes projets. Il présente mes réalisations et met en valeur mes capacités en matière de conception web, de développement front-end, de développement back-end et de gestion de projet. Il est également un moyen de me contacter et de me suivre sur les réseaux sociaux. Il est disponible en français et en anglais. Il est responsive et s'adapte à tous les types d'écrans (ordinateurs, tablettes et smartphones).
+Mon portfolio web est une vitrine de mes compétences, de mes projets. Il présente mes réalisations et met en valeur mes capacités en matière de conception web, de développement front-end, de développement back-end et de gestion de projet. Il est également un moyen de me contacter et de me suivre sur les réseaux sociaux. Il est disponible en français et en anglais. 
+<!-- Il est responsive et s'adapte à tous les types d'écrans (ordinateurs, tablettes et smartphones). -->
 
 ## Démonstration
 Vous pouvez consulter mon portfolio web en ligne à l'adresse suivante : [Lien vers mon portfolio](https://perso-etudiant.u-pem.fr/~mariyaconsta02).
@@ -9,11 +10,13 @@ Vous pouvez naviguer plus facilement à travers le site web en cliquant sur les 
 ## Technologies utilisées
 - HTML5
 - CSS3
+- PHP v7
 - JavaScript
 - Bootstrap
 
 ## Utilisation
-Si vous avez installé mon Portfolio, vous pouvez ouvrir le fichier 'index.html' du dossier 'fr' pour la version française et 'eng' pour la version anglaise dans votre navigateur web.
+Si vous avez cloner le dépôt, vous pouvez consulter mon portfolio web dans un serveur local. Pour cela, vous pouvez utiliser un serveur local tel que WampServer, XAMPP, MAMP, etc. Dans le navigateur, vous pouvez taper l'adresse suivante : `localhost/chemin/vers/le/dossier/du/portfolio`, vous serez automatiquement redirigé vers la page d'accueil du portfolio (index.php).
+
 ### Informations complémentaires concernant les fichiers du Portfolio
 - Le dossier 'style' contient les fichiers CSS du Portfolio.
     - Le fichier 'style.css' est le fichier CSS principal du Portfolio.
