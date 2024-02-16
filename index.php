@@ -26,6 +26,26 @@
             code {
                 font-family: 'Courier New', Courier, monospace;
             }
+
+            .login-info {
+                width: 300px;
+                margin: 0 auto;
+            }
+
+            .login-info table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            .login-info td {
+                padding: 5px;
+            }
+
+            .login-info td:first-child {
+                text-align: right;
+                font-weight: bold;
+            }
+
         </style>
         <!-- Fichiers CSS -->
     </head>
@@ -313,13 +333,6 @@
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a><br>
                             Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>
-                        <pre>
-                                        <code>
-                                            Client : <br>
-                                            Identitifant : <span class="fst-italic">CDUPONT</span> <br>
-                                            Mot de passe : <span class="fst-italic">1234</span> <br>
-                                        </code>
-                                    </pre>
                         </p>
                         <div id="projectHedelma" class="carousel my-carousel" data-bs-ride="carousel">
                             <div class="carousel-indicators">
