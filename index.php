@@ -13,40 +13,12 @@
         <!-- Balises meta -->
         <!-- Balises link -->
         <link rel="shortcut icon" href="img/favicon.png"><!-- Favicon -->
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <!-- Balises link -->
+        <!-- Fichiers CSS -->
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/animation.css">
         <link rel="stylesheet" href="style/fonts.css">
-        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-        <!-- Balises link -->
-        <style>
-            pre {
-                font-family: 'Courier New', Courier, monospace;
-            }
-
-            code {
-                font-family: 'Courier New', Courier, monospace;
-            }
-
-            .login-info {
-                width: 300px;
-                margin: 0 auto;
-            }
-
-            .login-info table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-
-            .login-info td {
-                padding: 5px;
-            }
-
-            .login-info td:first-child {
-                text-align: right;
-                font-weight: bold;
-            }
-
-        </style>
         <!-- Fichiers CSS -->
     </head>
 
