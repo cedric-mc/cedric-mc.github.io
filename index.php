@@ -13,13 +13,11 @@
         <!-- Balises meta -->
         <!-- Balises link -->
         <link rel="shortcut icon" href="img/favicon.png"><!-- Favicon -->
-        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-        <!-- Balises link -->
-        <!-- Fichiers CSS -->
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/animation.css">
         <link rel="stylesheet" href="style/fonts.css">
-        <!-- Fichiers CSS -->
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <!-- Balises link -->
     </head>
 
     <body class="full-page">
