@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <title>Cédric Mariya Constantine | Portfolio</title>
         <!-- Balises meta -->
