@@ -57,12 +57,12 @@ html {
 }
 
 main {
-    font-family: "Lato";
+    font-family: "Lato", serif;
     font-size: 1.2rem;
 }
 
 footer .container .row div form div label {
-    font-family: "Lato";
+    font-family: "Lato", serif;
     font-size: 1.2rem;
 }
 
@@ -70,7 +70,7 @@ footer .container .row div form div label {
 .all-border {
     border-width: 5px;
     border-style: solid;
-    /* border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1; */
+    border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1;
     animation: Gradient-border 2s infinite;
     height: fit-content;
 }
@@ -222,49 +222,6 @@ a.navbar-brand {
     font-size: 3rem
 }
 
-/* Partie Carousel */
-.my-carousel {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.my-carousel .carousel-item .carousel-caption {
-    opacity: 0.5;
-}
-
-.my-carousel:hover .carousel-item .carousel-caption {
-    opacity: 0.8;
-}
-
-.my-carousel:hover .carousel-item:hover .carousel-caption:hover {
-    opacity: 1;
-}
-
-.carousel-item video {
-    border: 5px solid black;
-    border-radius: 10px 10px 0 0;
-}
-
-.caption-title {
-    color: white;
-    padding: 5px 0;
-    margin: 0;
-    font-size: 1.2rem;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    background-color: #000; /* Couleur de fond initiale */
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s; /* Transition de couleur en douceur */
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background: #000;
-}
-
 /* Pour customiser / personnaliser la navbar de bootstrap */
 .custom-nav {
     margin-left: auto;
@@ -338,7 +295,7 @@ a.navbar-brand {
     bottom: 20px;
     right: 20px;
     z-index: 9999;
-    font-size: 18px;
+    font-size: 2rem;
     border: none;
     outline: none;
     cursor: pointer;

@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="style/animation.css">
         <link rel="stylesheet" href="style/fonts.css">
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3f3ecfc27b.js" crossorigin="anonymous"></script>
         <!-- Balises link -->
     </head>
 
@@ -77,7 +78,7 @@
 
         <!-- Header -->
         <header id="top-page">
-            <div id="name-container">
+            <div id="name-container" class="all-border">
                 <h1 class="name">Cédric Mariya Constantine</h1>
                 <div id="wrapper">
                     <h2 class="etudiant-animation">Étudiant en Informatique</h2>
@@ -198,7 +199,7 @@
 
 
             <section id="projects">
-                <!--<h2 class="title-section">Mes Projets</h2>
+                <h2 class="title-section">Mes Projets</h2>
                 <p>
                     Ceci <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> représente un lien cliquable sur lequel vous serez redirigé vers le code ou le site du projet.<br>
                     Ceci <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> représente un lien cliquable sur lequel vous serez redirigé vers la documentation du projet.<br>
@@ -213,7 +214,7 @@
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a><br>
                             Documentation :&ensp;
-                            <a href="https://github.com/cedric-mc/Banklink" target="_blank">
+                            <a href="https://cedric-mc.github.io/Banklink" target="_blank">
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
                             </a>
                         </p>
@@ -240,7 +241,7 @@
                             </button>
                         </div>
                     </div>
-                </div>-->
+                </div>
 
                 <div class="project-container">
                     <div class="project-item">
@@ -452,8 +453,8 @@
         </main>
         <!-- Main -->
 
-
-        <img src="img/top.png" alt="Retour en haut" id="btn-retour-haut" onclick="retourHaut()" style="display: block;"> <!-- Bouton de retour en haut de page -->
+        <i id="btn-retour-haut" class="fa-solid fa-up-long" style="color: #FFD43B; display: block;" onclick="retourHaut()"></i>
+        <!--<img src="img/top.png" alt="Retour en haut" id="btn-retour-haut" onclick="retourHaut()" style="display: block;">--> <!-- Bouton de retour en haut de page -->
 
         <!-- Footer -->
         <footer class="footer">
