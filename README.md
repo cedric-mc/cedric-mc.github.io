@@ -2,10 +2,6 @@
 ## Description
 Mon portfolio web est une vitrine de mes compétences, de mes projets. Il présente mes réalisations et met en valeur mes capacités en matière de conception web, de développement front-end, de développement back-end et de gestion de projet. Il est également un moyen de me contacter et de me suivre sur les réseaux sociaux. Il est disponible en français et en anglais. Il est responsive et s'adapte à tous les types d'écrans (ordinateurs, tablettes et smartphones).
 
-## Démonstration
-Vous pouvez consulter mon portfolio web en ligne à l'adresse suivante : [Lien vers mon portfolio](https://perso-etudiant.u-pem.fr/~mariyaconsta02).
-Vous pouvez naviguer plus facilement à travers le site web en cliquant sur les liens de la barre de navigation : ![Barre de navigation avec un bouton d'Accueil, des liens internes pour la section "Me Connaître", "Compétences", "Projets" avec les différents types de projets à sélectionner et "Me Contacter". Il y a également une page en anglais accessible](navbar.png)
-
 ## Technologies utilisées
 - HTML5
 - CSS3
