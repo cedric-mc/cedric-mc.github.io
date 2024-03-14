@@ -78,7 +78,7 @@
 
         <!-- Header -->
         <header id="top-page">
-            <div id="name-container" class="all-border">
+            <div id="name-container">
                 <h1 class="name">Cédric Mariya Constantine</h1>
                 <div id="wrapper">
                     <h2 class="etudiant-animation">Étudiant en Informatique</h2>
@@ -96,7 +96,7 @@
                         <div class="col-6">
                             <p>
                                 Je suis un étudiant à l'Université de Gustave Eiffel en 2<sup>ème</sup> année du BUT Informatique.<br>
-                                Je suis actuellement en recherche d'un contrat en alternance.<br>
+                                Je suis actuellement en recherche d'un stage pour la période du 8 avril au 31 août 2024.<br>
                                 Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
                                 <br>
                                 Tout au long de ce portfolio, vous trouverez des liens menant vers mes différents projets

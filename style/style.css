@@ -70,7 +70,7 @@ footer .container .row div form div label {
 .all-border {
     border-width: 5px;
     border-style: solid;
-    border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1;
+    /*border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1;*/
     animation: Gradient-border 2s infinite;
     height: fit-content;
 }
