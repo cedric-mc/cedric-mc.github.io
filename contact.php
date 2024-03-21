@@ -1,15 +1,14 @@
 <?php
-// Afficher les erreurs PHP
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+    // Afficher les erreurs PHP
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
 
-//if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupération des variables et sécurisation des données
-    $nom = "Cédric";//$_POST['nom'];
-    $email = "cedric.mc11@gmail.com";//$_POST['email'];
-    $message = "test";//$_POST['message'];
+    $nom = $_POST['nom'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
-    include("languages/conf.php");
+    include_once("conf.php");
     require_once("PHPMailer/src/PHPMailer.php");
     require_once("PHPMailer/src/SMTP.php");
     require_once("PHPMailer/src/Exception.php");
@@ -35,7 +34,7 @@ ini_set('display_errors', 1);
     $mail->isHTML(true); // Définir le format d'email sur HTML
     $mail->Subject = "Nouveau message du formulaire de contact du Portfolio";
     $mail->Body = "Nom: $nom\nEmail: $email\nMessage: $message";
-    $mail->CharSet = 'UTF-8';
+    $mail->CharSet = "UTF-8";
 
     try {
         $mail->send();
@@ -46,5 +45,4 @@ ini_set('display_errors', 1);
         header("Location: ./#contact?error");
         die(); // Arrête l'exécution du script après la redirection
     }
-//}
 ?>
