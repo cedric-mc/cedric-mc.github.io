@@ -22,7 +22,7 @@
     </head>
 
     <body class="full-page">
-        <div id="arrow-container" style="display: none;">
+        <div id="arrow-container" style="">
             <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.000000 100.000000">
                 <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)" stroke="none">
                     <path d="M0 737 l0 -193 245 -237 c135 -130 250 -237 255 -237 5 0 120 107
@@ -103,16 +103,18 @@
                                 <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> ou leur documentation
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon">.
                                 <br>
-                                Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !
                             </p>
                             <p>
                                 Voici mon CV, il est à votre disposition :
-                                <a class="btn btn-danger heartbeat heartbeat-hover text-light" href="doc/CV_CEDRIC_MARIYA CONSTANTINE.pdf" target="_blank">Télécharger</a>
+                                <a class="btn btn-danger heartbeat heartbeat-hover text-light" href="doc/CV_CEDRIC_MARIYA CONSTANTINE.pdf" target="_blank">Télécharger&nbsp;<i class="fas fa-download"></i></a>
                                 <br>
                             </p>
                             <p>
                                 Je maîtrise différentes langues en dehors du français : l'Anglais <img class="p-img" src="img/navbar/eng.png" alt="icon flag english">
                                 bien entendu et le Tamil <img class="p-img" src="img/tamil.png" alt="icon flag tamil"> (langue maternelle).
+                            </p>
+                            <p>
+                                Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !
                             </p>
                         </div>
                         <div class="col-6 profil-photo-container">
@@ -179,7 +181,95 @@
                     Formation :
                     <br>
                     BUT Informatique, Parcours A : Réalisation d’applications : conception, développement, validation.
+                    <br>
+                    Voici les 6 compétences que je dois acquérir durant ma formation :
                 </p>
+                <div class="skills-container">
+                    <div class="card skills-item">
+                        <div class="card-header">
+                            <h4 class="card-title">Réaliser</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                    <div class="card skills-item">
+                        <div class="card-header">
+                            <h4 class="card-title">Optimiser</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                    <div class="card skills-item">
+                        <div class="card-header">
+                            <h4 class="card-title">Administrer</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                    <div class="card skills-item">
+                        <div class="card-header">
+                            <h4 class="card-title">Gérer</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                    <div class="card skills-item">
+                        <div class="card-header">
+                            <h4 class="card-title">Conduire</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                    <div class="card skills-item">
+                        <div class="card-header">
+                            <h4 class="card-title">Collaborer</h4>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
                 <ul class="list-group-item">
                     <li>Développement d'applications informatiques : conception, codage, communication client, respect des besoins, algorithmes, qualité du code, conformité, choix de ressources.</li>
                     <li>Optimisation d'applications informatiques : performance, ressources, modélisation, algorithmes, raisonnement, validation.</li>
@@ -188,13 +278,6 @@
                     <li>Conduite de projet : besoins utilisateurs, organisation, communication, éthique.</li>
                     <li>Travail en équipe informatique : collaboration, évolutions, conformité, communication.</li>
                 </ul>
-                <span class="badge text-bg-info">HTML <img class="badge-img p-img" src="img/languages/html.png" alt="icon html"></span>
-                <span class="badge text-bg-success">CSS <img class="badge-img p-img" src="img/languages/css.png" alt="icon css"></span>
-                <span class="badge text-bg-dark">PHP <img class="badge-img p-img" src="img/languages/php.png" alt="icon php"></span>
-                <span class="badge text-bg-danger">SQL <img class="badge-img p-img" src="img/languages/sql.png" alt="icon sql"></span>
-                <span class="badge text-bg-primary">Python <img class="badge-img p-img" src="img/languages/python.png" alt="icon python"></span>
-                <span class="badge text-bg-light">Java <img class="badge-img p-img" src="img/languages/java.png" alt="icon java"></span>
-                <span class="badge text-bg-secondary">C <img class="badge-img p-img" src="img/languages/c.png" alt="icon c"></span>
             </section>
 
 
