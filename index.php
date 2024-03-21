@@ -274,14 +274,6 @@
                         </div>
                     </div>
                 </div>
-                <ul class="list-group-item">
-                    <li>Développement d'applications informatiques : conception, codage, communication client, respect des besoins, algorithmes, qualité du code, conformité, choix de ressources.</li>
-                    <li>Optimisation d'applications informatiques : performance, ressources, modélisation, algorithmes, raisonnement, validation.</li>
-                    <li>Administration de systèmes informatiques : installation, configuration, sécurité, maintenance, performance, conformité, pérennité, gestion d'incidents.</li>
-                    <li>Gestion de données d'information : conformité, enjeux, bases mathématiques, qualité.</li>
-                    <li>Conduite de projet : besoins utilisateurs, organisation, communication, éthique.</li>
-                    <li>Travail en équipe informatique : collaboration, évolutions, conformité, communication.</li>
-                </ul>
             </section>
 
 
@@ -305,7 +297,7 @@
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
                             </a>
                         </p>
-                        <div id="projectBanklink" class="carousel my-carousel" data-bs-ride="carousel">
+                        <div id="projectBanklink" class="carousel" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -373,9 +365,9 @@
                             <a href="Projects/Toledo/index.php" target="_blank">
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a><br>
-                            <!--                            Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>-->
+                            <!--Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>-->
                         </p>
-                        <div id="projectToledo" class="carousel my-carousel" data-bs-ride="carousel">
+                        <div id="projectToledo" class="carousel carousel-dark" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#projectToledo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#projectToledo" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -424,7 +416,7 @@
                             </a><br>
                             Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>
                         </p>
-                        <div id="projectHedelma" class="carousel my-carousel" data-bs-ride="carousel">
+                        <div id="projectHedelma" class="carousel carousel-dark" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#projectHedelma" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#projectHedelma" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -499,7 +491,7 @@
                             <img src="img/projects/obstacles.png" class="p-img"> les Obstacles.
                         </p>
                         <p></p>
-                        <div id="projectBatailleBoules" class="carousel my-carousel" data-bs-ride="carousel">
+                        <div id="projectBatailleBoules" class="carousel carousel-dark" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="1" aria-label="Slide 2"></button>
