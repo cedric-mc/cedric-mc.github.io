@@ -7,7 +7,7 @@
         <meta name="Author" content="Mariya Constantine Cédric">
         <meta name="Made" content="mariyaconsta02@edu.univ-eiffel.fr">
         <meta name="description" content="Étudiant en BUT informatique à l'IUT Marne la Vallée. Voici mon Portfolio pour mieux me connaître.">
-        <meta name="keywords" content="portfolio, développement web, but, informatique, Cédric Mariya Constantine">
+        <meta name="keywords" content="portfolio, développement web, but, informatique, Cédric Mariya Constantine, Cédric Mariya Constantine Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="index,follow">
         <!-- Balises meta -->
@@ -198,7 +198,7 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                        <div class="card-body">
+                        <div class="card-footer text-body-secondary">
                             <a href="#" class="card-link">Card link</a>
                             <a href="#" class="card-link">Another link</a>
                         </div>
@@ -573,7 +573,6 @@
         <!-- Main -->
 
         <i id="btn-retour-haut" class="fa-solid fa-up-long" style="color: #FFD43B; display: block;" onclick="retourHaut()"></i>
-        <!--<img src="img/top.png" alt="Retour en haut" id="btn-retour-haut" onclick="retourHaut()" style="display: block;">--> <!-- Bouton de retour en haut de page -->
 
         <!-- Footer -->
         <footer class="footer">
