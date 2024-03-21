@@ -78,7 +78,7 @@
 
         <!-- Header -->
         <header id="top-page">
-            <div id="name-container" class="all-border">
+            <div id="name-container">
                 <h1 class="name">Cédric Mariya Constantine</h1>
                 <div id="wrapper">
                     <h2 class="etudiant-animation">Étudiant en Informatique</h2>
@@ -96,7 +96,7 @@
                         <div class="col-6">
                             <p>
                                 Je suis un étudiant à l'Université de Gustave Eiffel en 2<sup>ème</sup> année du BUT Informatique.<br>
-                                Je suis actuellement en recherche d'un contrat en alternance.<br>
+                                Je suis actuellement en recherche d'un stage pour la période du 8 avril au 31 août 2024.<br>
                                 Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
                                 <br>
                                 Tout au long de ce portfolio, vous trouverez des liens menant vers mes différents projets
@@ -222,13 +222,45 @@
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="9" aria-label="Slide 10"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/projects/BL1.png" class="d-block w-100">
+                                    <img src="img/projects/BANKLINK1.png" class="d-block w-100" alt="Banklink 1">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/BL2.png" class="d-block w-100">
+                                    <img src="img/projects/BANKLINK2.png" class="d-block w-100" alt="Banklink 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/BANKLINK3.png" class="d-block w-100" alt="Banklink 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/BANKLINK4.png" class="d-block w-100" alt="Banklink 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/BANKLINK5.png" class="d-block w-100" alt="Banklink 5">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/BANKLINK6.png" class="d-block w-100" alt="Banklink 6">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/BANKLINK7.png" class="d-block w-100" alt="Banklink 7">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/BANKLINK8.png" class="d-block w-100" alt="Banklink 8">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/BANKLINK9.png" class="d-block w-100" alt="Banklink 9">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/BANKLINK10.png" class="d-block w-100" alt="Banklink 10">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#projectBanklink" data-bs-slide="prev">

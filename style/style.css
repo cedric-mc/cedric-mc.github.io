@@ -70,9 +70,36 @@ footer .container .row div form div label {
 .all-border {
     border-width: 5px;
     border-style: solid;
-    border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1;
+    /*border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1;*/
     animation: Gradient-border 2s infinite;
     height: fit-content;
+}
+
+/* Styles pour les boutons de contrôle */
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.5; /* Opacité par défaut */
+    transition: opacity 0.3s ease;
+}
+
+/* Augmenter l'opacité lorsqu'on passe la souris sur les boutons */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+/* Styles pour le carousel */
+.my-carousel {
+    /* Ajouter une ombre pour rendre le carousel plus visible */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Augmenter l'opacité lorsqu'on passe la souris sur le carousel */
+.my-carousel:hover {
+    /* Augmenter légèrement l'opacité */
+    opacity: 0.9;
+    /* Ajouter une transition fluide */
+    transition: opacity 0.3s ease;
 }
 
 .full-page {
