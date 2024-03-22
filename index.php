@@ -22,7 +22,7 @@
     </head>
 
     <body class="full-page">
-        <div id="arrow-container" style="">
+        <div id="arrow-container" style="display: none;">
             <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.000000 100.000000">
                 <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)" stroke="none">
                     <path d="M0 737 l0 -193 245 -237 c135 -130 250 -237 255 -237 5 0 120 107
@@ -42,10 +42,10 @@
                     <img src="img/navbar/home.png" class="d-inline-block align-text-top" alt="icon home">
                     Accueil
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav custom-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#about-me">
@@ -201,7 +201,7 @@
                                     </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
-                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#batailleBoules" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Bataille des Boules</a>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
                                     </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
-                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#batailleBoules" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Bataille des Boules</a>
                                 </div>
                             </div>
                         </div>
@@ -247,7 +247,6 @@
                                     </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
-                                    <a href="#" class="card-link">Card link</a>
                                 </div>
                             </div>
                         </div>
@@ -270,7 +269,8 @@
                                     </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
-                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#banklink" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Banklink</a>
+                                    <a href="#hedelma" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Hedelma</a>
                                 </div>
                             </div>
                         </div>
@@ -293,7 +293,8 @@
                                     </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
-                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#banklink" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Banklink</a>
+                                    <a href="#toledo" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Toledo</a>
                                 </div>
                             </div>
                         </div>
@@ -316,7 +317,8 @@
                                     </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
-                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#banklink" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Banklink</a>
+                                    <a href="#toledo" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Toledo</a>
                                 </div>
                             </div>
                         </div>
@@ -330,7 +332,7 @@
                 <p>
                     Dans cette section, vous trouverez les projets que j'ai réalisés. Vous pourrez consulter le code source <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> et la documentation <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> de chaque projet.
                 </p>
-                <div class="project-container">
+                <div class="project-container" id="banklink">
                     <div class="project-item">
                         <h3 class="title-project">Banklink, Portail Web de Gestion de paiements par carte bancaire</h3>
                         <h4 class="project-title">HTML, CSS, PHP, SQL, JS</h4>
@@ -344,18 +346,18 @@
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
                             </a>
                         </p>
-                        <div id="projectBanklink" class="carousel" data-bs-ride="carousel">
+                        <div id="carouselBanklink" class="carousel" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                                <button type="button" data-bs-target="#projectBanklink" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="9" aria-label="Slide 10"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -389,11 +391,11 @@
                                     <img src="img/projects/BANKLINK10.png" class="d-block w-100" alt="Banklink 10">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#projectBanklink" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanklink" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#projectBanklink" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselBanklink" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -401,7 +403,7 @@
                     </div>
                 </div>
 
-                <div class="project-container">
+                <div class="project-container" id="toledo">
                     <div class="project-item">
                         <h3 class="title-project">Projet de médiation culturelle et numérique en partenariat avec le forum de l'UNESCO <img class="img-spin" src="img/projects/unesco.png"></h3>
                         <h4 class="project-title">HTML, CSS, JS, PHP, SQL</h4>
@@ -414,36 +416,36 @@
                             </a><br>
                             <!--Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>-->
                         </p>
-                        <div id="projectToledo" class="carousel carousel-dark" data-bs-ride="carousel">
+                        <div id="carouselToledo" class="carousel carousel-dark" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#projectToledo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#projectToledo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#projectToledo" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#projectToledo" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#projectToledo" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselToledo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselToledo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselToledo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselToledo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselToledo" data-bs-slide-to="4" aria-label="Slide 5"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/projects/TO1.png" class="d-block w-100">
+                                    <img src="img/projects/TO1.png" class="d-block w-100" alt="Toledo 1">
                                 </div>
                                 <div class="carousel-item active">
-                                    <img src="img/projects/TO2.png" class="d-block w-100">
+                                    <img src="img/projects/TO2.png" class="d-block w-100" alt="Toledo 2">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/TO3.png" class="d-block w-100">
+                                    <img src="img/projects/TO3.png" class="d-block w-100" alt="Toledo 3">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/TO4.png" class="d-block w-100">
+                                    <img src="img/projects/TO4.png" class="d-block w-100" alt="Toledo 4">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/TO5.png" class="d-block w-100">
+                                    <img src="img/projects/TO5.png" class="d-block w-100" alt="Toledo 5">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#projectToledo" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselToledo" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#projectToledo" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselToledo" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -451,7 +453,7 @@
                     </div>
                 </div>
 
-                <div class="project-container">
+                <div class="project-container" id="hedelma">
                     <div class="project-item">
                         <h3 class="title-project">Projet Primeurs-Passion</h3>
                         <h4 class="project-title">HTML, CSS, JS, PHP, SQL, Base de données PostGreSQL, Looping</h4>
@@ -463,40 +465,40 @@
                             </a><br>
                             Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>
                         </p>
-                        <div id="projectHedelma" class="carousel carousel-dark" data-bs-ride="carousel">
+                        <div id="carouselHedelma" class="carousel carousel-dark" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#projectHedelma" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#projectHedelma" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#projectHedelma" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#projectHedelma" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#projectHedelma" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                <button type="button" data-bs-target="#projectHedelma" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselHedelma" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselHedelma" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselHedelma" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselHedelma" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselHedelma" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselHedelma" data-bs-slide-to="5" aria-label="Slide 6"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/projects/BDD1.png" class="d-block w-100">
+                                    <img src="img/projects/BDD1.png" class="d-block w-100" alt="Hedelma 1">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/BDD2.png" class="d-block w-100">
+                                    <img src="img/projects/BDD2.png" class="d-block w-100" alt="Hedelma 2">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/BDD3.png" class="d-block w-100">
+                                    <img src="img/projects/BDD3.png" class="d-block w-100" alt="Hedelma 3">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/BDD4.png" class="d-block w-100">
+                                    <img src="img/projects/BDD4.png" class="d-block w-100" alt="Hedelma 4">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/BDD5.png" class="d-block w-100">
+                                    <img src="img/projects/BDD5.png" class="d-block w-100" alt="Hedelma 5">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/BDD6.png" class="d-block w-100">
+                                    <img src="img/projects/BDD6.png" class="d-block w-100" alt="Hedelma 6">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#projectHedelma" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHedelma" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#projectHedelma" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselHedelma" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -504,7 +506,7 @@
                     </div>
                 </div>
 
-                <div class="project-container" id="">
+                <div class="project-container" id="batailleBoules">
                     <div class="project-item">
                         <h3 class="title-project">Jeu : Bataille de Boules</h3>
                         <h4 class="project-title">Python</h4>
@@ -530,7 +532,7 @@
                         <h5 class="caption-title">Les Variantes du jeu Bataille des Boules</h5>
                         <p>
                             Vous pouvez jouer avec 6 variantes différentes :
-                            <img src="img/projects/hourglass.png" class="p-img" width="30" height="30"> le Sablier,
+                            <img src="img/projects/hourglass.png" class="p-img"> le Sablier,
                             <img src="img/projects/scores.png" class="p-img"> les Scores,
                             <img src="img/projects/taille-des-boules.png" class="p-img"> la Taille de Boules,
                             <img src="img/projects/dynamique.png" class="p-img"> la Version Dynamique,
@@ -538,44 +540,44 @@
                             <img src="img/projects/obstacles.png" class="p-img"> les Obstacles.
                         </p>
                         <p></p>
-                        <div id="projectBatailleBoules" class="carousel carousel-dark" data-bs-ride="carousel">
+                        <div id="carouselBatailleBoules" class="carousel carousel-dark" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                                <button type="button" data-bs-target="#projectBatailleBoules" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="6" aria-label="Slide 7"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/projects/BDB1.png">
+                                    <img class="d-block w-100" src="img/projects/BDB1.png" alt="Bataille de Boules 1">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/projects/BDB2.png">
+                                    <img class="d-block w-100" src="img/projects/BDB2.png" alt="Bataille de Boules 2">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/projects/BDB3.png">
+                                    <img class="d-block w-100" src="img/projects/BDB3.png" alt="Bataille de Boules 3">
                                 </div>
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/projects/BDB4.png">
+                                    <img class="d-block w-100" src="img/projects/BDB4.png" alt="Bataille de Boules 4">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/projects/BDB5.png">
+                                    <img class="d-block w-100" src="img/projects/BDB5.png" alt="Bataille de Boules 5">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/projects/BDB6.png">
+                                    <img class="d-block w-100" src="img/projects/BDB6.png" alt="Bataille de Boules 6">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/projects/BDB7.png">
+                                    <img class="d-block w-100" src="img/projects/BDB7.png" alt="Bataille de Boules 7">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#projectBatailleBoules" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#projectBatailleBoules" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
