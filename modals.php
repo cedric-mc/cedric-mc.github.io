@@ -12,7 +12,7 @@
             <div class="modal-dialog">
                 <div class="modal-content bg-light text-dark">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="realiserN2ModalLabel">Niveau 2</h1>
+                        <h1 class="modal-title fs-5" id="realiserN2ModalLabel">Réaliser - Niveau 2 : Détails</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
