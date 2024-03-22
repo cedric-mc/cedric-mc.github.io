@@ -107,7 +107,7 @@
                             </p>
                             <p>
                                 Je maîtrise différentes langues en dehors du français : l'Anglais <img class="p-img" src="img/navbar/eng.png" alt="icon flag english">
-                                bien entendu et le Tamil <img class="p-img" src="img/tamil.png" alt="icon flag tamil"> (langue maternelle).
+                                bien entendu et le Tamoul <img class="p-img" src="img/tamil.png" alt="icon flag tamil"> (langue maternelle).
                             </p>
                             <p>
                                 Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !
@@ -126,7 +126,7 @@
                 <p>
                 <h3>Mon Parcours de Formation</h3>
                 <ul>
-                    <li class="list-group-item">
+                    <li class="list-group-item background">
                         <h4>BUT Informatique</h4>
                         <p>
                             <span class="italic-text">2022 - 2025</span>
@@ -347,10 +347,14 @@
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
                             </a>-->
                         </p>
-                        <div id="carouselSemonkey" class="carousel" data-bs-ride="carousel">
+                        <div id="carouselSemonkey" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="5" aria-label="Slide 6"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -359,12 +363,122 @@
                                 <div class="carousel-item">
                                     <img src="img/projects/SEMONKEY2.png" class="d-block w-100" alt="Semonkey 2">
                                 </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY3.png" class="d-block w-100" alt="Semonkey 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY4.png" class="d-block w-100" alt="Semonkey 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY5.png" class="d-block w-100" alt="Semonkey 5">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY6.png" class="d-block w-100" alt="Semonkey 6">
+                                </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselSemonkey" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselSemonkey" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-container" id="semonkey">
+                    <div class="project-item">
+                        <h3 class="title-project">Semonkey, Jeu en ligne à un ou plusieurs joueurs</h3>
+                        <h4 class="project-title">HTML, CSS, PHP, SQL, JS, C, Java, TypeScript, React</h4>
+                        <p>
+                            Site :&ensp;
+                            <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/Semonkey/" target="_blank">
+                                <img class="p-img" src="img/code.png" alt="Code Icon">
+                            </a>
+                            <!--<br>
+                            Documentation :&ensp;
+                            <a href="https://cedric-mc.github.io/Banklink" target="_blank">
+                                <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
+                            </a>-->
+                        </p>
+                        <div id="carouselSemonkey" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/projects/SEMONKEY1.png" class="d-block w-100" alt="Semonkey 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY2.png" class="d-block w-100" alt="Semonkey 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY3.png" class="d-block w-100" alt="Semonkey 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY4.png" class="d-block w-100" alt="Semonkey 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY5.png" class="d-block w-100" alt="Semonkey 5">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY6.png" class="d-block w-100" alt="Semonkey 6">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSemonkey" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselSemonkey" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="projet-container" id="">
+                    <div class="project-item">
+                        <h3 class="title-project"></h3>
+                        <h4 class="project-title"></h4>
+                        <p>
+                            Site :&ensp;
+                            <a href="" target="_blank">
+                                <img class="p-img" src="img/code.png" alt="Code Icon">
+                            </a>
+                            <br>
+                            Documentation :&ensp;
+                            <a href="" target="_blank">
+                                <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
+                            </a>
+                        </p>
+                        <div id="" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/projects/" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/" class="d-block w-100" alt="">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -385,7 +499,7 @@
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
                             </a>
                         </p>
-                        <div id="carouselBanklink" class="carousel" data-bs-ride="carousel">
+                        <div id="carouselBanklink" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselBanklink" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -455,7 +569,7 @@
                             </a><br>
                             <!--Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>-->
                         </p>
-                        <div id="carouselToledo" class="carousel carousel-dark" data-bs-ride="carousel">
+                        <div id="carouselToledo" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselToledo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselToledo" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -504,7 +618,7 @@
                             </a><br>
                             Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>
                         </p>
-                        <div id="carouselHedelma" class="carousel carousel-dark" data-bs-ride="carousel">
+                        <div id="carouselHedelma" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselHedelma" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselHedelma" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -579,7 +693,7 @@
                             <img src="img/projects/obstacles.png" class="p-img"> les Obstacles.
                         </p>
                         <p></p>
-                        <div id="carouselBatailleBoules" class="carousel carousel-dark" data-bs-ride="carousel">
+                        <div id="carouselBatailleBoules" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselBatailleBoules" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -632,7 +746,7 @@
                             J'ai participé à la création d'une vidéo pour une séquence de 5 à 10 minutes qui se déroule exclusivement par le biais d'appels téléphoniques et de SMS.
                         </p>
                         <p class="ratio ratio-16x9">
-                            <iframe src="https://www.youtube.com/embed/6cWJObySlfc" title="Wrong number : a very embarrassing misunderstanding Video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+                            <iframe src="https://www.youtube.com/embed/6cWJObySlfc" title="Wrong number : a very embarrassing misunderstanding Video" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
                             </iframe>
                         </p>
                     </div>
