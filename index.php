@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/animation.css">
         <link rel="stylesheet" href="style/fonts.css">
+        <link href="https
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3f3ecfc27b.js" crossorigin="anonymous"></script>
         <!-- Balises link -->
@@ -185,92 +186,114 @@
                     Voici les 6 compétences que je dois acquérir durant ma formation :
                 </p>
                 <div class="skills-container">
-                    <div class="card skills-item">
-                        <div class="card-header">
-                            <h4 class="card-title">Réaliser</h4>
+                    <div class="row row-cols-auto g-4">
+                        <div class="col">
+                            <div class="card skills-item">
+                                <div class="card-header realiser">
+                                    <h3 class="card-title">Réaliser</h3>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Niveau 2</h4>
+                                    <blockquote class="blockquote mb-0">
+                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
+                                    </blockquote>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div class="card-footer text-body-secondary">
+                                    <a href="#" class="card-link">Card link</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <blockquote class="blockquote mb-0">
-                                <p>A well-known quote, contained in a blockquote element.</p>
-                                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                            </blockquote>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="col">
+                            <div class="card skills-item">
+                                <div class="card-header optimiser">
+                                    <h3 class="card-title">Optimiser</h3>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Niveau 2</h4>
+                                    <blockquote class="blockquote mb-0">
+                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
+                                    </blockquote>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div class="card-footer text-body-secondary">
+                                    <a href="#" class="card-link">Card link</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-footer text-body-secondary">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                        <div class="col">
+                            <div class="card skills-item">
+                                <div class="card-header administrer">
+                                    <h3 class="card-title">Administrer</h3>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Niveau 2</h4>
+                                    <blockquote class="blockquote mb-0">
+                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
+                                    </blockquote>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div class="card-footer text-body-secondary">
+                                    <a href="#" class="card-link">Card link</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card skills-item">
-                        <div class="card-header">
-                            <h4 class="card-title">Optimiser</h4>
+                        <div class="col">
+                            <div class="card skills-item">
+                                <div class="card-header gerer">
+                                    <h3 class="card-title">Gérer</h3>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Niveau 2</h4>
+                                    <blockquote class="blockquote mb-0">
+                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
+                                    </blockquote>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div class="card-footer text-body-secondary">
+                                    <a href="#" class="card-link">Card link</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="col">
+                            <div class="card skills-item">
+                                <div class="card-header conduire">
+                                    <h3 class="card-title">Conduire</h3>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Niveau 2</h4>
+                                    <blockquote class="blockquote mb-0">
+                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
+                                    </blockquote>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div class="card-footer text-body-secondary">
+                                    <a href="#" class="card-link">Card link</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                    <div class="card skills-item">
-                        <div class="card-header">
-                            <h4 class="card-title">Administrer</h4>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                    <div class="card skills-item">
-                        <div class="card-header">
-                            <h4 class="card-title">Gérer</h4>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                    <div class="card skills-item">
-                        <div class="card-header">
-                            <h4 class="card-title">Conduire</h4>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                    <div class="card skills-item">
-                        <div class="card-header">
-                            <h4 class="card-title">Collaborer</h4>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                        <div class="col">
+                            <div class="card skills-item">
+                                <div class="card-header collaborer">
+                                    <h3 class="card-title">Collaborer</h3>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Niveau 2</h4>
+                                    <blockquote class="blockquote mb-0">
+                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
+                                    </blockquote>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div class="card-footer text-body-secondary">
+                                    <a href="#" class="card-link">Card link</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -611,7 +634,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <h4><a class="link" href="mentions-legales.php">Mentions légales</a></h4>
+                        <!--<h4><a class="link" href="mentions-legales.php">Mentions légales</a></h4>-->
                         <br>
                         <!-- <p>Vous pouvez trouver la documentation du site qui est en français <a href="https://cedric-mc.github.io">ici</a>. 👈</p> -->
                         <br>
