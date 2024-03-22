@@ -160,7 +160,7 @@ footer .container .row div form div label {
     transition: opacity 0.3s ease;
 }
 
-.full-page {
+.background {
     /* overflow-x: hidden; */
     color: #fff;
     /* background-color: rgba(13, 110, 253, var(--bs-bg-opacity, 1)); */
