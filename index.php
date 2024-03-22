@@ -650,7 +650,7 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/projects/BDB1.png" alt="Bataille de Boules 1">
+                                    <img class="d-block w-100" src="img/projects/BDB1.png" alt="Bataille de Boules 1" id="bataille-boules">
                                 </div>
                                 <div class="carousel-item">
                                     <img class="d-block w-100" src="img/projects/BDB2.png" alt="Bataille de Boules 2">
