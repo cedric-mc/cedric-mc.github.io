@@ -71,7 +71,7 @@ if ($lang == 'eng') {
     </head>
 
 
-    <body class="full-page">
+    <body class="background">
         <!-- Navbar, Navigation -->
         <nav class="navbar sticky-top navbar-expand-lg navbar-light">
             <div class="container-fluid">

@@ -21,7 +21,7 @@
         <!-- Balises link -->
     </head>
 
-    <body class="full-page">
+    <body class="background">
         <div id="arrow-container" style="display: none;">
             <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.000000 100.000000">
                 <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)" stroke="none">
@@ -196,7 +196,7 @@
                                     <br>
                                     <div class="row">
                                         <div class="col">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#realiserN2Modal" data-bs-whatever="@mdo">Niveau 2</button>
                                         </div>
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@
                                     <br>
                                     <div class="row">
                                         <div class="col">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#conduireModal">Niveau 2</button>
                                         </div>
                                     </div>
                                 </div>
@@ -332,6 +332,45 @@
                 <p>
                     Dans cette section, vous trouverez les projets que j'ai réalisés. Vous pourrez consulter le code source <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> et la documentation <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> de chaque projet.
                 </p>
+                <div class="projet-container" id="semonkey">
+                    <div class="project-item">
+                        <h3 class="title-project">Semonkey, Jeu en ligne à un ou plusieurs joueurs</h3>
+                        <h4 class="project-title">HTML, CSS, PHP, SQL, JS, C, Java, TypeScript, React</h4>
+                        <p>
+                            Site :&ensp;
+                            <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/Semonkey/" target="_blank">
+                                <img class="p-img" src="img/code.png" alt="Code Icon">
+                            </a>
+                            <!--<br>
+                            Documentation :&ensp;
+                            <a href="https://cedric-mc.github.io/Banklink" target="_blank">
+                                <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
+                            </a>-->
+                        </p>
+                        <div id="carouselSemonkey" class="carousel" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselSemonkey" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/projects/SEMONKEY1.png" class="d-block w-100" alt="Semonkey 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/SEMONKEY2.png" class="d-block w-100" alt="Semonkey 2">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSemonkey" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselSemonkey" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
                 <div class="project-container" id="banklink">
                     <div class="project-item">
                         <h3 class="title-project">Banklink, Portail Web de Gestion de paiements par carte bancaire</h3>
@@ -669,6 +708,7 @@
                 </div>
             </div>
         </footer>
+        <?php include("modals.php"); ?>
         <!-- Footer -->
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
