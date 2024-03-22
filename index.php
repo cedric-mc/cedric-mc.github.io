@@ -193,19 +193,19 @@
                                     <h3 class="card-title fw-semibold">Réaliser</h3>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title">Niveau 2</h4>
+                                    <h4 class="card-title">Description :</h4>
                                     <blockquote class="blockquote mb-0">
                                         <p>Développer — c'est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
-                                    <div class="row">
+                                    <div class="row text-center">
                                         <div class="col">
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#realiserN2Modal" data-bs-whatever="@mdo">Niveau 2</button>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#realiserN2Modal">Niveau 2</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-footer text-body-secondary">
+                                <div class="card-footer text-end text-body-secondary">
                                     <a href="#batailleBoules" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Bataille des Boules</a>
                                 </div>
                             </div>
@@ -216,19 +216,19 @@
                                     <h3 class="card-title fw-semibold">Optimiser</h3>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title">Niveau 2</h4>
+                                    <h4 class="card-title">Description :</h4>
                                     <blockquote class="blockquote mb-0">
                                         <p>Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d'exécution, précision, consommation de ressources...</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
-                                    <div class="row">
+                                    <div class="row text-center">
                                         <div class="col">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#optimiserN2Modal">Niveau 2</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-footer text-body-secondary">
+                                <div class="card-footer text-end text-body-secondary">
                                     <a href="#batailleBoules" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Bataille des Boules</a>
                                 </div>
                             </div>
@@ -239,19 +239,19 @@
                                     <h3 class="card-title fw-semibold">Administrer</h3>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title">Niveau 2</h4>
+                                    <h4 class="card-title">Description :</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Installer</p>
+                                        <p>Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique d'une organisation.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
-                                    <div class="row">
+                                    <div class="row text-center">
                                         <div class="col">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#administrerN2Modal">Niveau 2</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-footer text-body-secondary">
+                                <div class="card-footer text-end text-body-secondary">
                                 </div>
                             </div>
                         </div>
@@ -261,19 +261,19 @@
                                     <h3 class="card-title fw-semibold">Gérer</h3>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title">Niveau 2</h4>
+                                    <h4 class="card-title">Description :</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Optimiser une base de données, intéragir avec une application et mettre en œuvre la sécurité.</p>
+                                        <p>Concevoir, gérer, administrer et exploiter les données de l'entreprise et mettre à disposition toutes les informations pour un bon pilotage de l'entreprise.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
-                                    <div class="row">
+                                    <div class="row text-center">
                                         <div class="col">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gererN2Modal">Niveau 2</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-footer text-body-secondary">
+                                <div class="card-footer text-end text-body-secondary">
                                     <a href="#banklink" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Banklink</a>
                                     <a href="#hedelma" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Hedelma</a>
                                 </div>
@@ -285,19 +285,19 @@
                                     <h3 class="card-title fw-semibold">Conduire</h3>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title">Niveau 2</h4>
+                                    <h4 class="card-title">Description :</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs.</p>
+                                        <p>Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
-                                    <div class="row">
+                                    <div class="row text-center">
                                         <div class="col">
-                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#conduireModal">Niveau 2</button>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#conduireN2Modal">Niveau 2</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-footer text-body-secondary">
+                                <div class="card-footer text-end text-body-secondary">
                                     <a href="#banklink" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Banklink</a>
                                     <a href="#toledo" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Toledo</a>
                                 </div>
@@ -309,19 +309,19 @@
                                     <h3 class="card-title fw-semibold">Collaborer</h3>
                                 </div>
                                 <div class="card-body">
-                                    <h4 class="card-title">Niveau 2</h4>
+                                    <h4 class="card-title">Description :</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Situer son rôle et ses missions au sein d'une équipe informatique.</p>
+                                        <p>Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
-                                    <div class="row">
+                                    <div class="row text-center">
                                         <div class="col">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#collaborerN2Modal">Niveau 2</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-footer text-body-secondary">
+                                <div class="card-footer text-end text-body-secondary">
                                     <a href="#banklink" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Banklink</a>
                                     <a href="#toledo" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Toledo</a>
                                 </div>
