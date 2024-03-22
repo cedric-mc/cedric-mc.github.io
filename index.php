@@ -442,22 +442,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="projet-container" id="">
+                <div class="projet-container" id="cnil">
                     <div class="project-item">
                         <h3 class="title-project">Contrôles CNIL</h3>
-                        <h4 class="project-title"></h4>
+                        <h4 class="project-title">HTML, CSS, JS, PHP, SQL</h4>
                         <p>
                             Site :&ensp;
-                            <a href="" target="_blank">
+                            <a href="https://perso-etudiant.u-pem.fr/~mariyaconsta02/controles_cnil/" target="_blank">
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a>
                             <br>
-                            Documentation :&ensp;
+                            <!--Documentation :&ensp;
                             <a href="" target="_blank">
                                 <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
-                            </a>
+                            </a>-->
                         </p>
-                        <div id="" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                        <div id="carouselCNIL" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -465,20 +465,20 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="img/projects/" class="d-block w-100" alt="">
+                                    <img src="img/projects/" class="d-block w-100" alt="CNIL 1">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/" class="d-block w-100" alt="">
+                                    <img src="img/projects/" class="d-block w-100" alt="CNIL 2">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="img/projects/" class="d-block w-100" alt="">
+                                    <img src="img/projects/" class="d-block w-100" alt="CNIL 3">
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCNIL" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselCNIL" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
