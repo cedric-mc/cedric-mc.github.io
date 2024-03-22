@@ -31,11 +31,11 @@
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="conduireModal" tabindex="-1" aria-labelledby="conduireModalLabel" aria-hidden="true">
+        <div class="modal fade" id="conduireN2Modal" tabindex="-1" aria-labelledby="conduireN2ModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content bg-light text-dark">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="conduireModalLabel">Niveau 2</h1>
+                        <h1 class="modal-title fs-5" id="conduireN2ModalLabel">Niveau 2</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
