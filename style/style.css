@@ -4,6 +4,36 @@
     scroll-margin-top: 80px;
 }
 
+.realiser {
+    background: #B80905 !important;
+    color: white !important;
+}
+
+.optimiser {
+    background: #ED8C51 !important;
+    color: black !important;
+}
+
+.administrer {
+    background: #EFBA11 !important;
+    color: black !important;
+}
+
+.gerer {
+    background: #8CC850 !important;
+    color: black !important;
+}
+
+.conduire {
+    background: #0A215E !important;
+    color: white !important;
+}
+
+.collaborer {
+    background: #0F0F0F !important;
+    color: white !important;
+}
+
 /* pour la marge */
 main,
 section {
