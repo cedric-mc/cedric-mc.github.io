@@ -195,7 +195,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <p>Développer — c'est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
@@ -218,7 +218,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Sélectionner les algorithmes adéquats pour répondre à un problème donné.</p>
+                                        <p>Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d'exécution, précision, consommation de ressources...</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
@@ -241,7 +241,7 @@
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Déployer des services dans une architecture réseau.</p>
+                                        <p>Installer</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
                                     <br>
