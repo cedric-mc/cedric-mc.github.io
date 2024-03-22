@@ -683,7 +683,7 @@
                     </div>
                 </div>
 
-                <div class="project-container">
+                <!--<div class="project-container">
                     <div class="project-item">
                         <h3 class="title-project">Wrong number : a very embarrassing misunderstanding</h3>
                         <h4 class="project-title">Logiciel : ClipChamp</h4>
@@ -706,7 +706,7 @@
                             </iframe>
                         </p>
                     </div>
-                </div>
+                </div>-->
             </section>
         </main>
         <!-- Main -->
