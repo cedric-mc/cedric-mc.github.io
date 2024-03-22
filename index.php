@@ -722,7 +722,7 @@
                         <form action="contact.php" method="POST">
                             <div class="mb-3">
                                 <label for="name" class="form-label">Nom</label>
-                                <input type="text" class="form-control" name="nom" id="name" placeholder="Votre nom" required>
+                                <input type="text" class="form-control" name="nom" placeholder="Votre nom" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Adresse e-mail</label>
@@ -748,13 +748,13 @@
                         <h4>Réseaux sociaux</h4>
                         <ul id="social-networks">
                             <li>
-                                <a class="link" href="https://www.linkedin.com/in/cédric-mariya-constantine-a3a52325a/" target="_blank">
-                                    <img class="p-img" src="img/linkedin.png" alt="linkedin"> Linkedin
+                                <a class="link" href="https://github.com/cedric-mc" target="_blank">
+                                    <img class="p-img" src="img/github.png" alt="github"> GitHub
                                 </a>
                             </li>
                             <li>
-                                <a class="link" href="https://github.com/cedric-mc" target="_blank">
-                                    <img class="p-img" src="img/github.png" alt="github"> GitHub
+                                <a class="link" href="https://www.linkedin.com/in/cédric-mariya-constantine-a3a52325a/" target="_blank">
+                                    <img class="p-img" src="img/linkedin.png" alt="linkedin"> Linkedin
                                 </a>
                             </li>
                         </ul>
