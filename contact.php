@@ -41,7 +41,7 @@
             exit(); // Arrête l'exécution du script après la redirection
         } catch (Exception $e) {
             echo "Erreur lors de l'envoi du message: {$mail->ErrorInfo}";
-            header("Location: ./#contact?error");
+//            header("Location: ./#contact?error");
             exit(); // Arrête l'exécution du script après la redirection
         }
     } else {
