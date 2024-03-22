@@ -16,8 +16,7 @@
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/animation.css">
         <link rel="stylesheet" href="style/fonts.css">
-        <link href="https
-        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3f3ecfc27b.js" crossorigin="anonymous"></script>
         <!-- Balises link -->
     </head>
@@ -99,10 +98,6 @@
                                 Je suis un étudiant à l'Université de Gustave Eiffel en 2<sup>ème</sup> année du BUT Informatique.<br>
                                 Je suis actuellement en recherche d'un stage pour la période du 8 avril au 31 août 2024.<br>
                                 Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
-                                <br>
-                                Tout au long de ce portfolio, vous trouverez des liens menant vers mes différents projets
-                                <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> ou leur documentation
-                                <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon">.
                                 <br>
                             </p>
                             <p>
@@ -186,11 +181,11 @@
                     Voici les 6 compétences que je dois acquérir durant ma formation :
                 </p>
                 <div class="skills-container">
-                    <div class="row row-cols-auto g-4">
+                    <div class="row row-cols-auto row-cols-md-2 g-4">
                         <div class="col">
-                            <div class="card skills-item">
-                                <div class="card-header realiser">
-                                    <h3 class="card-title">Réaliser</h3>
+                            <div class="card h-100 skills-item realiser">
+                                <div class="card-header">
+                                    <h3 class="card-title fw-semibold">Réaliser</h3>
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
@@ -198,7 +193,12 @@
                                         <p>Partir des exigences et aller jusqu'à une application complète.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
                                     <a href="#" class="card-link">Card link</a>
@@ -206,17 +206,22 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card skills-item">
-                                <div class="card-header optimiser">
-                                    <h3 class="card-title">Optimiser</h3>
+                            <div class="card h-100 skills-item optimiser">
+                                <div class="card-header">
+                                    <h3 class="card-title fw-semibold">Optimiser</h3>
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <p>Sélectionner les algorithmes adéquats pour répondre à un problème donné.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
                                     <a href="#" class="card-link">Card link</a>
@@ -224,17 +229,22 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card skills-item">
-                                <div class="card-header administrer">
-                                    <h3 class="card-title">Administrer</h3>
+                            <div class="card h-100 skills-item administrer">
+                                <div class="card-header">
+                                    <h3 class="card-title fw-semibold">Administrer</h3>
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <p>Déployer des services dans une architecture réseau.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
                                     <a href="#" class="card-link">Card link</a>
@@ -242,17 +252,22 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card skills-item">
-                                <div class="card-header gerer">
-                                    <h3 class="card-title">Gérer</h3>
+                            <div class="card h-100 skills-item gerer">
+                                <div class="card-header">
+                                    <h3 class="card-title fw-semibold">Gérer</h3>
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <p>Optimiser une base de données, intéragir avec une application et mettre en œuvre la sécurité.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
                                     <a href="#" class="card-link">Card link</a>
@@ -260,17 +275,22 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card skills-item">
-                                <div class="card-header conduire">
-                                    <h3 class="card-title">Conduire</h3>
+                            <div class="card h-100 skills-item conduire">
+                                <div class="card-header">
+                                    <h3 class="card-title fw-semibold">Conduire</h3>
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <p>Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
                                     <a href="#" class="card-link">Card link</a>
@@ -278,17 +298,22 @@
                             </div>
                         </div>
                         <div class="col">
-                            <div class="card skills-item">
-                                <div class="card-header collaborer">
-                                    <h3 class="card-title">Collaborer</h3>
+                            <div class="card h-100 skills-item collaborer">
+                                <div class="card-header">
+                                    <h3 class="card-title fw-semibold">Collaborer</h3>
                                 </div>
                                 <div class="card-body">
                                     <h4 class="card-title">Niveau 2</h4>
                                     <blockquote class="blockquote mb-0">
-                                        <p>Partir des exigences et aller jusqu'à une application complète.</p>
+                                        <p>Situer son rôle et ses missions au sein d'une équipe informatique.</p>
                                         <footer class="blockquote-footer"><cite title="Source Title">Programme du BUT Informatique</cite></footer>
                                     </blockquote>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-footer text-body-secondary">
                                     <a href="#" class="card-link">Card link</a>
@@ -303,8 +328,7 @@
             <section id="projects">
                 <h2 class="title-section">Mes Projets</h2>
                 <p>
-                    Ceci <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> représente un lien cliquable sur lequel vous serez redirigé vers le code ou le site du projet.<br>
-                    Ceci <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> représente un lien cliquable sur lequel vous serez redirigé vers la documentation du projet.<br>
+                    Dans cette section, vous trouverez les projets que j'ai réalisés. Vous pourrez consulter le code source <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> et la documentation <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> de chaque projet.
                 </p>
                 <div class="project-container">
                     <div class="project-item">
@@ -480,7 +504,7 @@
                     </div>
                 </div>
 
-                <div class="project-container">
+                <div class="project-container" id="">
                     <div class="project-item">
                         <h3 class="title-project">Jeu : Bataille de Boules</h3>
                         <h4 class="project-title">Python</h4>
