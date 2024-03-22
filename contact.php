@@ -3,13 +3,6 @@
         header("Location: ./#contact");
         exit(); // Arrête l'exécution du script après la redirection
     }
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\SMTP;
-    use PHPMailer\PHPMailer\Exception;
-    //PHPMailer
-    require "../PHPMailer/src/PHPMailer.php";
-    require "../PHPMailer/src/SMTP.php";
-    require "../PHPMailer/src/Exception.php";
     // Récupération des variables et sécurisation des données
     $nom = $_POST['nom'];
     $email = $_POST['email'];
@@ -19,32 +12,38 @@
     ini_set('display_errors', 1);
 
     include_once("conf.php");
-
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
+    //PHPMailer
+    require "PHPMailer/src/PHPMailer.php";
+    require "PHPMailer/src/SMTP.php";
+    require "PHPMailer/src/Exception.php";
     $mail = new PHPMailer(true);
-    // Configurations SMTP
-    $mail->isSMTP(); // Envoyer en utilisant SMTP
-    $mail->Host = $host; // Définir le serveur SMTP à utiliser
-    $mail->Port = 465; // Port TCP à connecter
-    $mail->SMTPSecure = "ssl";
-    $mail->SMTPAuth = true; // Activer l'authentification SMTP
-    $mail->Username = $username; // Nom d'utilisateur SMTP
-    $mail->Password = $password; // Mot de passe SMTP
-    $mail->CharSet = "UTF-8";
-    $mail->setFrom($email, $nom); // Adresse email de l'expéditeur
-
-    // Contenu
-    $mail->isHTML(true); // Définir le format d'email sur HTML
-    $mail->Subject = "Nouveau message du formulaire de contact du Portfolio";
-    $mail->Body = "Nom: $nom\nEmail: $email\nMessage: $message";
-    $mail->addAddress($username, $nom); // Ajouter un destinataire
-
     try {
+        // Envoyer l'email
+        $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+        $mail->isSMTP();
+        $mail->Host       = $host;
+        $mail->SMTPAuth   = true;
+        $mail->Username   = $username;
+        $mail->Password   = $password;
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 465;
+
+        // Destinataire
+        $mail->setFrom($email, $nom);
+        $mail->addAddress($username, "Cédric Mariya Constantine");
+
+        // Contenu
+        $mail->isHTML(true);
+        $mail->Subject = 'Here is the subject';
+        $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
         $mail->send();
-        header("Location: ./#contact?success");
-        exit(); // Arrête l'exécution du script après la redirection
+        echo 'Message has been sent';
     } catch (Exception $e) {
-        echo "Erreur lors de l'envoi du message: {$mail->ErrorInfo}";
-//            header("Location: ./#contact?error");
-        exit(); // Arrête l'exécution du script après la redirection
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 ?>
