@@ -53,6 +53,11 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link active" href="#parcours">
+                                <img src="img/navbar/histoire.png" class="d-inline-block align-text-top" alt="icon parcours"> Parcours
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link active" href="#skills">
                                 <img src="img/navbar/skills.png" class="d-inline-block align-text-top" alt="icon skills"> Compétences
                             </a>
@@ -138,7 +143,7 @@
                             <span class="italic-text">Parcours A : Réalisation d’applications : conception, développement, validation</span>
                         </p>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item background">
                         <h4>BAC STI2D</h4>
                         <p>
                             <span class="italic-text">2020 - 2022</span>
@@ -153,7 +158,7 @@
                 </ul>
                 <h3>Mon Parcours Professionnel</h3>
                 <ul>
-                    <li class="list-group-item">
+                    <li class="list-group-item background">
                         <h4>Stage d'observation de 3<sup>ème</sup></h4>
                         <p>
                             <span class="italic-text">Semaine du lundi 4 au samedi 9 février 2019</span>
