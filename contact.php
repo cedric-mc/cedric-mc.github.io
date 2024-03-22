@@ -33,7 +33,7 @@
         $mail->isHTML(true); // Définir le format d'email sur HTML
         $mail->Subject = "Nouveau message du formulaire de contact du Portfolio";
         $mail->Body = "Nom: $nom\nEmail: $email\nMessage: $message";
-        $mail->addAddress($emailAddress, $nom); // Ajouter un destinataire
+        $mail->addAddress($username, $nom); // Ajouter un destinataire
 
         try {
             $mail->send();
