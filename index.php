@@ -342,6 +342,9 @@
                         <h3 class="title-project">Semonkey, Jeu en ligne à un ou plusieurs joueurs</h3>
                         <h4 class="project-title">HTML, CSS, PHP, SQL, JS, C, Java, TypeScript, React</h4>
                         <p>
+                            Semonkey est un jeu en ligne à un ou plusieurs joueurs.
+                            Chaque joueur reçoit un mot de départ et un mot cible et propose des mots proches afin de créer une chaîne de mots similaires pour relier le mot de départ au mot cible.
+                            Le but est que chaque mot ressemble autant que possible au mot précédent.
                             Site :&ensp;
                             <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/Semonkey/" target="_blank">
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
@@ -440,6 +443,8 @@
                         <h3 class="title-project">Banklink, Portail Web de Gestion de paiements par carte bancaire</h3>
                         <h4 class="project-title">HTML, CSS, PHP, SQL, JS</h4>
                         <p>
+                            Le projet Banklink est un portail web de gestion de paiements par carte bancaire. Il permet de visualiser les transactions effectuées et de gérer les comptes clients.
+                            <br>
                             Site :&ensp;
                             <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/Banklink/" target="_blank">
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
