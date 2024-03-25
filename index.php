@@ -276,6 +276,7 @@
                                 <div class="card-footer text-end text-body-secondary">
                                     <a href="#banklink" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Banklink</a>
                                     <a href="#hedelma" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Hedelma</a>
+                                    <a href="#cnil" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Contrôles CNIL</a>
                                 </div>
                             </div>
                         </div>
@@ -346,10 +347,10 @@
                             Chaque joueur reçoit un mot de départ et un mot cible et propose des mots proches afin de créer une chaîne de mots similaires pour relier le mot de départ au mot cible.
                             Le but est que chaque mot ressemble autant que possible au mot précédent.
                             <br>
-                            Module du jeu :
+                            <!--Module du jeu :
                             <ul>
                                 <li><a href="#chain-motor" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">ChainMotor : Moteur de Chaîne</a></li>
-                            </ul>
+                            </ul>-->
                             Une version mobile est en cours de développement.
                             Site :&ensp;
                             <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/Semonkey/" target="_blank">
@@ -401,55 +402,65 @@
                         </div>
                     </div>
                 </div>
-<!--                <div class="projet-container" id="cnil">-->
-<!--                    <div class="project-item">-->
-<!--                        <h3 class="title-project">Contrôles CNIL</h3>-->
-<!--                        <h4 class="project-title">HTML, CSS, JS, PHP, SQL</h4>-->
-<!--                        <p>-->
-<!--                            Site :&ensp;-->
-<!--                            <a href="https://perso-etudiant.u-pem.fr/~mariyaconsta02/controles_cnil/" target="_blank">-->
-<!--                                <img class="p-img" src="img/code.png" alt="Code Icon">-->
-<!--                            </a>-->
-<!--                            <br>-->
-<!--                            Documentation :&ensp;-->
-<!--                            <a href="" target="_blank">-->
-<!--                                <img class="p-img" src="img/documentation.png" alt="Documentation Icon">-->
-<!--                            </a>-->
-<!--                        </p>-->
-<!--                        <div id="carouselCNIL" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">-->
-<!--                            <div class="carousel-indicators">-->
-<!--                                <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>-->
-<!--                                <button type="button" data-bs-target="#" data-bs-slide-to="1" aria-label="Slide 2"></button>-->
-<!--                                <button type="button" data-bs-target="#" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
-<!--                            </div>-->
-<!--                            <div class="carousel-inner">-->
-<!--                                <div class="carousel-item active">-->
-<!--                                    <img src="img/projects/" class="d-block w-100" alt="CNIL 1">-->
-<!--                                </div>-->
-<!--                                <div class="carousel-item">-->
-<!--                                    <img src="img/projects/" class="d-block w-100" alt="CNIL 2">-->
-<!--                                </div>-->
-<!--                                <div class="carousel-item">-->
-<!--                                    <img src="img/projects/" class="d-block w-100" alt="CNIL 3">-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCNIL" data-bs-slide="prev">-->
-<!--                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-<!--                                <span class="visually-hidden">Previous</span>-->
-<!--                            </button>-->
-<!--                            <button class="carousel-control-next" type="button" data-bs-target="#carouselCNIL" data-bs-slide="next">-->
-<!--                                <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-<!--                                <span class="visually-hidden">Next</span>-->
-<!--                            </button>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <div class="project-container" id="chain-motor">
+                <div class="projet-container" id="cnil">
+                    <div class="project-item">
+                        <h3 class="title-project">Contrôles CNIL</h3>
+                        <h4 class="project-title">HTML, CSS, JS, PHP, SQL</h4>
+                        <p>
+                            Le projet Contrôles CNIL a pour objectif d'exploiter les données ouvertes concernant les contrôles réalisés par la CNIL de 2017 à 2022.
+                            L'objectif est de valoriser ces données en les présentant sous forme d'un site web comprenant une carte et des graphiques permettant une visualisation claire et interactive des informations, afin de créer un tableau de bord informatif.
+                            Site :&ensp;
+                            <a href="https://perso-etudiant.u-pem.fr/~mariyaconsta02/controles_cnil/" target="_blank">
+                                <img class="p-img" src="img/code.png" alt="Code Icon">
+                            </a>
+                            <!--<br>
+                            Documentation :&ensp;
+                            <a href="" target="_blank">
+                                <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
+                            </a>-->
+                        </p>
+                        <div id="carouselCNIL" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/projects/CNIL1.png" class="d-block w-100" alt="CNIL 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/CNIL2.png" class="d-block w-100" alt="CNIL 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/CNIL3.png" class="d-block w-100" alt="CNIL 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/CNIL4.png" class="d-block w-100" alt="CNIL 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/projects/CNIL5.png" class="d-block w-100" alt="CNIL 5">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCNIL" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselCNIL" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="project-container" id="chain-motor">
                     <div class="project-item">
                         <h3 class="title-project">ChainMotor, Moteur de Chaîne : Module du jeu Semonkey</h3>
                         <h4 class="project-title">Java&ensp;<i class="fa-brands fa-java"></i></h4>
                     </div>
-                </div>
+                </div>-->
                 <div class="project-container" id="banklink">
                     <div class="project-item">
                         <h3 class="title-project">Banklink, Portail Web de Gestion de paiements par carte bancaire</h3>
