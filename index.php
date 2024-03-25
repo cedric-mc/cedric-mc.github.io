@@ -119,7 +119,7 @@
                             </p>
                         </div>
                         <div class="col-6 profil-photo-container">
-                            <img src="img/Cedric.png" alt="Photo de profil" class="profil-photo img-fluid">
+                            <img src="img/Cedric.jpg" alt="Photo de profil" class="profil-photo img-fluid">
                         </div>
                     </div>
                 </div>
@@ -255,6 +255,7 @@
                                 </div>
                                 <div class="card-footer text-end text-body-secondary">
                                     <a href="#semonkey" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Semonkey</a>
+                                    <a href="#reseau" class="card-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Pare-feu et translation d'adresse</a>
                                 </div>
                             </div>
                         </div>
