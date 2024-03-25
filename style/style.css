@@ -79,6 +79,14 @@
     color: white !important;
 }
 
+.project-item {
+    margin-top: 2.5rem;
+}
+
+.project-item h3.title-project {
+    font-weight: bold;
+}
+
 /* pour la marge */
 main,
 section {
@@ -213,6 +221,7 @@ a.navbar-brand {
 .title-section {
     font-family: "Lato", serif;
     font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .title-project {
