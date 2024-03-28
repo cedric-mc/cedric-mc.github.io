@@ -361,7 +361,7 @@
                             Une version mobile est en cours de développement.
                             <br>
                             Site :&ensp;
-                            <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/Semonkey/" target="_blank">
+                            <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/semantix/" target="_blank">
                                 <img class="p-img" src="img/code.png" alt="Code Icon">
                             </a>
                             <!--<br>
