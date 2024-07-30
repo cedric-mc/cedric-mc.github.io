@@ -1,4 +1,4 @@
-conf.php
+config.php
 Projects/*
 !Projects/index.php
 !Projects/style.css
