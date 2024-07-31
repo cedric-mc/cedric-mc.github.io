@@ -1,10 +1,10 @@
 <?php
 // Mode debug ===================
-// Si le paramètre debug est défini à 1, on active le mode debug
-if (!empty($_GET['debug']) && $_GET['debug'] == 1) $_SESSION['debug'] = true;
-
-// Si le paramètre debug est défini à 0, on désactive le mode debug
-else if (!$_SESSION['debug'] && !empty($_GET['debug']) && $_GET['debug'] == 0) $_SESSION['debug'] = false;
+// Si le paramètre debug est défini à 1, on active le mode debug, si à 0, on le désactive
+if (!empty($_GET['debug'])) {
+    if ($_GET['debug'] == 1) $_SESSION['debug'] = true;
+    else if ($_GET['debug'] == 0) $_SESSION['debug'] = false;
+}
 
 // Si le mode debug est activé, on affiche les erreurs
 if ($_SESSION['debug']) {
