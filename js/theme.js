@@ -5,14 +5,16 @@ const localStorageTheme = localStorage.getItem("theme");
 const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
 
 // Fonction pour calculer le thème à appliquer
-function calculateSettingAsThemeString({localStorageTheme, systemSettingDark}) {
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
     if (localStorageTheme && localStorageTheme !== "auto") {
         return localStorageTheme;
     }
 
     // Si le thème est "auto", on utilise la logique basée sur l'heure
     if (localStorageTheme === "auto" || !localStorageTheme) {
-        return calculateThemeBasedOnTime();
+        const autoTheme = calculateThemeBasedOnTime();
+        document.documentElement.setAttribute("data-auto-theme", autoTheme);
+        return "auto";
     }
 
     // Si aucune condition n'est remplie, on utilise la préférence système
@@ -27,7 +29,16 @@ function calculateThemeBasedOnTime() {
 }
 
 // Calcul initial du thème actuel
-let currentThemeSetting = calculateSettingAsThemeString({localStorageTheme, systemSettingDark});
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+// Appliquer le thème actuel à la page
+document.documentElement.setAttribute("data-theme", currentThemeSetting);
+
+// S'assurer que l'attribut data-auto-theme est bien mis à jour pour le mode auto
+if (currentThemeSetting === "auto") {
+    const autoTheme = calculateThemeBasedOnTime();
+    document.documentElement.setAttribute("data-auto-theme", autoTheme);
+}
 
 // Récupérer tous les boutons de sélection de thème
 const buttons = document.querySelectorAll("[data-theme-toggle]");
@@ -40,7 +51,9 @@ buttons.forEach((button) => {
 
         // Si le thème est "auto", calculer le thème en fonction de l'heure
         if (newTheme === "auto") {
-            currentThemeSetting = calculateThemeBasedOnTime();
+            const autoTheme = calculateThemeBasedOnTime();
+            document.documentElement.setAttribute("data-auto-theme", autoTheme);
+            currentThemeSetting = "auto";
         } else {
             currentThemeSetting = newTheme;
         }

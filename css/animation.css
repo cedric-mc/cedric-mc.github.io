@@ -4,8 +4,22 @@
 	height: var(--text-size);
 	transition: all 0.3s ease;
 }
+
 .spinner:hover {
 	transform: scale(1.5) rotate(360deg);
+}
+
+@keyframes fadeTransition {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+html {
+    animation: fadeTransition 0.5s ease;
 }
 
 @keyframes focus-in-contract {

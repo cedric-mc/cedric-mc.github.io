@@ -1,9 +1,9 @@
-<section id="about-me" class="align-middle">
+<section id="about-me">
     <h2 class="title-section">Qui suis-je ?</h2>
-    <div class="container">
+    <div class="">
         <div class="row">
             <div class="col">
-                <p>
+                <p class="text-start">
                     Je suis un étudiant à l'Université de Gustave Eiffel en 2<sup>ème</sup> année du BUT Informatique.<br>
                     Je suis actuellement en recherche d'une alternance dans le domaine du développement informatique pour une durée de 12 mois à partir de septembre 2024. Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
                 </p>
@@ -11,7 +11,7 @@
                 <p>Je maîtrise différentes langues en dehors du français : l'Anglais <img class="p-img" src="img/navbar/eng.png" alt="icon flag english"> bien entendu et le Tamoul <img class="p-img" src="img/tamil.png" alt="icon flag tamil"> (langue maternelle).</p>
                 <p>Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !</p>
             </div>
-            <div class="col">
+            <div class="col text-end">
                 <img src="img/Cedric.jpg" alt="Photo de profil" class="profil-photo img-fluid">
             </div>
         </div>

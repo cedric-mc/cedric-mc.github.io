@@ -1,4 +1,3 @@
-<!-- Navbar, Navigation -->
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#top-page">
@@ -36,7 +35,7 @@
                         </li>
                         <li>
                             <a class="dropdown-item" href="#projects-pro">
-                                <i class="fa-solid fa-laptop-code spinner"></i>&nbsp;Projets Professionnels
+                                <i class="fa-solid fa-user-tie spinner"></i>&nbsp;Projets Professionnels
                             </a>
                         </li>
                     </ul>
@@ -72,4 +71,3 @@
         </div>
     </div>
 </nav>
-<!-- Navbar, Navigation -->
