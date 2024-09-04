@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 // Mode debug ===================
 // Si le paramètre debug est défini à 1, on active le mode debug, si à 0, on le désactive
 if (!empty($_GET['debug'])) {
@@ -12,11 +14,11 @@ if ($_SESSION['debug']) {
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
 }
-
 require_once('config.php');
 ?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="light">
     <?php require_once(PATH_SITE . 'pages/head.php'); ?>
     <?php require_once(PATH_SITE . 'pages/body.php'); ?>
+    <?php require_once(PATH_SITE . "modals.php"); ?>
 </html>

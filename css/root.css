@@ -1,0 +1,18 @@
+:root {
+    --text-light: #fff;
+    --text-dark: #000;
+    --bg-light: #0C4194;
+    --bg-dark: #86a0ca;
+}
+
+[data-theme="dark"] {
+    --text-color: var(--text-dark);
+    --bg-color: var(--bg-dark);
+    --name-gradient: linear-gradient(315deg, #8ba7f4,#9995f6,#b68bf5,#d88bf4);
+}
+
+[data-theme="light"] {
+    --text-color: var(--text-light);
+    --bg-color: var(--bg-light);
+    --name-gradient: linear-gradient(315deg, #0c3754,#0b1e34,#0c0d1c,#0c1e1a);
+}

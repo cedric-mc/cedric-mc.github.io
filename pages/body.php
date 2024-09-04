@@ -15,9 +15,6 @@
 
     <?php require_once (PATH_SITE . 'pages/nav.php'); ?>
 
-
-
-
     <!-- Header -->
     <header id="top-page">
         <div id="name-container">
@@ -31,16 +28,14 @@
 
     <!-- Main -->
     <main id="home">
-        <section id="about-me">
+        <section id="about-me" class="align-middle">
+            <h2 class="title-section">Qui suis-je ?</h2>
             <div class="container">
-                <h2 class="title-section text-left">Qui suis-je ?</h2>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col">
                         <p>
                             Je suis un étudiant à l'Université de Gustave Eiffel en 2<sup>ème</sup> année du BUT Informatique.<br>
-                            Je suis actuellement en recherche d'un stage pour la période du 8 avril au 31 août 2024.<br>
-                            Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
-                            <br>
+                            Je suis actuellement en recherche d'une alternance dans le domaine du développement informatique pour une durée de 12 mois à partir de septembre 2024. Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
                         </p>
                         <p>
                             Voici mon CV, il est à votre disposition :
@@ -55,13 +50,48 @@
                             Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !
                         </p>
                     </div>
-                    <div class="col-6 profil-photo-container">
+                    <div class="col">
                         <img src="img/Cedric.jpg" alt="Photo de profil" class="profil-photo img-fluid">
                     </div>
                 </div>
             </div>
         </section>
 
+        <section>
+            <h2 class="title-section">Mon Parcours</h2>
+            <h3>Mon Parcours de Formation</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h4>BUT Informatique</h4>
+                    <p>
+                        <span class="italic-text">2022 - 2025</span>
+                        <br>
+                        <span class="italic-text">Université Gustave Eiffel</span>
+                        <br>
+                        <span class="italic-text">Champs-sur-Marne</span>
+                        <br>
+                        <span class="italic-text">Parcours A : Réalisation d’applications : conception, développement, validation</span>
+                    </p>
+                </li>
+            </ul>
+            <br>
+            <h3>Mon Parcours Professionnel</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h4>Stage d'observation de 3<sup>ème</sup></h4>
+                    <span class="italic-text">Semaine du lundi 4 au samedi 9 février 2019</span><br>
+                    <span class="italic-text">Bulles Dogs</span><br>
+                    <span class="italic-text">Chelles</span><br>
+                    <span class="italic-text">Toilettage canin</span>
+                </li>
+                <li class="list-group-item">
+                    <h4>Stage de développeur web</h4>
+                    <span class="italic-text">Du 17 juin au 9 août 2024</span><br>
+                    <span class="italic-text">Centre de recherche de l'école des officiers de la gendarmerie nationale</span><br>
+                    <span class="italic-text">Melun/Paris</span><br>
+                    <span class="italic-text">Développement web applicatif pour la gendarmerie avec utilisation de données</span>
+                </li>
+        </section>
 
         <section id="parcours">
             <h2 class="title-section">Mon Parcours</h2>
@@ -738,16 +768,9 @@
     <!-- Main -->
 
     <i id="btn-retour-haut" class="fa-solid fa-up-long" style="color: #FFD43B; display: block;" onclick="retourHaut()"></i>
-
-
-    <?php include("modals.php"); ?>
     <?php require_once (PATH_SITE . 'pages/footer.php'); ?>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script/script.js"></script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M6HQTDJH1G"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -756,4 +779,13 @@
         gtag('config', 'G-M6HQTDJH1G');
     </script>
     <!-- Scripts -->
+    <script type="importmap">
+        {
+          "imports": {
+            "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.js",
+            "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.esm.min.js"
+          }
+        }
+    </script>
+    <script src="js/theme.js"></script>
 </body>

@@ -1,14 +1,13 @@
 @charset "UTF-8";
+@import url('root.css');
 
 * {
     scroll-margin-top: 80px;
 }
 
-.background {
-    /* overflow-x: hidden; */
-    color: #fff !important;
-    /* background-color: rgba(13, 110, 253, var(--bs-bg-opacity, 1)); */
-    background-color: #0C4194 !important;
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
 }
 
 .character {
@@ -88,8 +87,7 @@
 }
 
 /* pour la marge */
-main,
-section {
+main, section {
     padding: 0.625rem 1.15rem;
     margin: 0.5em;
 }
@@ -97,10 +95,6 @@ section {
 * {
     scrollbar-width: thin;
     scrollbar-color: #000000 #ffffff;
-}
-
-#about-me {
-    display: inline-block;
 }
 
 .profil-photo {
@@ -112,6 +106,10 @@ section {
     margin-top: 1rem;
     border-radius: 10%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#about-me {
+    display: inline-block;
 }
 
 #about-me p a.btn {
@@ -131,12 +129,6 @@ section {
     fill: white;
     width: 3vw;
     height: 3vw;
-}
-
-html {
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
 }
 
 main {
@@ -183,40 +175,6 @@ footer .container .row div form div label {
     transition: opacity 0.3s ease;
 }
 
-.navbar {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.navbar .container-fluid ul li img,
-.navbar .container-fluid a.navbar-brand img,
-.nav-item ul.dropdown-menu li a.dropdown-item img {
-    transition: transform 0.3s ease-out;
-}
-
-.navbar .container-fluid ul li img:hover,
-.navbar .container-fluid a.navbar-brand img:hover,
-.nav-item ul.dropdown-menu li a.dropdown-item img:hover {
-    transform: scale(1.5) rotate(360deg);
-}
-
-.navbar-brand img,
-.navbar-brand {
-    width: 2rem !important;
-    height: auto;
-}
-
-.nav-text,
-a.navbar-brand {
-    font-size: 1.5rem;
-}
-
-.nav-item .nav-link img,
-.nav-item ul.dropdown-menu li a.dropdown-item img {
-    width: 1.5rem;
-    height: auto;
-}
-
 /* titre de bloc / section */
 .title-section {
     font-family: "Lato", serif;
@@ -249,7 +207,7 @@ a.navbar-brand {
     text-align: center;
     height: fit-content;
     color: #fff;
-    background: linear-gradient(-45deg, #0C3754, #0B1E34, #0C0D1C, #0C1E1A);
+    background: var(--name-gradient);
     background-size: 200% 200%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
@@ -285,7 +243,7 @@ a.navbar-brand {
     margin-top: 6rem;
     font-weight: bold;
     animation: focus-in-contract 1.5s linear 0s 1 normal none;
-    font-family: "Lato";
+    font-family: "Lato", serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -322,17 +280,6 @@ a.navbar-brand {
 /* Pour les icônes */
 .dev-icons {
     font-size: 3rem
-}
-
-/* Pour customiser / personnaliser la navbar de bootstrap */
-.custom-nav {
-    margin-left: auto;
-    /* Aligner à droite */
-}
-
-.custom-nav .nav-link {
-    margin-right: 15px;
-    /* Espacement horizontal entre les liens */
 }
 
 .badge-img {
