@@ -43,9 +43,9 @@ if ($lang == 'eng') {
         <link rel="shortcut icon" href="img/favicon.png"><!-- Favicon -->
 
         <!-- Fichiers CSS -->
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="stylesheet" href="style/animation.css">
-        <link rel="stylesheet" href="style/fonts.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="css/fonts.css">
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
         <!-- Fichiers CSS -->
 
@@ -168,6 +168,6 @@ if ($lang == 'eng') {
             <p>® par Cédric Mariya Constantine</p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="script/script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

@@ -21,10 +21,10 @@
                 </form>
                 <?php
                 if (isset($_GET['success'])) {
-                    echo "<script>alert('Votre message a bien été envoyé !')</script>";
+                    echo "<js>alert('Votre message a bien été envoyé !')</js>";
                     header("Location: ./#contact");
                 } elseif (isset($_GET['error'])) {
-                    echo "<script>alert('Une erreur est survenue, veuillez réessayer.')</script>";
+                    echo "<js>alert('Une erreur est survenue, veuillez réessayer.')</js>";
                     header("Location: ./#contact");
                 }
                 ?>

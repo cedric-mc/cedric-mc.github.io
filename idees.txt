@@ -1,14 +1,12 @@
 Passer horizontale lorsque tablette en paysage
 Texte plus grand
-Projet BDD
-Présentation du prénom, propositions : 
+Présentation du prénom, propositions :
 - Barre vers l'intérieur ou l'extérieur comme contour
 - Mettre des images derrières
+- Faire un glassmorphism
 
 Afficher les 6 compétences, puis en-dessous, si possible Niveau 1 pour un projet de 1ère année, Niveau 2 pour un projet de 2ème année, sinon juste 2ème année.
 Un projet par compétence.
-
-
 
 Template Carousel :
 <div class="projet-container" id="">
