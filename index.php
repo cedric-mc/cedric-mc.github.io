@@ -15,10 +15,12 @@ if ($_SESSION['debug']) {
     error_reporting(E_ALL);
 }
 require_once('config.php');
+require_once(PATH_SITE . 'includes/functions.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr" data-theme="light">
-    <?php require_once(PATH_SITE . 'pages/head.php'); ?>
+    <?php include_once(PATH_SITE . 'pages/head.php'); ?>
+    <?php require_once(PATH_SITE . 'includes/svg.html'); ?>
     <?php require_once(PATH_SITE . 'pages/body.php'); ?>
     <?php require_once(PATH_SITE . "modals.php"); ?>
 </html>

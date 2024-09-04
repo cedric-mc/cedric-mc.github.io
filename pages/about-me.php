@@ -1,0 +1,19 @@
+<section id="about-me" class="align-middle">
+    <h2 class="title-section">Qui suis-je ?</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>
+                    Je suis un étudiant à l'Université de Gustave Eiffel en 2<sup>ème</sup> année du BUT Informatique.<br>
+                    Je suis actuellement en recherche d'une alternance dans le domaine du développement informatique pour une durée de 12 mois à partir de septembre 2024. Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
+                </p>
+                <p>Voici mon CV, il est à votre disposition :<a class="btn btn-danger heartbeat heartbeat-hover text-light" href="doc/CV_CEDRIC_MARIYA CONSTANTINE.pdf" target="_blank">Télécharger&nbsp;<i class="fas fa-download"></i></a><br></p>
+                <p>Je maîtrise différentes langues en dehors du français : l'Anglais <img class="p-img" src="img/navbar/eng.png" alt="icon flag english"> bien entendu et le Tamoul <img class="p-img" src="img/tamil.png" alt="icon flag tamil"> (langue maternelle).</p>
+                <p>Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !</p>
+            </div>
+            <div class="col">
+                <img src="img/Cedric.jpg" alt="Photo de profil" class="profil-photo img-fluid">
+            </div>
+        </div>
+    </div>
+</section>

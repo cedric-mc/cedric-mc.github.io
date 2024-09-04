@@ -3,6 +3,7 @@
     --text-dark: #000;
     --bg-light: #0C4194;
     --bg-dark: #86a0ca;
+    --text-size: 1.2rem;
 }
 
 [data-theme="dark"] {
