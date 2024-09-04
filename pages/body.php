@@ -1,155 +1,20 @@
 <body class="background">
-    <div id="arrow-container" style="display: none;">
-        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.000000 100.000000">
-            <g transform="translate(0.000000,100.000000) scale(0.100000,-0.100000)" stroke="none">
-                <path d="M0 737 l0 -193 245 -237 c135 -130 250 -237 255 -237 5 0 120 107
-                    255 237 l245 237 0 193 c0 148 -3 193 -12 193 -7 0 -118 -101 -246 -225 -129
-                    -124 -237 -225 -242 -225 -4 0 -113 101 -241 225 -129 124 -240 225 -246 225
-                    -10 0 -13 -45 -13 -193z m265 -82 c123 -118 228 -215 235 -215 7 0 113 97 235
-                    215 123 118 225 215 229 215 3 0 6 -71 5 -157 l0 -158 -230 -220 c-126 -121
-                    -234 -220 -239 -220 -5 0 -113 99 -239 220 l-230 220 0 158 c-1 86 2 157 5
-                    157 4 0 107 -97 229 -215z"></path>
-            </g>
-        </svg>
+    <div id="arrow-container" style="">
+        <svg class="arrow"><use xlink:href="#arrow"></use></svg>
     </div>
-
     <?php require_once (PATH_SITE . 'pages/nav.php'); ?>
-
-    <!-- Header -->
-    <header id="top-page">
-        <div id="name-container">
-            <h1 class="name">Cédric Mariya Constantine</h1>
-            <div id="wrapper">
-                <h2 class="etudiant-animation">Étudiant en Informatique</h2>
-            </div>
-        </div>
-    </header>
-    <!-- Header -->
+    <?php require_once (PATH_SITE . 'pages/header.php'); ?>
 
     <!-- Main -->
     <main id="home">
-        <section id="about-me" class="align-middle">
-            <h2 class="title-section">Qui suis-je ?</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <p>
-                            Je suis un étudiant à l'Université de Gustave Eiffel en 2<sup>ème</sup> année du BUT Informatique.<br>
-                            Je suis actuellement en recherche d'une alternance dans le domaine du développement informatique pour une durée de 12 mois à partir de septembre 2024. Je suis à la recherche d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences dans le domaine du développement informatique.
-                        </p>
-                        <p>
-                            Voici mon CV, il est à votre disposition :
-                            <a class="btn btn-danger heartbeat heartbeat-hover text-light" href="doc/CV_CEDRIC_MARIYA CONSTANTINE.pdf" target="_blank">Télécharger&nbsp;<i class="fas fa-download"></i></a>
-                            <br>
-                        </p>
-                        <p>
-                            Je maîtrise différentes langues en dehors du français : l'Anglais <img class="p-img" src="img/navbar/eng.png" alt="icon flag english">
-                            bien entendu et le Tamoul <img class="p-img" src="img/tamil.png" alt="icon flag tamil"> (langue maternelle).
-                        </p>
-                        <p>
-                            Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !
-                        </p>
-                    </div>
-                    <div class="col">
-                        <img src="img/Cedric.jpg" alt="Photo de profil" class="profil-photo img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="title-section">Mon Parcours</h2>
-            <h3>Mon Parcours de Formation</h3>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <h4>BUT Informatique</h4>
-                    <p>
-                        <span class="italic-text">2022 - 2025</span>
-                        <br>
-                        <span class="italic-text">Université Gustave Eiffel</span>
-                        <br>
-                        <span class="italic-text">Champs-sur-Marne</span>
-                        <br>
-                        <span class="italic-text">Parcours A : Réalisation d’applications : conception, développement, validation</span>
-                    </p>
-                </li>
-            </ul>
-            <br>
-            <h3>Mon Parcours Professionnel</h3>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <h4>Stage d'observation de 3<sup>ème</sup></h4>
-                    <span class="italic-text">Semaine du lundi 4 au samedi 9 février 2019</span><br>
-                    <span class="italic-text">Bulles Dogs</span><br>
-                    <span class="italic-text">Chelles</span><br>
-                    <span class="italic-text">Toilettage canin</span>
-                </li>
-                <li class="list-group-item">
-                    <h4>Stage de développeur web</h4>
-                    <span class="italic-text">Du 17 juin au 9 août 2024</span><br>
-                    <span class="italic-text">Centre de recherche de l'école des officiers de la gendarmerie nationale</span><br>
-                    <span class="italic-text">Melun/Paris</span><br>
-                    <span class="italic-text">Développement web applicatif pour la gendarmerie avec utilisation de données</span>
-                </li>
-        </section>
-
-        <section id="parcours">
-            <h2 class="title-section">Mon Parcours</h2>
-            <p>
-            <h3>Mon Parcours de Formation</h3>
-            <ul>
-                <li class="list-group-item background">
-                    <h4>BUT Informatique</h4>
-                    <p>
-                        <span class="italic-text">2022 - 2025</span>
-                        <br>
-                        <span class="italic-text">Université Gustave Eiffel</span>
-                        <br>
-                        <span class="italic-text">Champs-sur-Marne</span>
-                        <br>
-                        <span class="italic-text">Parcours A : Réalisation d’applications : conception, développement, validation</span>
-                    </p>
-                </li>
-                <li class="list-group-item background">
-                    <h4>BAC STI2D</h4>
-                    <p>
-                        <span class="italic-text">2020 - 2022</span>
-                        <br>
-                        <span class="italic-text">Lycée Gaston Bachelard</span>
-                        <br>
-                        <span class="italic-text">Chelles</span>
-                        <br>
-                        <span class="italic-text">Spécialité SIN : Système d'Information et Numérique</span>
-                    </p>
-                </li>
-            </ul>
-            <h3>Mon Parcours Professionnel</h3>
-            <ul>
-                <li class="list-group-item background">
-                    <h4>Stage d'observation de 3<sup>ème</sup></h4>
-                    <p>
-                        <span class="italic-text">Semaine du lundi 4 au samedi 9 février 2019</span>
-                        <br>
-                        <span class="italic-text">Bulles Dogs</span>
-                        <br>
-                        <span class="italic-text">Chelles</span>
-                        <br>
-                        <span class="italic-text">Toilettage canin</span>
-                    </p>
-                </li>
-            </ul>
-        </section>
-
-
+        <?php require_once (PATH_SITE . 'pages/about-me.php'); ?>
+        <?php require_once (PATH_SITE . 'pages/parcours.php'); ?>
         <section id="skills">
             <h2 class="title-section">Mes Compétences</h2>
             <p>
-                Je suis actuellement en 2<sup>ème</sup> année de BUT Informatique avec le Parcours de Réalisation d'applications : Conception, Développement et Validation.
-                <br>
-                Formation :
-                <br>
-                BUT Informatique, Parcours A : Réalisation d’applications : conception, développement, validation.
-                <br>
+                Je suis actuellement en 2<sup>ème</sup> année de BUT Informatique avec le Parcours de Réalisation d'applications : Conception, Développement et Validation.<br>
+                Formation :<br>
+                BUT Informatique, Parcours A : Réalisation d’applications : conception, développement, validation.<br>
                 Voici les 6 compétences que je dois acquérir durant ma formation :
             </p>
             <div class="skills-container">
@@ -319,13 +184,7 @@
                     <p>
                         Semonkey est un jeu en ligne à un ou plusieurs joueurs.
                         Chaque joueur reçoit un mot de départ et un mot cible et propose des mots proches afin de créer une chaîne de mots similaires pour relier le mot de départ au mot cible.
-                        Le but est que chaque mot ressemble autant que possible au mot précédent.
-                        <br>
-                        <!--Module du jeu :
-                        <ul>
-                            <li><a href="#chain-motor" class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">ChainMotor : Moteur de Chaîne</a></li>
-                        </ul>-->
-                        Une version mobile est en cours de développement.
+                        Le but est que chaque mot ressemble autant que possible au mot précédent. Une version mobile est également disponible.
                         <br>
                         Site :&ensp;
                         <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/semantix/" target="_blank">
