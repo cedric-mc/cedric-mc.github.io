@@ -19,6 +19,6 @@
     object-fit: cover;
 }
 
-#cv-btn {
+#about-me .btn {
     font-size: var(--text-size);
 }
