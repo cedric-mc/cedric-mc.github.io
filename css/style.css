@@ -132,13 +132,6 @@ main, section {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-#about-me {
-    font-size: var(--text-size);
-    left: 0;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
 main {
     font-family: "Lato", serif !important;
 }
