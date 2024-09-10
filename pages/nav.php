@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbar-expand-lg" data-bs-theme="auto">
+<nav class="navbar sticky-top navbar-expand-lg background bg-gradient" data-bs-theme="auto">
     <div class="container-fluid">
         <a class="navbar-brand" href="#top-page">
             <img src="img/navbar/home.png" class="d-inline-block align-text-top spinner" alt="icon home">&nbsp;Accueil
