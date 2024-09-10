@@ -1,5 +1,5 @@
 <body class="background">
-    <div id="arrow-container" style="">
+    <div id="arrow-container">
         <svg class="arrow"><use xlink:href="#arrow"></use></svg>
     </div>
     <?php require_once (PATH_SITE . 'pages/nav.php'); ?>
