@@ -18,7 +18,7 @@ require_once('config.php');
 require_once(PATH_SITE . 'includes/functions.php');
 ?>
 <!DOCTYPE html>
-<html lang="fr" data-theme="auto">
+<html lang="fr" data-bs-theme="auto">
     <?php include_once(PATH_SITE . 'pages/head.php'); ?>
     <?php require_once(PATH_SITE . 'includes/svg.html'); ?>
     <?php require_once(PATH_SITE . 'pages/body.php'); ?>

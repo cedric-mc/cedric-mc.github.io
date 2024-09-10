@@ -12,13 +12,5 @@
     </main>
     <i id="btn-retour-haut" class="fa-solid fa-up-long" style="color: #FFD43B; display: block;" onclick="retourHaut()"></i>
     <?php require_once (PATH_SITE . 'pages/footer.php'); ?>
-    <!-- Google tag (gtag.js) -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-M6HQTDJH1G');
-    </script>
     <script src="js/theme.js"></script>
 </body>

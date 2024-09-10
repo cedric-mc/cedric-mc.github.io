@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar sticky-top navbar-expand-lg" data-bs-theme="auto">
     <div class="container-fluid">
         <a class="navbar-brand" href="#top-page">
             <img src="img/navbar/home.png" class="d-inline-block align-text-top spinner" alt="icon home">&nbsp;Accueil
@@ -7,7 +7,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav custom-nav">
+            <ul class="navbar-nav custom-navbar-nav navbar-nav-scroll d-flex">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#about-me">
                         <img src="img/navbar/about-me.png" class="d-inline-block align-text-top spinner">&nbsp;Me Connaître
@@ -51,17 +51,17 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li>
-                            <button type="button" class="dropdown-item" data-theme-toggle data-theme-value="light">
+                            <button type="button" class="dropdown-item" data-bs-theme-toggle data-bs-theme-value="light">
                                 <svg class="spinner"><use xlink:href="#sun-fill"></use></svg>&nbsp;Clair
                             </button>
                         </li>
                         <li>
-                            <button type="button" class="dropdown-item" data-theme-toggle data-theme-value="dark">
+                            <button type="button" class="dropdown-item" data-bs-theme-toggle data-bs-theme-value="dark">
                                 <svg class="spinner"><use xlink:href="#moon-stars-fill"></use></svg>&nbsp;Sombre
                             </button>
                         </li>
                         <li>
-                            <button type="button" class="dropdown-item" data-theme-toggle data-theme-value="auto">
+                            <button type="button" class="dropdown-item" data-bs-theme-toggle data-bs-theme-value="auto">
                                 <svg class="spinner"><use xlink:href="#circle-half"></use></svg>&nbsp;Auto
                             </button>
                         </li>
