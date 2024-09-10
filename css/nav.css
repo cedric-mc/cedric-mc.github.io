@@ -1,6 +1,11 @@
-nav.navbar {
-    background-color: var(--navbar-bg);
+nav.navbar * {
+    background-image: var(--navbar-bg);
     color: var(--navbar-text);
+}
+
+nav.background {
+    background-color: var(--bs-navbar-bg);
+    color: var(--bs-navbar-text);
 }
 
 .navbar-brand img,
