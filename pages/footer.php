@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="footer">
+<footer id="footer" class="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-6 order-md-last"> <!-- Formulaire de contact à droite -->

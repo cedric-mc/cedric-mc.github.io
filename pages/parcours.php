@@ -36,12 +36,6 @@
     <h3>Mon Parcours Professionnel</h3>
     <br>
     <div class="row">
-        <div class="col-4">
-            <div class="list-group" id="list-tab-professionnel" role="tablist">
-                <a class="list-group-item list-group-item-action list-group-item-info active" id="list-stage-dev-web-list" data-bs-toggle="list" href="#list-stage-dev-web" role="tab" aria-controls="stage-dev-web">Stage de développeur web</a>
-                <a class="list-group-item list-group-item-action list-group-item-info" id="list-stage-3eme-list" data-bs-toggle="list" href="#list-stage-3eme" role="tab" aria-controls="stage-3eme">Stage d'observation de 3<sup>ème</sup></a>
-            </div>
-        </div>
         <div class="col-8">
             <div class="tab-content" id="nav-tabContent-professionnel">
                 <div class="tab-pane fade show active" id="list-stage-dev-web" role="tabpanel" aria-labelledby="list-stage-dev-web-list">
@@ -62,6 +56,12 @@
                         Toilettage canin
                     </p>
                 </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="list-group" id="list-tab-professionnel" role="tablist">
+                <a class="list-group-item list-group-item-action list-group-item-info active" id="list-stage-dev-web-list" data-bs-toggle="list" href="#list-stage-dev-web" role="tab" aria-controls="stage-dev-web">Stage de développeur web</a>
+                <a class="list-group-item list-group-item-action list-group-item-info" id="list-stage-3eme-list" data-bs-toggle="list" href="#list-stage-3eme" role="tab" aria-controls="stage-3eme">Stage d'observation de 3<sup>ème</sup></a>
             </div>
         </div>
     </div>

@@ -1,8 +1,11 @@
-@import url("root.css");
+nav.navbar {
+    background-color: var(--navbar-bg);
+    color: var(--navbar-text);
+}
 
 .navbar-brand img,
 .navbar-brand {
-    width: 2rem !important;
+    width: 2rem;
     height: auto;
 }
 
@@ -18,14 +21,9 @@ a.navbar-brand {
 }
 
 /* Pour customiser / personnaliser la navbar de bootstrap */
-.custom-nav {
+.custom-navbar-nav {
     margin-left: auto;
     /* Aligner à droite */
-}
-
-.custom-nav .nav-link {
-    margin-right: 15px;
-    /* Espacement horizontal entre les liens */
 }
 
 .svg {
