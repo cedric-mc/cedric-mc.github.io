@@ -1,3 +1,7 @@
+#parcours {
+    color: var(--text-color);
+}
+
 #parcours div[role="tablist"] a.list-group-item-action {
     font-size: var(--text-size) !important;
 }

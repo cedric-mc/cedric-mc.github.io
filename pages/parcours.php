@@ -23,7 +23,7 @@
                 <div class="tab-pane fade" id="list-bac-sti2d" role="tabpanel" aria-labelledby="list-bac-sti2d-list">
                     <h4>BAC STI2D</h4>
                     <p class="italic-text">
-                        2020 - 2022<br>
+                        <span class="fw-bold">2020 - 2022</span><br>
                         Lycée Gaston Bachelard<br>
                         Chelles<br>
                         Spécialité SIN : Système d'Information et Numérique
@@ -41,7 +41,7 @@
                 <div class="tab-pane fade show active" id="list-stage-dev-web" role="tabpanel" aria-labelledby="list-stage-dev-web-list">
                     <h4>Stage de développeur web</h4>
                     <p class="italic-text">
-                        Du 17 juin au 9 août 2024<br>
+                        <span class="fw-bold">Du 17 juin au 9 août 2024</span><br>
                         Centre de recherche de l'école des officiers de la gendarmerie nationale<br>
                         Melun/Paris<br>
                         Développement web applicatif pour la gendarmerie avec utilisation de données
@@ -50,7 +50,7 @@
                 <div class="tab-pane fade" id="list-stage-3eme" role="tabpanel" aria-labelledby="list-stage-3eme-list">
                     <h4>Stage d'observation de 3<sup>ème</sup></h4>
                     <p class="italic-text">
-                        Semaine du lundi 4 au samedi 9 février 2019<br>
+                        <span class="fw-bold">Semaine du lundi 4 au samedi 9 février 2019</span><br>
                         Bulles Dogs<br>
                         Chelles<br>
                         Toilettage canin

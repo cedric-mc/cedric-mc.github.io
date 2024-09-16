@@ -1,5 +1,6 @@
 #about-me {
     font-size: var(--text-size);
+    color: var(--text-color);
 }
 
 #about-me .row {
