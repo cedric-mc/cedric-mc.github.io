@@ -4,16 +4,7 @@
 }
 
 body.background {
-    background-color: var(--bg-color) !important;
-    color: var(--text-color) !important;
-}
-
-#navbar svg {
-    flex-shrink: 0;
-    width: var(--text-size);
-    height: var(--text-size);
-    fill: currentColor;
-    transition: 0.2s ease-in-out transform;
+    background-color: var(--bg-color);
 }
 
 #arrow-container {

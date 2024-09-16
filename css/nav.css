@@ -1,17 +1,34 @@
-nav.navbar * {
-    background-image: var(--navbar-bg);
+.navbar {
+    background: var(--navbar-bg);
     color: var(--navbar-text);
 }
 
-nav.background {
-    background-color: var(--bs-navbar-bg);
-    color: var(--bs-navbar-text);
+.navbar-brand,
+#navbar .nav-link {
+    color: inherit;
+}
+
+.navbar-toggler {
+    border-color: var(--navbar-toggler-border) !important;
+    color: var(--navbar-toggler-color) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: var(--navbar-toggler-icon);
 }
 
 .navbar-brand img,
 .navbar-brand {
     width: 2rem;
     height: auto;
+}
+
+#navbar svg {
+    flex-shrink: 0;
+    width: var(--text-size);
+    height: var(--text-size);
+    fill: currentColor;
+    transition: 0.2s ease-in-out transform;
 }
 
 .nav-text,
