@@ -1,0 +1,68 @@
+
+.character {
+    transition: all 0.3s ease;
+}
+
+.character:hover {
+    transform: scale(1.5) rotateY(360deg);
+}
+
+.realiser {
+    border-color: #B80905 !important;
+    color: #B80905 !important;
+}
+
+.realiser .card-header {
+    background: #B80905 !important;
+    color: white !important;
+}
+
+.optimiser {
+    border-color: #ED8C51 !important;
+    color: #ED8C51 !important;
+}
+
+.optimiser .card-header {
+    background: #ED8C51 !important;
+    color: black !important;
+}
+
+.administrer {
+    border-color: #EFBA11 !important;
+    color: #EFBA11 !important;
+}
+
+.administrer .card-header {
+    background: #EFBA11 !important;
+    color: black !important;
+}
+
+.gerer {
+    border-color: #8CC850 !important;
+    color: #8CC850 !important;
+}
+
+.gerer .card-header {
+    background: #8CC850 !important;
+    color: black !important;
+}
+
+.conduire {
+    border-color: #0A215E !important;
+    color: #0A215E !important;
+}
+
+.conduire .card-header {
+    background: #0A215E !important;
+    color: white !important;
+}
+
+.collaborer {
+    border-color: #0F0F0F !important;
+    color: #0F0F0F !important;
+}
+
+.collaborer .card-header {
+    background: #0F0F0F !important;
+    color: white !important;
+}
