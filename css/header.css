@@ -20,6 +20,7 @@
 
 .name {
     font-size: 5rem;
+    font-weight: bold;
     text-align: center;
     font-family: "Lato", serif;
     position: relative;

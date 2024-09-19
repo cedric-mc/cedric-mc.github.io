@@ -432,8 +432,7 @@
                 J'ai participé à la création d'une vidéo pour une séquence de 5 à 10 minutes qui se déroule exclusivement par le biais d'appels téléphoniques et de SMS.
             </p>
             <p class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/6cWJObySlfc" title="Wrong number : a very embarrassing misunderstanding Video" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-                </iframe>
+                <iframe src="https://www.youtube.com/embed/6cWJObySlfc" title="Wrong number : a very embarrassing misunderstanding Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
             </p>
         </div>
         <div class="project-item">
@@ -443,8 +442,7 @@
                 J'ai monté une vidéo à partir de trois extraits de la série <span id="flash">The Flash</span>, avec mon équipe nous devions ajouter des sous-titres personnalisés dans ces extraits.
             </p>
             <p class="ratio ratio-16x9">
-                <iframe src="https://www.youtube.com/embed/E3ukMn0_F5c" title="Coding Flash Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
-                </iframe>
+                <iframe src="https://www.youtube.com/embed/E3ukMn0_F5c" title="Coding Flash Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
             </p>
         </div>
     </div>

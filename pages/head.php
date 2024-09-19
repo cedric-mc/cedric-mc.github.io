@@ -20,16 +20,6 @@
     <script src="https://kit.fontawesome.com/3f3ecfc27b.js" crossorigin="anonymous"></script>
     <!-- Font Awesome -->
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M6HQTDJH1G"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-M6HQTDJH1G');
-    </script>
-    <!-- Google Analytics -->
-
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= URL_SITE ?>img/favicon.png">
     <!-- Favicon -->
@@ -43,6 +33,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="css/parcours.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/footer.css">
     <!-- Styles -->
 

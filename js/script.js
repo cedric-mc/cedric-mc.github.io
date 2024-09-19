@@ -1,16 +1,17 @@
 // Fonction pour recharger la page en haut à gauche
-window.onbeforeunload = function () {
+/*window.onbeforeunload = function () {
     window.scrollTo(0, 0); // Recharger la page
-};
+};*/
 
 // Fonction pour afficher ou masquer le bouton en fonction de la position de défilement
 window.onscroll = function () {
     afficherMasquerBouton();
 };
 
+
 // Fonction pour masquer ou afficher le bouton selon la position de l'utilisateur dans la page web
 function afficherMasquerBouton() {
-    var bouton = document.getElementById("btn-retour-haut"); // Récupération du bouton
+    const bouton = document.getElementById("btn-retour-haut"); // Récupération du bouton
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) { // Si l'utilisateur est dans la page web et qu'il est supérieur ou égal à 20 pixels
         bouton.style.display = "block"; // Afficher le bouton
     } else {

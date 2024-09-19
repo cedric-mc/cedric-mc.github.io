@@ -10,7 +10,15 @@
         <?php require_once (PATH_SITE . 'pages/skills.php'); ?>
         <?php require_once (PATH_SITE . 'pages/projects.php'); ?>
     </main>
-    <i id="btn-retour-haut" class="fa-solid fa-up-long" style="color: #FFD43B; display: block;" onclick="retourHaut()"></i>
+    <i id="btn-retour-haut" class="fa-solid fa-up-long" onclick="retourHaut()"></i>
     <?php require_once (PATH_SITE . 'pages/footer.php'); ?>
-    <script src="js/theme.js"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M6HQTDJH1G"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-M6HQTDJH1G');
+    </script>
+    <!-- Google Analytics -->
 </body>
