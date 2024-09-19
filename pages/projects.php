@@ -13,7 +13,7 @@
                 Le but est que chaque mot ressemble autant que possible au mot précédent. Une version mobile est également disponible.
                 <br>
                 Site :&ensp;
-                <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/semantix/" target="_blank">
+                <a href="" target="_blank">
                     <img class="p-img" src="img/code.png" alt="Code Icon">
                 </a>
                 <!--<br>
