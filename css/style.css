@@ -55,20 +55,6 @@ main, section {
     text-align: justify;
 }
 
-* {
-}
-
-.profil-photo {
-    width: 75%;
-    height: auto;
-    /* décaler légèrement vers la droite */
-    margin-left: 1rem;
-    /* décaler légèrement vers le bas */
-    margin-top: 1rem;
-    border-radius: 10%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
 main {
     font-family: "Lato", serif !important;
 }
@@ -80,33 +66,6 @@ main {
     /*border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1;*/
     animation: Gradient-border 2s infinite;
     height: fit-content;
-}
-
-/* Styles pour les boutons de contrôle */
-.carousel-control-prev,
-.carousel-control-next {
-    opacity: 0.5; /* Opacité par défaut */
-    transition: opacity 0.3s ease;
-}
-
-/* Augmenter l'opacité lorsqu'on passe la souris sur les boutons */
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    opacity: 1;
-}
-
-/* Styles pour le carousel */
-.my-carousel {
-    /* Ajouter une ombre pour rendre le carousel plus visible */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Augmenter l'opacité lorsqu'on passe la souris sur le carousel */
-.my-carousel:hover {
-    /* Augmenter légèrement l'opacité */
-    opacity: 0.9;
-    /* Ajouter une transition fluide */
-    transition: opacity 0.3s ease;
 }
 
 /* titre de bloc / section */
@@ -121,7 +80,7 @@ main {
     font-size: 1.8rem;
 }
 
-.project-title {
+.project-language {
     font-family: "Lato", serif;
     font-size: 1.5rem;
 }

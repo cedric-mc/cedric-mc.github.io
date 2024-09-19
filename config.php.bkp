@@ -1,4 +1,12 @@
 <?php
+// Lieu de stockage des fichiers
 const PATH_SITE = "";
+const URL_SITE = "";
+
+// Mail configuration
+const MAIL_HOST = "";
+const MAIL_USERNAME = "";
+const MAIL_PASSWORD = "";
+const MAIL_PORT = "";
 
 ?>

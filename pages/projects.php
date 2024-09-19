@@ -6,7 +6,7 @@
     <div class="projet-container" id="semonkey">
         <div class="project-item">
             <h3 class="title-project">Semonkey, Jeu en ligne à un ou plusieurs joueurs</h3>
-            <h4 class="project-title">HTML&ensp;<i class="fa-brands fa-html5 character"></i>, CSS&ensp;<i class="fa-brands fa-css3-alt character"></i>, PHP&ensp;<i class="fa-brands fa-php character"></i>, SQL&ensp;<i class="fa-solid fa-database character"></i>, JS&ensp;<i class="fa-brands fa-square-js character"></i>, C&ensp;<i class="fa-solid fa-c character"></i>, Java&ensp;<i class="fa-brands fa-java character"></i>, TypeScript&ensp;, React&ensp;<i class="fa-brands fa-react character"></i>, Android&ensp;</h4>
+            <h4 class="project-language">HTML&ensp;<i class="fa-brands fa-html5 character"></i>, CSS&ensp;<i class="fa-brands fa-css3-alt character"></i>, PHP&ensp;<i class="fa-brands fa-php character"></i>, SQL&ensp;<i class="fa-solid fa-database character"></i>, JS&ensp;<i class="fa-brands fa-square-js character"></i>, C&ensp;<i class="fa-solid fa-c character"></i>, Java&ensp;<i class="fa-brands fa-java character"></i>, TypeScript&ensp;, React&ensp;<i class="fa-brands fa-react character"></i>, Android&ensp;</h4>
             <p>
                 Semonkey est un jeu en ligne à un ou plusieurs joueurs.
                 Chaque joueur reçoit un mot de départ et un mot cible et propose des mots proches afin de créer une chaîne de mots similaires pour relier le mot de départ au mot cible.
@@ -77,7 +77,7 @@
     <div class="projet-container" id="cnil">
         <div class="project-item">
             <h3 class="title-project">Contrôles CNIL</h3>
-            <h4 class="project-title">HTML, CSS, JS, PHP, SQL</h4>
+            <h4 class="project-language">HTML, CSS, JS, PHP, SQL</h4>
             <p>
                 Le projet Contrôles CNIL a pour objectif d'exploiter les données ouvertes concernant les contrôles réalisés par la CNIL de 2017 à 2022.
                 L'objectif est de valoriser ces données en les présentant sous forme d'un site web comprenant une carte et des graphiques permettant une visualisation claire et interactive des informations, afin de créer un tableau de bord informatif.
@@ -143,7 +143,7 @@
     <div class="project-container" id="reseau">
         <div class="project-item">
             <h3 class="title-project">TP Pare-feu et translation d'adresse</h3>
-            <h4 class="project-title">Bash&ensp;<i class="fa-brands fa-linux character"></i></h4>
+            <h4 class="project-language">Bash&ensp;<i class="fa-brands fa-linux character"></i></h4>
             <p>
                 Le TP Pare-feu et translation d'adresse a pour objectif de mettre en place un pare-feu sous Linux grâce à Netfilter et mettre en place une passerelle NAT (Network Address Translation).
                 <br>
@@ -155,7 +155,7 @@
     <div class="project-container" id="banklink">
         <div class="project-item">
             <h3 class="title-project">Banklink, Portail Web de Gestion de paiements par carte bancaire</h3>
-            <h4 class="project-title">HTML&ensp;<i class="fa-brands fa-html5 character"></i>, CSS&ensp;<i class="fa-brands fa-css3-alt character"></i>, PHP&ensp;<i class="fa-brands fa-php character"></i>, SQL&ensp;<i class="fa-solid fa-database character"></i>, JS&ensp;<i class="fa-brands fa-square-js character"></i></h4>
+            <h4 class="project-language">HTML&ensp;<i class="fa-brands fa-html5 character"></i>, CSS&ensp;<i class="fa-brands fa-css3-alt character"></i>, PHP&ensp;<i class="fa-brands fa-php character"></i>, SQL&ensp;<i class="fa-solid fa-database character"></i>, JS&ensp;<i class="fa-brands fa-square-js character"></i></h4>
             <p>
                 Le projet Banklink est un portail web de gestion de paiements par carte bancaire. Il permet de visualiser les transactions effectuées et de gérer les comptes clients.
                 <br>
@@ -234,7 +234,7 @@
     <div class="project-container" id="toledo">
         <div class="project-item">
             <h3 class="title-project">Projet de médiation culturelle et numérique en partenariat avec le forum de l'UNESCO <img class="img-spin" src="img/projects/unesco.png"></h3>
-            <h4 class="project-title">HTML, CSS, JS, PHP, SQL</h4>
+            <h4 class="project-language">HTML, CSS, JS, PHP, SQL</h4>
             <p>
                 En partenariat avec le forum de l'UNESCO, ce projet consistait à réaliser un site web pour le forum de l'UNESCO,
                 en présentant la ville avec sa culture, son histoire et bien entendu ses incontournables d'aujourd'hui.<br>
@@ -289,7 +289,7 @@
     <div class="project-container" id="hedelma">
         <div class="project-item">
             <h3 class="title-project">Projet Hedelma, Primeurs-Passion</h3>
-            <h4 class="project-title">HTML, CSS, JS, PHP, SQL, Base de données PostGreSQL, Looping</h4>
+            <h4 class="project-language">HTML, CSS, JS, PHP, SQL, Base de données PostGreSQL, Looping</h4>
             <p>
                 Ce projet consistait à réaliser un site web pour une entreprise fictive de vente de fruits et légumes.<br>
                 Site :&ensp;
@@ -344,7 +344,7 @@
     <div class="project-container" id="batailleBoules">
         <div class="project-item">
             <h3 class="title-project">Jeu : Bataille de Boules</h3>
-            <h4 class="project-title">Python</h4>
+            <h4 class="project-language">Python</h4>
             <p>
                 Le but de ce projet était de réaliser un jeu de placement de boules. Chaque utilisateur joue avec une couleur.
                 Le but du jeu est d’occuper la plus grande aire avec sa couleur. Les joueurs contrôlent la souris chacun à leur tour,
@@ -427,7 +427,7 @@
     <div class="project-container">
         <div class="project-item">
             <h3 class="title-project">Wrong number : a very embarrassing misunderstanding</h3>
-            <h4 class="project-title">Logiciel : ClipChamp</h4>
+            <h4 class="project-language">Logiciel : ClipChamp</h4>
             <p>
                 J'ai participé à la création d'une vidéo pour une séquence de 5 à 10 minutes qui se déroule exclusivement par le biais d'appels téléphoniques et de SMS.
             </p>
@@ -437,7 +437,7 @@
         </div>
         <div class="project-item">
             <h3 class="title-project">Coding Flash</h3>
-            <h4 class="project-title">Logiciel : ClipChamp</h4>
+            <h4 class="project-language">Logiciel : ClipChamp</h4>
             <p>
                 J'ai monté une vidéo à partir de trois extraits de la série <span id="flash">The Flash</span>, avec mon équipe nous devions ajouter des sous-titres personnalisés dans ces extraits.
             </p>
