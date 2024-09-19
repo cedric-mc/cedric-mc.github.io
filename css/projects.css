@@ -1,3 +1,8 @@
+#projects {
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
+
 .project-item {
     margin-top: 2.5rem;
 }
@@ -5,4 +10,3 @@
 .project-item h3.title-project {
     font-weight: bold;
 }
-
