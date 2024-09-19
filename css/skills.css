@@ -1,3 +1,7 @@
+#skills {
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
 
 .character {
     transition: all 0.3s ease;
