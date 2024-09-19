@@ -45,7 +45,6 @@ if ($lang == 'eng') {
         <!-- Fichiers CSS -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/animation.css">
-        <link rel="stylesheet" href="css/fonts.css">
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
         <!-- Fichiers CSS -->
 

@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about-me.css">

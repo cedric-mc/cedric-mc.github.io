@@ -25,10 +25,6 @@ Mon portfolio web est une vitrine de mes compétences, de mes projets. Il prése
 
 [//]: # (- Le dossier 'fonts' contient les polices de caractères utilisées dans le Portfolio.)
 
-[//]: # (    - Le fichier '[Birds-of-Paradise-Font.ttf]&#40;https://www.dafont.com/birds-of-paradise.font&#41;' est la police de caractères utilisée pour le titre principal du Portfolio.)
-
-[//]: # (    - Le fichier '[Blaster-Font.otf]&#40;https://www.dafont.com/blaster-6.font&#41;' est la police de caractères utilisée pour le titre des sections du Portfolio.)
-
 [//]: # (- Le dossier 'script' contient le fichier JavaScript du Portfolio.)
 
 [//]: # (    - Le fichier 'script.js' est le fichier JavaScript principal du Portfolio.)
