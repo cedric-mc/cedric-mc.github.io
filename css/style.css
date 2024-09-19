@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
 * {
     scroll-margin-top: 80px;
     transition: background-color 1s ease, color 1s ease;
@@ -85,15 +90,6 @@ main {
     font-size: 1.5rem;
 }
 
-.italic-text {
-    font-style: italic;
-}
-
-.skills-title {
-    font-family: "Autolova", serif;
-    font-size: 2rem;
-}
-
 .p-img {
     /* Pour l'image à la même taille que le texte */
     width: 2.5rem !important;
@@ -104,11 +100,6 @@ main {
 .p-img:hover {
     transform: scale(1.5) rotate(360deg);
     /* Pour faire tourner et agrandir l'image lorsque l'on survole l'image */
-}
-
-.img-container {
-    background-color: white;
-    border-radius: 10%;
 }
 
 /* Version plus grande de p-img, même animation */

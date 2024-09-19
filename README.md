@@ -4,7 +4,6 @@ Mon portfolio web est une vitrine de mes compétences, de mes projets. Il prése
 
 ## Démonstration
 Vous pouvez consulter mon portfolio web en ligne à l'adresse suivante : [Lien vers mon portfolio](https://perso-etudiant.u-pem.fr/~mariyaconsta02).
-Vous pouvez naviguer plus facilement à travers le site web en cliquant sur les liens de la barre de navigation : ![Barre de navigation avec un bouton d'Accueil, des liens internes pour la section "Me Connaître", "Compétences", "Projets" avec les différents types de projets à sélectionner et "Me Contacter". Il y a également une page en anglais accessible](navbar.png)
 
 ## Technologies utilisées
 - HTML5

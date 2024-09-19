@@ -1,5 +1,9 @@
 :root {
     --text-size: 1.30rem;
+    --bs-nav-link-font-size: 1.25rem;
+    --scrollbar-width: 10px;
+    --scrollbar-thumb-border: 2px solid transparent;
+    --scrollbar-thumb-border-radius: 5px;
 }
 
 [data-bs-theme="light"],
@@ -7,13 +11,11 @@ html[data-bs-theme="auto"][data-auto-theme="light"] {
     --text-color: #000000;
     --bg-color: #86A0CA;
     --arrow-color: #000000;
-    --scrollbar-color: #FFFFFF #000000;
-    --scrollbar-width: 10px;
+    /* Scrollbar */
     --scrollbar-track-color: #f0f0f0;
     --scrollbar-thumb-color: #888;
     --scrollbar-thumb-hover-color: #555;
-    --scrollbar-thumb-border-radius: 5px;
-    --scrollbar-thumb-border-light: 2px solid transparent;
+    /* Scrollbar */
     /* Navbar */
     --navbar-bg: rgba(33, 37, 41, 1);
     --navbar-text: #FFFFFF;
@@ -31,11 +33,11 @@ html[data-bs-theme="auto"][data-auto-theme="dark"] {
     --text-color: #FFFFFF;
     --bg-color: #0C4194;
     --arrow-color: #FFFFFF;
-    --scrollbar-color: #000000 #FFFFFF;
+    /* Scrollbar */
     --scrollbar-track-color: #2c2c2c;
     --scrollbar-thumb-color: #555;
     --scrollbar-thumb-hover-color: #888;
-    --scrollbar-thumb-border: 2px solid transparent;
+    /* Scrollbar */
     /* Navbar */
     --navbar-bg: rgba(248, 249, 250, 1);
     --navbar-text: #000000;
