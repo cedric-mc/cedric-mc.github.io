@@ -9,9 +9,9 @@ html[data-bs-theme="auto"][data-auto-theme="light"] {
     --arrow-color: #000000;
     --scrollbar-color: #FFFFFF #000000;
     --scrollbar-width: 10px;
-    --scrollbar-track-color-light: #f0f0f0;
-    --scrollbar-thumb-color-light: #888;
-    --scrollbar-thumb-hover-color-light: #555;
+    --scrollbar-track-color: #f0f0f0;
+    --scrollbar-thumb-color: #888;
+    --scrollbar-thumb-hover-color: #555;
     --scrollbar-thumb-border-radius: 5px;
     --scrollbar-thumb-border-light: 2px solid transparent;
     /* Navbar */
@@ -32,10 +32,10 @@ html[data-bs-theme="auto"][data-auto-theme="dark"] {
     --bg-color: #0C4194;
     --arrow-color: #FFFFFF;
     --scrollbar-color: #000000 #FFFFFF;
-    --scrollbar-track-color-dark: #2c2c2c;
-    --scrollbar-thumb-color-dark: #555;
-    --scrollbar-thumb-hover-color-dark: #888;
-    --scrollbar-thumb-border-dark: 2px solid transparent;
+    --scrollbar-track-color: #2c2c2c;
+    --scrollbar-thumb-color: #555;
+    --scrollbar-thumb-hover-color: #888;
+    --scrollbar-thumb-border: 2px solid transparent;
     /* Navbar */
     --navbar-bg: rgba(248, 249, 250, 1);
     --navbar-text: #000000;
