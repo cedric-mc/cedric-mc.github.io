@@ -439,7 +439,7 @@
             <h3 class="title-project">Coding Flash</h3>
             <h4 class="project-language">Logiciel : ClipChamp</h4>
             <p>
-                J'ai monté une vidéo à partir de trois extraits de la série <span id="flash">The Flash</span>, avec mon équipe nous devions ajouter des sous-titres personnalisés dans ces extraits.
+                J'ai monté une vidéo à partir de trois extraits de la série <span class="flash">The Flash</span>, avec mon équipe nous devions ajouter des sous-titres personnalisés dans ces extraits.
             </p>
             <p class="ratio ratio-16x9">
                 <iframe src="https://www.youtube.com/embed/E3ukMn0_F5c" title="Coding Flash Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups"></iframe>

@@ -31,7 +31,6 @@ body {
     background-color: var(--scrollbar-thumb-hover-color);
 }
 
-
 html body.background {
     background-color: var(--bg-color);
 }
@@ -80,16 +79,6 @@ main {
     font-weight: bold;
 }
 
-.title-project {
-    font-family: "Lato", serif;
-    font-size: 1.8rem;
-}
-
-.project-language {
-    font-family: "Lato", serif;
-    font-size: 1.5rem;
-}
-
 .p-img {
     /* Pour l'image à la même taille que le texte */
     width: 2.5rem !important;
@@ -115,17 +104,11 @@ main {
     transform: scale(1.5) rotate(360deg);
 }
 
-/* Pour les icônes */
-.dev-icons {
-    font-size: 3rem
-}
-
 .badge-img {
     width: max-content;
     height: auto !important;
 }
 
-/* Apparence du bouton de retour vers le haut */
 #btn-retour-haut {
     display: block;
     position: fixed;
@@ -140,33 +123,8 @@ main {
     color: #FFD43B;
 }
 
-
-#flash {
-    /* Pour changer l'apparence du nom de la série */
-    font-style: italic;
-    color: color-mix(in srgb, red, yellow);
-}
-
-.ita-bold {
-    /* Pour mettre en italique et en gras */
-    font-weight: bold;
-    font-style: italic;
-}
-
-/* Liste de la langages informartiques */
-.main-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.list-item {
-    display: flex;
-    align-items: center;
-}
-
 /* Taille écran d'ordinateur */
 @media screen and (min-width: 769px) {
-
     header,
     main {
         padding: 10px 100px;

@@ -1,3 +1,25 @@
+/* responsive font-size */
+@media (max-width: 576px) {
+    :root {
+        --text-size: 1.10rem;
+        --bs-nav-link-font-size: 1.10rem;
+    }
+}
+
+@media (min-width: 576px) {
+    :root {
+        --text-size: 1.20rem;
+        --bs-nav-link-font-size: 1.20rem;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --text-size: 1.30rem;
+        --bs-nav-link-font-size: 1.30rem;
+    }
+}
+
 :root {
     --text-size: 1.30rem;
     --bs-nav-link-font-size: 1.25rem;
