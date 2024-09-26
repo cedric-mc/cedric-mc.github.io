@@ -2,27 +2,29 @@
 @media (max-width: 576px) {
     :root {
         --text-size: 1.10rem;
-        --bs-nav-link-font-size: 1.10rem;
+        /*--bs-nav-link-font-size: 1.10rem;*/
     }
 }
 
 @media (min-width: 576px) {
     :root {
         --text-size: 1.20rem;
-        --bs-nav-link-font-size: 1.20rem;
+        /*--bs-nav-link-font-size: 1.20rem;*/
     }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     :root {
-        --text-size: 1.30rem;
-        --bs-nav-link-font-size: 1.30rem;
+        --text-size: 1.25rem;
+        --bs-nav-link-font-size: 1.15rem;
+        --bs-navbar-brand-font-size: 1rem;
     }
-}
+}*/
 
 :root {
-    --text-size: 1.30rem;
-    --bs-nav-link-font-size: 1.25rem;
+    --text-size: 1.25rem;
+    --bs-nav-link-font-size: 1.15rem;
+    --bs-navbar-brand-font-size: 5rem;
     --scrollbar-width: 10px;
     --scrollbar-thumb-border: 2px solid transparent;
     --scrollbar-thumb-border-radius: 5px;
