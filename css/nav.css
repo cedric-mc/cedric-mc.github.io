@@ -41,3 +41,8 @@
     width: 1.5rem;
     height: auto;
 }
+
+.navbar .dropdown-menu, .navbar .dropdown-menu .dropdown-item {
+    background: var(--navbar-bg);
+    color: var(--navbar-text);
+}
