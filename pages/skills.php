@@ -1,7 +1,8 @@
 <section id="skills">
     <h2 class="title-section">Mes Compétences</h2>
+    <?php if ($_SESSION['etudes']) : ?>
     <p>
-        Je suis actuellement en 2<sup>ème</sup> année de BUT Informatique avec le Parcours de Réalisation d'applications : Conception, Développement et Validation.<br>
+        Je suis actuellement en 3<sup>ème</sup> année de BUT Informatique avec le Parcours de Réalisation d'applications : Conception, Développement et Validation.<br>
         Formation :<br>
         BUT Informatique, Parcours A : Réalisation d’applications : conception, développement, validation.<br>
         Voici les 6 compétences que je dois acquérir durant ma formation :
@@ -158,4 +159,9 @@
             </div>
         </div>
     </div>
+    <?php else : ?>
+    <p>
+        YOLO
+    </p>
+    <?php endif; ?>
 </section>

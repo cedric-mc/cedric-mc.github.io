@@ -13,6 +13,14 @@ if ($_SESSION['debug']) {
 
 require_once('config.php');
 require_once(PATH_SITE . 'includes/functions.php');
+
+//$_GET['e'] = 1; // Pour le mode études en permanence
+// On récupère le paramètre d'URL 'e' pour savoir si on doit afficher en mode études
+if (isset($_GET['e']) && $_GET['e'] == '1') {
+    $_SESSION['etudes'] = true;
+} else {
+    $_SESSION['etudes'] = false;
+}
 ?>
 <!DOCTYPE html>
 <html lang="fr" data-bs-theme="light">
