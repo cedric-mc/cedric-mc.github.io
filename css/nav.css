@@ -27,7 +27,6 @@
 
 .nav-item .nav-link img,
 .nav-item ul.dropdown-menu li a.dropdown-item img {
-    width: 1.5rem;
     height: auto;
 }
 
@@ -38,11 +37,19 @@
 }
 
 .svg {
-    width: 1.5rem;
+    width: var(--text-size);
     height: auto;
 }
 
 .navbar .dropdown-menu, .navbar .dropdown-menu .dropdown-item {
     background: var(--navbar-bg);
     color: var(--navbar-text);
+    transition: none;
+    transform: none;
+    animation: none;
 }
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: var(--navbar-hover-bg);
+}
+
