@@ -1,7 +1,7 @@
 <section id="projects">
     <h2 class="title-section" id="projects-pro">Mes Projets Professionnels</h2>
     <p>
-        Dans cette section, vous trouverez les projets auxquels j'ai participé dans le cadre de mon parcours professionnel. Vous pourrez consulter le code source <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> et la documentation <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> de chaque projet.
+        Dans cette section, vous trouverez les projets auxquels j'ai participé dans le cadre de mon parcours professionnel. Vous pourrez consulter le code source <span class="code-icon spinner"></span> et la documentation <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> de chaque projet.
     </p>
     <div class="projet-container" id="projet-1">
         <div class="project-item">
