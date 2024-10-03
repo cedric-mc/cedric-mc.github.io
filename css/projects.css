@@ -26,3 +26,25 @@
     font-style: italic;
     color: color-mix(in srgb, red, yellow);
 }
+
+.code-icon {
+    background-image: var(--code-icon);
+    display: inline-block;
+    width: calc(var(--text-size) * 2);
+    height: calc(var(--text-size) * 2);
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.documentation-icon {
+    background-image: url("../img/icon-documentation.png");
+    display: inline-block;
+    width: calc(var(--text-size) * 2);
+    height: calc(var(--text-size) * 2);
+    vertical-align: middle; /* Alignement vertical pour l'icône */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Assure que l'icône garde ses proportions dans le conteneur */
+}

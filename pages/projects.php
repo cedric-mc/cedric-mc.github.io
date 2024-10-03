@@ -1,7 +1,7 @@
 <section id="projects">
     <h2 class="title-section">Mes Projets</h2>
     <p>
-        Dans cette section, vous trouverez les projets que j'ai réalisés. Vous pourrez consulter le code source <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> et la documentation <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> de chaque projet.
+        Dans cette section, vous trouverez les projets que j'ai réalisés. Vous pourrez consulter le code source <span class="code-icon spinner"></span> et la documentation <span class="documentation-icon spinner"></span> de chaque projet.
     </p>
     <div class="projet-container" id="semonkey">
         <div class="project-item">
@@ -14,7 +14,7 @@
                 <br>
                 Site :&ensp;
                 <a href="" target="_blank">
-                    <img class="p-img" src="img/code.png" alt="Code Icon">
+                    <span class="code-icon spinner"></span>
                 </a>
                 <!--<br>
                 Documentation :&ensp;
@@ -84,7 +84,7 @@
                 <br>
                 Site :&ensp;
                 <a href="https://perso-etudiant.u-pem.fr/~mariyaconsta02/controles_cnil/" target="_blank">
-                    <img class="p-img" src="img/code.png" alt="Code Icon">
+                    <span class="code-icon spinner"></span>
                 </a>
                 <!--<br>
                 Documentation :&ensp;
@@ -161,7 +161,7 @@
                 <br>
                 Site :&ensp;
                 <a href="http://perso-etudiant.u-pem.fr/~mariyaconsta02/Banklink/" target="_blank">
-                    <img class="p-img" src="img/code.png" alt="Code Icon">
+                    <span class="code-icon spinner"></span>
                 </a><br>
                 Documentation :&ensp;
                 <a href="https://cedric-mc.github.io/Banklink" target="_blank">
@@ -240,7 +240,7 @@
                 en présentant la ville avec sa culture, son histoire et bien entendu ses incontournables d'aujourd'hui.<br>
                 Site :&ensp;
                 <a href="Projects/Toledo/index.php" target="_blank">
-                    <img class="p-img" src="img/code.png" alt="Code Icon">
+                    <span class="code-icon spinner"></span>
                 </a>
                 <br>
                 <!--Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>-->
@@ -294,7 +294,7 @@
                 Ce projet consistait à réaliser un site web pour une entreprise fictive de vente de fruits et légumes.<br>
                 Site :&ensp;
                 <a href="Projects/Hedelma/" target="_blank">
-                    <img class="p-img" src="img/code.png" alt="Code Icon">
+                    <span class="code-icon spinner"></span>
                 </a><br>
                 Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a>
                 <br>
@@ -351,7 +351,7 @@
                 et on décide à l’avance du nombre de tours. Le projet était à réaliser à deux en 3 phases.<br>
                 Jeu :
                 <a href="https://github.com/cedric-mc/Python_Game/tree/main" target="_blank">
-                    <img class="p-img" src="img/code.png" alt="Code Icon">
+                    <span class="code-icon spinner"></span>
                 </a><br>
                 Documentation :
                 <a href="https://cedric-mc.github.io/Python_Game" target="_blank">
