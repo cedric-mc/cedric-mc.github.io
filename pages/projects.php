@@ -1,5 +1,61 @@
 <section id="projects">
-    <h2 class="title-section">Mes Projets</h2>
+    <h2 class="title-section" id="projects-pro">Mes Projets Professionnels</h2>
+    <p>
+        Dans cette section, vous trouverez les projets auxquels j'ai participé dans le cadre de mon parcours professionnel. Vous pourrez consulter le code source <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> et la documentation <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> de chaque projet.
+    </p>
+    <div class="projet-container" id="projet-1">
+        <div class="project-item">
+            <h3 class="title-project">Projet 1</h3>
+            <h4 class="project-language">HTML, CSS, JS, PHP, SQL</h4>
+            <p>
+                Description du projet 1
+                <br>
+                Site :&ensp;
+                <a href="" target="_blank">
+                    <img class="p-img" src="img/code.png" alt="Code Icon">
+                </a>
+                <br>
+                Documentation :&ensp;
+                <a href="" target="_blank">
+                    <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
+                </a>
+            </p>
+            <div id="carouselProjet1" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselProjet1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselProjet1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselProjet1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselProjet1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselProjet1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/projects/PROJET1-1.png" class="d-block w-100" alt="Projet 1 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/projects/PROJET1-2.png" class="d-block w-100" alt="Projet 1 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/projects/PROJET1-3.png" class="d-block w-100" alt="Projet 1 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/projects/PROJET1-4.png" class="d-block w-100" alt="Projet 1 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/projects/PROJET1-5.png" class="d-block w-100" alt="Projet 1 5">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjet1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjet1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    <h2 class="title-section" id="projects-univ">Mes Projets Universitaires</h2>
     <p>
         Dans cette section, vous trouverez les projets que j'ai réalisés. Vous pourrez consulter le code source <img class="p-img" src="img/code.png" alt="Code Icon" title="Code Icon"> et la documentation <img class="p-img" src="img/documentation.png" alt="Documentation Icon" title="Documentation Icon"> de chaque projet.
     </p>
