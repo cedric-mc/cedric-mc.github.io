@@ -3,14 +3,14 @@
     src: url("../fonts/Lato-Regular.ttf") format("truetype");
 }
 
-* {
+#about-me, #parcours, #skills, #projects, #contact {
     scroll-margin-top: 80px;
-    transition: background-color 1s ease, color 1s ease;
 }
 
 body {
     scrollbar-width: thin;
     scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 ::-webkit-scrollbar {
