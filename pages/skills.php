@@ -161,7 +161,44 @@
     </div>
     <?php else : ?>
     <p>
-        YOLO
+        Voici les langages informatiques, frameworks, bibliothèques, logiciels et outils que je maîtrise :
     </p>
+    <div>
+        <h3 class="subtitle-section">Langages informatiques :</h3>
+        <ul class="skills-list">
+            <li><img class="spinner" src="img/html.png" alt="icon html5">&nbsp;HTML</li>
+            <li><img class="spinner" src="img/css.png" alt="icon css3">&nbsp;CSS</li>
+            <li><img class="spinner" src="img/js.png" alt="icon javascript">&nbsp;JavaScript</li>
+            <li><img class="spinner" src="img/php.png" alt="icon php">&nbsp;PHP</li>
+            <li><img class="spinner" src="img/python.png" alt="icon python">&nbsp;Python</li>
+            <li><img class="spinner" src="img/java.png" alt="icon java">&nbsp;Java</li>
+            <li><img class="spinner" src="img/c.png" alt="icon c">&nbsp;C</li>
+            <li><img class="spinner" src="img/sql.png" alt="icon sql">&nbsp;SQL</li>
+            <li><img class="spinner" src="img/xml.png" alt="icon xml">&nbsp;XML</li>
+            <li><img class="spinner" src="img/json.png" alt="icon json">&nbsp;JSON</li>
+            <li><img class="spinner" src="img/markdown.png" alt="icon markdown">&nbsp;Markdown</li>
+<!--            <li>LaTeX</li>-->
+            <li><img class="spinner" src="img/shell.png" alt="icon shell">&nbsp;Shell</li>
+        </ul>
+        <h3 class="subtitle-section">Frameworks et bibliothèques :</h3>
+        <ul class="skills-list">
+            <li><img class="spinner" src="img/bootstrap.png" alt="icon bootstrap">&nbsp;Bootstrap</li>
+            <li><img class="spinner" src="img/jquery.png" alt="icon jquery">&nbsp;jQuery</li>
+            <li><img class="spinner" src="img/react.png" alt="icon react">&nbsp;React</li>
+            <li><img class="spinner" src="img/nodejs.png" alt="icon nodejs">&nbsp;Node.js</li>
+            <li><img class="spinner" src="img/junit.png" alt="icon junit">&nbsp;JUnit</li>
+            <li><img class="spinner" src="img/maven.png" alt="icon maven">&nbsp;Maven</li>
+            <li><img class="spinner" src="img/mysql.png" alt="icon mysql">&nbsp;MySQL</li>
+            <li><img class="spinner" src="img/postgresql.png" alt="icon postgresql">&nbsp;PostgreSQL</li>
+        </ul>
+        <h3 class="subtitle-section">Logiciels et outils :</h3>
+        <ul class="skills-list">
+            <li><img class="spinner" src="img/vscode.png" alt="icon vscode">&nbsp;Visual Studio Code</li>
+            <li><img class="spinner" src="img/git.png" alt="icon git">&nbsp;Git</li>
+            <li><img class="spinner" src="img/github.png" alt="icon github">&nbsp;GitHub</li>
+            <li><img class="spinner" src="img/jetbrains.png" alt="icon jetbrains">&nbsp;JetBrains</li>
+            <li><img class="spinner" src="img/eclipse.png" alt="icon eclipse">&nbsp;Eclipse</li>
+        </ul>
+    </div>
     <?php endif; ?>
 </section>

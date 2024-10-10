@@ -25,7 +25,7 @@ if (isset($_GET['e']) && $_GET['e'] == '1') {
 }
 ?>
 <!DOCTYPE html>
-<html lang="fr" data-bs-theme="light">
+<html lang="fr" data-bs-theme="dark">
     <?php include_once(PATH_SITE . 'pages/head.php'); ?>
     <?php require_once(PATH_SITE . 'includes/svg.html'); ?>
     <?php require_once(PATH_SITE . 'pages/body.php'); ?>
