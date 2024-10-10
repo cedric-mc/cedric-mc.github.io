@@ -1,4 +1,4 @@
-<body class="background">
+<body class="background" id="top-page">
     <div id="arrow-container">
         <svg class="arrow"><use xlink:href="#arrow"></use></svg>
     </div>

@@ -1,7 +1,7 @@
 .spinner {
 	font-size: var(--text-size);
 	width: var(--text-size);
-	height: var(--text-size);
+	height: auto;
 	transition: all 0.3s ease;
 }
 

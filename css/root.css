@@ -23,6 +23,8 @@
 
 :root {
     --text-size: 1.25rem;
+    --title-section-size: 2.5rem;
+    --subtitle-section-size: 1.9rem;
     --bs-nav-link-font-size: 1rem;
     --bs-navbar-brand-font-size: 5rem;
     --scrollbar-width: 10px;
@@ -36,6 +38,7 @@ html[data-bs-theme="auto"][data-auto-theme="light"] {
     --bg-color: #86A0CA;
     --arrow-color: #000000;
     --code-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='64.000000pt' height='64.000000pt' viewBox='0 0 64.000000 64.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,64.000000) scale(0.100000,-0.100000)'%0Afill='%23000000' stroke='none'%3E%3Cpath d='M347 478 c-8 -13 -39 -87 -68 -166 -49 -134 -52 -144 -36 -160 13%0A-13 21 -14 35 -6 25 16 137 315 124 334 -15 24 -40 23 -55 -2z'/%3E%3Cpath d='M102 386 c-29 -30 -52 -60 -52 -66 0 -6 23 -36 52 -66 40 -43 57 -54%0A77 -52 40 5 38 35 -5 79 l-38 39 38 39 c43 44 45 74 5 79 -20 2 -37 -9 -77%0A-52z'/%3E%3Cpath d='M437 433 c-15 -14 -5 -39 30 -75 l37 -38 -38 -39 c-43 -44 -45 -74%0A-5 -79 20 -2 37 9 77 52 29 30 52 60 52 66 0 6 -23 36 -51 66 -48 50 -83 66%0A-102 47z'/%3E%3C/g%3E%3C/svg%3E");
+    --up-arrow: #002BC4;
     /* Scrollbar */
     --scrollbar-track-color: #f0f0f0;
     --scrollbar-thumb-color: #888;
@@ -60,6 +63,7 @@ html[data-bs-theme="auto"][data-auto-theme="dark"] {
     --bg-color: #0C4194;
     --arrow-color: #FFFFFF;
     --code-icon: url("data:image/svg+xml,%3C%3Fxml version='1.0' standalone='no'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'%3E%3Csvg version='1.0' xmlns='http://www.w3.org/2000/svg' width='64.000000pt' height='64.000000pt' viewBox='0 0 64.000000 64.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,64.000000) scale(0.100000,-0.100000)'%0Afill='%23FFFFFF' stroke='none'%3E%3Cpath d='M347 478 c-8 -13 -39 -87 -68 -166 -49 -134 -52 -144 -36 -160 13%0A-13 21 -14 35 -6 25 16 137 315 124 334 -15 24 -40 23 -55 -2z'/%3E%3Cpath d='M102 386 c-29 -30 -52 -60 -52 -66 0 -6 23 -36 52 -66 40 -43 57 -54%0A77 -52 40 5 38 35 -5 79 l-38 39 38 39 c43 44 45 74 5 79 -20 2 -37 -9 -77%0A-52z'/%3E%3Cpath d='M437 433 c-15 -14 -5 -39 30 -75 l37 -38 -38 -39 c-43 -44 -45 -74%0A-5 -79 20 -2 37 9 77 52 29 30 52 60 52 66 0 6 -23 36 -51 66 -48 50 -83 66%0A-102 47z'/%3E%3C/g%3E%3C/svg%3E");
+    --up-arrow: #FFD43B;
     /* Scrollbar */
     --scrollbar-track-color: #2c2c2c;
     --scrollbar-thumb-color: #555;

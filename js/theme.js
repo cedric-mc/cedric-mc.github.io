@@ -40,13 +40,13 @@ let currentThemeSetting = calculateTheme({ storageThem });
 updateAllElementsThemeAttribute("data-bs-theme", currentThemeSetting);
 
 // Mettre à jour l'affichage du thème actuel
-const themeDisplay = document.getElementById("theme-display");
+/*const themeDisplay = document.getElementById("theme-display");
 let themeText = currentThemeSetting;
 if (currentThemeSetting === "auto") {
     const autoTheme = themeBasedOnTime();
     themeText = `${currentThemeSetting} (${autoTheme})`;
 }
-themeDisplay.textContent = `Thème : ${themeText}`;
+themeDisplay.textContent = `Thème : ${themeText}`;*/
 
 // S'assurer que l'attribut data-auto-theme est bien mis à jour pour le mode auto
 if (currentThemeSetting === "auto") {

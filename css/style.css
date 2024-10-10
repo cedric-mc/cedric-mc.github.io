@@ -75,7 +75,13 @@ main {
 /* titre de bloc / section */
 .title-section {
     font-family: "Lato", serif;
-    font-size: 2.5rem;
+    font-size: var(--title-section-size);
+    font-weight: bold;
+}
+
+.subtitle-section {
+    font-family: "Lato", serif;
+    font-size: var(--subtitle-section-size);
     font-weight: bold;
 }
 
@@ -120,7 +126,8 @@ main {
     outline: none;
     cursor: pointer;
     padding: 15px;
-    color: #FFD43B;
+    color: var(--up-arrow);
+    transition: color 0.3s ease;
 }
 
 /* Taille écran d'ordinateur */

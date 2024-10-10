@@ -29,13 +29,13 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li>
-                            <a class="dropdown-item" href="#projects-univ">
-                                <i class="fa-solid fa-building-columns spinner"></i>&nbsp;Projets Universitaires
+                            <a class="dropdown-item" href="#projects-pro">
+                                <i class="fa-solid fa-user-tie spinner"></i>&nbsp;Projets Professionnels
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#projects-pro">
-                                <i class="fa-solid fa-user-tie spinner"></i>&nbsp;Projets Professionnels
+                            <a class="dropdown-item" href="#projects-univ">
+                                <i class="fa-solid fa-building-columns spinner"></i>&nbsp;Projets Universitaires
                             </a>
                         </li>
                     </ul>

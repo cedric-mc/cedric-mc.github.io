@@ -10,9 +10,18 @@
                 Je maîtrise différentes langues en dehors du français : l'Anglais <img class="p-img" src="img/navbar/eng.png" alt="icon flag english"> bien entendu et le Tamoul <img class="p-img" src="img/tamil.png" alt="icon flag tamil"> (langue maternelle).
             </p>
             <p>Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !</p>
+            <p>
+                Vous pouvez également me contacter via le formulaire de contact et me suivre sur&nbsp;:
+                <a href="https://www.linkedin.com/in/cédric-mariya-constantine-a3a52325a/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin spinner"></i>&nbsp;LinkedIn
+                </a> et
+                <a href="https://github.com/cedric-mc/" target="_blank" class="social-link">
+                    <i class="fab fa-github spinner"></i>&nbsp;GitHub
+                </a>.
+            </p>
         </div>
         <div class="col-md-6 text-end d-flex justify-content-end">
-<!--            <img src="img/photo.jpg" alt="Photo de profil" class="profil-photo img-fluid">-->
+            <img src="img/photo.jpg" alt="Photo de profil" class="profil-photo img-fluid">
         </div>
     </div>
 </section>
