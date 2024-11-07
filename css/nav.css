@@ -8,6 +8,22 @@
     color: inherit;
 }
 
+.navbar-brand {
+    /* Pour centrer le texte et l'icône */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.navbar-brand img {
+    width: calc(var(--text-size) * 1.5);
+}
+
+.navbar-brand:hover {
+    color: inherit;
+}
+
 .navbar-toggler {
     border-color: var(--navbar-toggler-border) !important;
     color: var(--navbar-toggler-color) !important;
@@ -52,4 +68,3 @@
 .navbar .dropdown-menu .dropdown-item:hover {
     background-color: var(--navbar-hover-bg);
 }
-
