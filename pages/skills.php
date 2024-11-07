@@ -169,6 +169,7 @@
             <li><img class="spinner" src="img/html.png" alt="icon html5">&nbsp;HTML</li>
             <li><img class="spinner" src="img/css.png" alt="icon css3">&nbsp;CSS</li>
             <li><img class="spinner" src="img/js.png" alt="icon javascript">&nbsp;JavaScript</li>
+            <li><img class="spinner" src="img/ts.png" alt="icon typescript">&nbsp;TypeScript</li>
             <li><img class="spinner" src="img/php.png" alt="icon php">&nbsp;PHP</li>
             <li><img class="spinner" src="img/python.png" alt="icon python">&nbsp;Python</li>
             <li><img class="spinner" src="img/java.png" alt="icon java">&nbsp;Java</li>

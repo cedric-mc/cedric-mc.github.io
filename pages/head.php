@@ -20,6 +20,12 @@
     <script src="https://kit.fontawesome.com/3f3ecfc27b.js" crossorigin="anonymous"></script>
     <!-- Font Awesome -->
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Yesteryear&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= URL_SITE ?>img/favicon.png">
     <!-- Favicon -->
@@ -38,7 +44,6 @@
     <!-- Styles -->
 
     <!-- Balises script -->
-    <script src="js/script.js"></script>
     <script async src="https://ga.jspm.io/npm:es-module-shims@1.10.0/dist/es-module-shims.js"></script>
     <!-- Balises script -->
 </head>
