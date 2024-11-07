@@ -86,11 +86,6 @@
                         <span class="code-icon spinner"></span>
                     </a>
                     <br>
-                    <!--Documentation :&ensp;
-                    <a href="https://cedric-mc.github.io/Banklink" target="_blank">
-                        <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
-                    </a>
-                    <br>-->
                     <?php if ($_SESSION['etudes']) { ?>
                     Compétence Réalisée : Ce projet m'a permis de réaliser une application web en utilisant différents langages de programmation.
                     <br>
@@ -103,6 +98,7 @@
                     Compétence Conduire : Ce projet m'a permis de satisfaire les besoins des utilisateurs et de piloter un projet informatique.
                     <br>
                     Compétence Collaborer : Ce projet m'a permis de travailler efficacement dans une équipe informatique.
+                    <br>
                     <?php } ?>
                 </p>
                 <div id="carouselSemonkey" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
@@ -158,13 +154,9 @@
                         <span class="code-icon spinner"></span>
                     </a>
                     <br>
-                    <!--Documentation :&ensp;
-                    <a href="" target="_blank">
-                        <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
-                    </a>
-                    <br>-->
                     <?php if ($_SESSION['etudes']) { ?>
                     Compétence Gérer : Ce projet m'a permis de concevoir, gérer, administrer et exploiter des données officielles d'une autorité administrative.
+                    <br>
                     <?php } ?>
                 </p>
                 <div id="carouselCNIL" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
@@ -207,12 +199,6 @@
                 </div>
             </div>
         </div>
-        <!--<div class="project-container" id="chain-motor">
-            <div class="project-item">
-                <h3 class="title-project">ChainMotor, Moteur de Chaîne : Module du jeu Semonkey</h3>
-                <h4 class="project-title">Java&ensp;<i class="fa-brands fa-java"></i></h4>
-            </div>
-        </div>-->
         <div class="project-container" id="reseau">
             <div class="project-item">
                 <h3 class="title-project">TP Pare-feu et translation d'adresse</h3>
@@ -222,6 +208,7 @@
                     <br>
                     <?php if ($_SESSION['etudes']) { ?>
                     Compétence Administrer : Ce projet m'a permis de mettre à disposition un pare-feu et une translation d'adresse sur un réseau local.
+                    <br>
                     <?php } ?>
                 </p>
                 <img src="img/projects/RESEAU1.png" class="d-block w-100" alt="Réseau">
@@ -249,6 +236,7 @@
                     Compétence Conduire : Ce projet m'a permis de satisfaire les besoins des utilisateurs et de piloter un projet informatique.
                     <br>
                     Compétence Collaborer : Ce projet m'a permis de travailler efficacement dans une équipe informatique en suivant une méthodologie de développement.
+                    <br>
                     <?php } ?>
                 </p>
                 <div id="carouselBanklink" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -320,11 +308,11 @@
                         <span class="code-icon spinner"></span>
                     </a>
                     <br>
-                    <!--Documentation :&ensp; <a href="" target="_blank"><img class="p-img" src="img/documentation.png" alt="Documentation Icon"></a><br>-->
                     <?php if ($_SESSION['etudes']) { ?>
                     Compétence Conduire : Ce projet m'a permis de satisfaire les besoins des utilisateurs et de piloter un projet informatique.
                     <br>
                     Compétence Collaborer : Ce projet m'a permis de travailler efficacement dans une équipe informatique pour la première fois.
+                    <br>
                     <?php } ?>
                 </p>
                 <div id="carouselToledo" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">

@@ -10,8 +10,11 @@
         <?php require_once (PATH_SITE . 'pages/skills.php'); ?>
         <?php require_once (PATH_SITE . 'pages/projects.php'); ?>
     </main>
-    <i id="btn-retour-haut" class="fa-solid fa-up-long" onclick="retourHaut()"></i>
+    <div class="btn-up">
+        <img src="img/arrow-up-solid.svg" class="icon-up">
+    </div>
     <?php require_once (PATH_SITE . 'pages/footer.php'); ?>
+    <div class="scroll-watcher"></div>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-M6HQTDJH1G"></script>
     <script>
