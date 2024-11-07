@@ -27,7 +27,6 @@ yarn-error.log*
 .vscode
 conf.php
 conf.php
-Projects/*
-!Projects/index.php
-!Projects/style.css
-!Projects/logoRS-UGE.png
+config.php
+.idea/
+idees.txt
