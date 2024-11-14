@@ -3,53 +3,8 @@ Texte plus grand
 Présentation du prénom, propositions :
 - Barre vers l'intérieur ou l'extérieur comme contour
 - Mettre des images derrières
-- Faire un glassmorphism avec ocntour gradient
+- Faire un glassmorphism avec contour gradient
 - La taille minimale d'une section est la taille de l'écran
 
 Afficher les 6 compétences, puis en-dessous, si possible Niveau 1 pour un projet de 1ère année, Niveau 2 pour un projet de 2ème année, sinon juste 2ème année.
 Un projet par compétence.
-
-Template Carousel :
-<div class="projet-container" id="">
-    <div class="project-item">
-        <h3 class="title-project"></h3>
-        <h4 class="project-title"></h4>
-        <p>
-            Site :&ensp;
-            <a href="" target="_blank">
-                <img class="p-img" src="img/code.png" alt="Code Icon">
-            </a>
-            <br>
-            Documentation :&ensp;
-            <a href="" target="_blank">
-                <img class="p-img" src="img/documentation.png" alt="Documentation Icon">
-            </a>
-        </p>
-        <div id="" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/projects/" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/projects/" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/projects/" class="d-block w-100" alt="">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-</div>
