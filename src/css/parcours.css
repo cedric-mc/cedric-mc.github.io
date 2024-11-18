@@ -1,0 +1,23 @@
+#parcours {
+    color: var(--text-color);
+}
+
+#parcours div[role="tablist"] a.list-group-item-action {
+    font-size: var(--text-size) !important;
+}
+
+#parcours div[role="tabpanel"] p {
+    font-size: var(--text-size) !important;
+}
+
+.parcours-name {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.parcours-image {
+    /* the size of the image is 75% of the width of the container next to it */
+    width: 75%;
+    height: auto;
+    border-radius: 10%;
+}

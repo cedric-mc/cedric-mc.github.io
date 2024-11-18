@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../src/Lato-Regular.ttf") format("truetype");
+}
+
+#about-me,
+#parcours,
+#skills,
+#projects,
+#contact {
+    scroll-margin-top: 80px;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-track-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color);
+    border-radius: var(--scrollbar-thumb-border-radius);
+    border: var(--scrollbar-thumb-border);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover-color);
+}
+
+html body.background {
+    background-color: var(--bg-color);
+}
+
+header,
+main {
+    padding: 0.521vw 5.208vw;
+    margin: 0.5em;
+}
+
+section {
+    min-height: 100vh;
+    padding: 0.625rem 1.15rem;
+    margin: 0.5em;
+}
+
+#arrow-container {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: arrowAnimation 1.5s infinite;
+    z-index: 2;
+}
+
+.arrow {
+    fill: var(--arrow-color) !important;
+    width: 3vw;
+    height: 3vw;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+main {
+    font-family: "Lato", serif !important;
+}
+
+/* pour l'animation de la bordure */
+.all-border {
+    border-width: 5px;
+    border-style: solid;
+    /*border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1;*/
+    animation: Gradient-border 2s infinite;
+    height: fit-content;
+}
+
+/* titre de bloc / section */
+.title-section {
+    font-family: "Lato", serif;
+    font-size: var(--title-section-size);
+    font-weight: bold;
+}
+
+.subtitle-section {
+    font-family: "Lato", serif;
+    font-size: var(--subtitle-section-size);
+    font-weight: bold;
+}
+
+.p-img {
+    /* Pour l'image à la même taille que le texte */
+    width: 2.5rem !important;
+    height: auto;
+    transition: transform 0.3s ease-out;
+}
+
+.p-img:hover {
+    transform: scale(1.5) rotate(360deg);
+    /* Pour faire tourner et agrandir l'image lorsque l'on survole l'image */
+}
+
+/* Version plus grande de p-img, même animation */
+.img-spin {
+    width: 4rem;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    transition: transform 0.3s ease-out;
+}
+
+.img-spin:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+.badge-img {
+    width: max-content;
+    height: auto !important;
+}
+
+.btn-up {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background: var(--btn-up-bg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+@keyframes btn-up-on {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes btn-up-off {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+.icon-up {
+    width: 25px;
+    height: 25px;
+    filter: var(--icon-up-color);
+    transition: filter 0.5s ease;
+    animation: arrowAnimation 1.5s normal;
+}
+
+/* Pour l'animation de la flèche */
+@keyframes arrowAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#btn-retour-haut {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    color: var(--up-arrow);
+    transition: color 0.3s ease;
+}
+
+/* Taille écran d'ordinateur */
+@media screen and (min-width: 769px) {
+
+    header,
+    main {
+        padding: 10px 100px;
+        margin: 0.5em;
+    }
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.yatra-one-regular {
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

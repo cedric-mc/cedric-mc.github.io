@@ -1,0 +1,157 @@
+#skills {
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
+
+.character {
+    transition: all 0.3s ease;
+}
+
+.character:hover {
+    transform: scale(1.5) rotateY(360deg);
+}
+
+.realiser {
+    border-color: #B80905;
+    color: #B80905;
+}
+
+.bg-realiser {
+    background: #B80905;
+    color: white;
+}
+
+Button.bg-realiser:hover {
+    background: white;
+    color: #B80905;
+    border-color: #B80905;
+}
+
+.optimiser {
+    border-color: #ED8C51;
+    color: #ED8C51;
+}
+
+.bg-optimiser {
+    background: #ED8C51;
+    color: black;
+}
+
+Button.bg-optimiser:hover {
+    background: white;
+    color: #ED8C51;
+    border-color: #ED8C51;
+}
+
+.administrer {
+    border-color: #EFBA11;
+    color: #EFBA11;
+}
+
+.bg-administrer {
+    background: #EFBA11;
+    color: black;
+}
+
+Button.bg-administrer:hover {
+    background: white;
+    color: #EFBA11;
+    border-color: #EFBA11;
+}
+
+.gerer {
+    border-color: #8CC850;
+    color: #8CC850;
+}
+
+.bg-gerer {
+    background: #8CC850;
+    color: black;
+}
+
+Button.bg-gerer:hover {
+    background: white;
+    color: #8CC850;
+    border-color: #8CC850;
+}
+
+.conduire {
+    border-color: #0A215E;
+    color: #0A215E;
+}
+
+.bg-conduire {
+    background: #0A215E;
+    color: white;
+}
+
+Button.bg-conduire:hover {
+    background: white;
+    color: #0A215E;
+    border-color: #0A215E;
+}
+
+.collaborer {
+    border-color: #0F0F0F;
+    color: #0F0F0F;
+}
+
+.bg-collaborer {
+    background: #0F0F0F;
+    color: white;
+}
+
+Button.bg-collaborer:hover {
+    background: white;
+    color: #0F0F0F;
+    border-color: #0F0F0F;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills-list li {
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.skills-list li img {
+    width: calc(var(--text-size) * 2);
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gradient-button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #B80905, #ED8C51, #EFBA11, #8CC850, #0A215E, #0F0F0F, #B80905); /* 6 colors looping back to the first */
+    background-size: 600%;
+    animation: gradient-flow 16s ease-in-out infinite;
+    outline: none;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.button-container .gradient-button:nth-child(1) {
+    animation-delay: 0s;
+}
+.button-container .gradient-button:nth-child(2) {
+    animation-delay: 5.33s;
+}
+.button-container .gradient-button:nth-child(3) {
+    animation-delay: 10.67s;
+}

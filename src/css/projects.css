@@ -1,0 +1,50 @@
+#projects {
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
+
+.project-item {
+    margin-top: 2.5rem;
+}
+
+.title-project {
+    font-family: "Lato", serif;
+    font-size: 1.8rem;
+}
+
+.project-item h3.title-project {
+    font-weight: bold;
+}
+
+.project-language {
+    font-family: "Lato", serif;
+    font-size: 1.5rem;
+}
+
+#projects .flash {
+    /* Pour changer l'apparence du nom de la série */
+    font-style: italic;
+    color: color-mix(in srgb, red, yellow);
+}
+
+.code-icon {
+    background-image: var(--code-icon);
+    display: inline-block;
+    width: calc(var(--text-size) * 2);
+    height: calc(var(--text-size) * 2);
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.documentation-icon {
+    background-image: url("../../public/img/icon-documentation.png");
+    display: inline-block;
+    width: calc(var(--text-size) * 2);
+    height: calc(var(--text-size) * 2);
+    vertical-align: middle; /* Alignement vertical pour l'icône */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; /* Assure que l'icône garde ses proportions dans le conteneur */
+}
