@@ -19,15 +19,6 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Envoyer</button>
                 </form>
-                <?php
-                if (isset($_GET['success'])) {
-                    echo "<js>alert('Votre message a bien été envoyé !')</js>";
-                    header("Location: ./#contact");
-                } elseif (isset($_GET['error'])) {
-                    echo "<js>alert('Une erreur est survenue, veuillez réessayer.')</js>";
-                    header("Location: ./#contact");
-                }
-                ?>
             </div>
             <div class="col-md-6"> <!-- Contenu à gauche -->
                 <h4>Réseaux sociaux</h4>
