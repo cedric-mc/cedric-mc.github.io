@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
+import './css/root.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <React.StrictMode>
+    <React.StrictMode data-bs-theme="dark">
         <App/>
     </React.StrictMode>
 );

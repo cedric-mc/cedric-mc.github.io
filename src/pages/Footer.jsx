@@ -32,16 +32,16 @@ function Footer() {
                         <h4 id="contact">Contactez-moi</h4>
                         <Form method="post">
                             <FormGroup className="mb-1" controlId="nomInput">
-                                <FormLabel htmlFor="nom" column="sm">Nom</FormLabel>
-                                <FormControl type="text" name="nom" id="nom" placeholder="Votre nom" required />
+                                <FormLabel column="sm">Nom</FormLabel>
+                                <FormControl type="text" name="nom" placeholder="Votre nom" required />
                             </FormGroup>
                             <FormGroup className="mb-1" controlId="emailInput">
-                                <FormLabel htmlFor="email" column="sm">Email</FormLabel>
-                                <FormControl type="email" name="email" id="email" placeholder="exemple@domaine.com" required />
+                                <FormLabel column="sm">Email</FormLabel>
+                                <FormControl type="email" name="email" placeholder="exemple@domaine.com" required />
                             </FormGroup>
                             <FormGroup className="mb-3" controlId="messageInput">
-                                <FormLabel htmlFor="message" column="sm">Message</FormLabel>
-                                <FormControl as="textarea" rows="3" name="message" id="message" placeholder="Votre message"></FormControl>
+                                <FormLabel column="sm">Message</FormLabel>
+                                <FormControl as="textarea" rows="3" name="message" placeholder="Votre message"></FormControl>
                             </FormGroup>
                             <Button type="submit" variant="success">Envoyer</Button>
                         </Form>

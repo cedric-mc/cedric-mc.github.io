@@ -38,11 +38,11 @@ function Skills() {
                         Réalisation d'applications : Conception, Développement et Validation.<br/>
                         Formation : BUT Informatique ; Parcours A : Réalisation d’applications : conception,
                         développement, validation.<br/>
-                        <div className="button-container">
+                        <span className="button-container">
                             <button className="gradient-button">Conception</button>
                             <button className="gradient-button">Développement</button>
                             <button className="gradient-button">Validation</button>
-                        </div>
+                        </span>
                         Voici les 6 compétences que je dois acquérir durant ma formation :
                     </p>
                     <div>

@@ -1,3 +1,4 @@
+import '../css/style.css';
 import Header from "./Header";
 import Navigation from "./Navigation";
 import SvgDefs from "../components/SvgDefs";
@@ -6,14 +7,13 @@ import ScrollToTop from "../components/ScrollToTop";
 import AboutMe from "./AboutMe";
 import Parcours from "./Parcours";
 import Skills from "./Skills";
+import ScrollArrow from "../components/ScrollArrow";
 
 function App() {
     return (
-        <>
+        <div id="top-page" className="background">
             <SvgDefs/>
-            <svg className="arrow">
-                <use xlinkHref="#arrow"></use>
-            </svg>
+            <ScrollArrow/>
             <Navigation/>
             <Header/>
             <main id="home">
@@ -22,13 +22,10 @@ function App() {
                 <Skills/>
                 {/*<Projects/>*/}
             </main>
-            {/*<div className="btn-up">
-                <img src="/img/arrow-up-solid.svg" className="icon-up" alt=""/>
-            </div>*/}
-            <ScrollToTop />
+            <ScrollToTop/>
             <Footer/>
             <div className="scroll-watcher"></div>
-        </>
+        </div>
     );
 }
 

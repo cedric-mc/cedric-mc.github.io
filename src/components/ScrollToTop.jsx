@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {useState, useEffect} from 'react';
 
 const ScrollToTop = () => {
     const [isTop, setIsTop] = useState(true);
@@ -27,11 +27,8 @@ const ScrollToTop = () => {
     };
 
     return (
-        <div
-            className={`btn-up ${isTop ? 'btn-hidden' : 'btn-visible'}`}
-            onClick={handleScrollToTop}
-        >
-            <img src="/img/arrow-up-solid.svg" className="icon-up" alt="Up Arrow" />
+        <div className={`btn-up ${isTop ? 'btn-hidden' : 'btn-visible'}`} onClick={handleScrollToTop}>
+            <img src="/img/arrow-up-solid.svg" className="icon-up" alt="Up Arrow"/>
         </div>
     );
 };
