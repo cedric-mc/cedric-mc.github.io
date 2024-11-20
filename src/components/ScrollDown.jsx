@@ -1,24 +1,27 @@
+import { useEffect } from "react";
 import lottie from "lottie-web";
 
-lottie.loadAnimation({
-    container: document.getElementById('lottie-container'), // Container to bind the animation
-    renderer: 'svg', // Render as SVG
-    loop: true,      // Enable looping
-    autoplay: true,  // Start the animation automatically
-    animationData: require('../data/animation.json'), // Animation data
-});
+function ScrollDown() {
+    useEffect(() => {
+        const animationInstance = lottie.loadAnimation({
+            container: document.getElementById('lottie-container'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: require('../data/animation.json')
+        });
 
-function ScrollArrow() {
+        // Nettoyage : détruire l'animation pour éviter les doublons
+        return () => {
+            animationInstance.destroy();
+        };
+    }, []); // Exécuter une seule fois après le montage du composant
+
     return (
-        <>
-            <div id="arrow-container">
-                {/*<svg className="arrow">
-                    <use xlinkHref="#arrow"></use>
-                </svg>*/}
-                <div id="lottie-container"></div>
-            </div>
-        </>
+        <div id="arrow-container">
+            <div id="lottie-container"></div>
+        </div>
     );
 }
 
-export default ScrollArrow;
+export default ScrollDown;

@@ -7,13 +7,13 @@ import ScrollToTop from "../components/ScrollToTop";
 import AboutMe from "./AboutMe";
 import Parcours from "./Parcours";
 import Skills from "./Skills";
-import ScrollArrow from "../components/ScrollArrow";
+import ScrollDown from "../components/ScrollDown";
 
 function App() {
     return (
         <div id="top-page" className="background">
             <SvgDefs/>
-            <ScrollArrow/>
+            <ScrollDown/>
             <Navigation/>
             <Header/>
             <main id="home">
