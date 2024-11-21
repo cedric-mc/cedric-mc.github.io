@@ -28,8 +28,8 @@ function iconText(icon, text) {
 
 function Navigation() {
     return (
-        <Navbar expand="lg" sticky="top" data-bs-theme="auto" className="navbar">
-            <Container>
+        <Navbar expand="lg" sticky="top" data-bs-theme="auto">
+            <Container fluid>
                 <NavbarBrand href="#top-page">
                     <img
                         alt=""
@@ -38,9 +38,9 @@ function Navigation() {
                     />{' '}
                     Accueil
                 </NavbarBrand>
-                <Navbar.Toggle aria-controls="navbar"/>
+                <Navbar.Toggle aria-controls="navbar" className="justify-content-end"/>
                 <NavbarCollapse id="navbar">
-                    <Nav className="navbar-nav custom-navbar-nav navbar-nav-scroll d-flex">
+                    <Nav className="navbar-nav custom-navbar-nav navbar-nav-scroll">
                         <Nav.Link href="#about-me">
                             {iconText("/img/navbar/about-me.png", "Me Connaître")}
                         </Nav.Link>

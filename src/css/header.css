@@ -14,7 +14,7 @@
 }
 
 #name-container:hover .name {
-    animation: TextAnimation 4s ease-in-out infinite;
+    animation: about-me-name 4s ease-in-out infinite;
 }
 
 .name {
