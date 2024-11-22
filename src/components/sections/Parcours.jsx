@@ -1,4 +1,4 @@
-import '../css/parcours.css';
+import '../../css/sections/parcours.css';
 import {Col, ListGroup, ListGroupItem, Row, TabContainer, TabContent, TabPane} from "react-bootstrap";
 
 function Parcours() {

@@ -1,4 +1,4 @@
-import '../css/nav.css';
+import '../../css/sections/nav.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -25,7 +25,7 @@ function iconText(icon, text) {
         );
     }
 }
-
+/* TODO: Enlever le font-size dans animation.css */
 function Navigation() {
     return (
         <Navbar expand="lg" sticky="top" data-bs-theme="auto">

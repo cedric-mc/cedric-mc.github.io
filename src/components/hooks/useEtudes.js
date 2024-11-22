@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 const useEtudes = () => {
-    const [isEtudes, setIsEtudes] = useState(false); // Par défaut, `isEtudes` est à `false`
+    const [isEtudes, setIsEtudes] = useState(false); // Par défaut, `isEtudes` est `false`
 
     useEffect(() => {
         const queryParams = new URLSearchParams(window.location.search);

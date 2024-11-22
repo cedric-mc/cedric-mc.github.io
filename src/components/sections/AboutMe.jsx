@@ -1,4 +1,4 @@
-import '../css/about-me.css';
+import '../../css/sections/about-me.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {Col, Row} from "react-bootstrap";

@@ -39,7 +39,7 @@
 }
 
 .documentation-icon {
-    background-image: url("../../public/img/icon-documentation.png");
+    background-image: url("../../../public/img/icon-documentation.png");
     display: inline-block;
     width: calc(var(--text-size) * 2);
     height: calc(var(--text-size) * 2);

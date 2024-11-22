@@ -8,7 +8,7 @@ function ScrollDown() {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            animationData: require('../data/animation.json')
+            animationData: require('../../data/animation.json')
         });
 
         // Nettoyage : détruire l'animation pour éviter les doublons

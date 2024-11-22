@@ -1,5 +1,5 @@
-import '../css/skills.css';
-import {useEffect, useState} from "react";
+import '../../css/sections/skills.css';
+import { useState } from "react";
 import {
     Button,
     Card,
@@ -13,20 +13,11 @@ import {
     Modal, ModalBody, ModalFooter, ModalHeader, ModalTitle,
     Row
 } from "react-bootstrap";
+import useEtudes from "../hooks/useEtudes";
 
 function Skills() {
-    const [isEtudes, setIsEtudes] = useState(false); // État pour gérer la présence de données d'études
-
-    const [realiserN2, setRealiserN2] = useState(false);
-
-    // Récupération de la valeur de `etudes` dans les paramètres de l'URL
-    useEffect(() => {
-        const queryParams = new URLSearchParams(window.location.search);
-        const etudes = queryParams.get('e');
-        if (etudes === '1') {
-            setIsEtudes(true); // On suppose que "1" signifie "true" et que les études sont présentes
-        }
-    }, []);
+    const [isEtudes] = useEtudes();
+    const [realiserN2, setRealiserN2] = useState(false); // État pour gérer l'ouverture du modal de détails de la compétence "Réaliser" au niveau 2
 
     return (
         <section id="skills">
