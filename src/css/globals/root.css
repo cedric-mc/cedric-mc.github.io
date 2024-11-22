@@ -32,8 +32,8 @@
     --scrollbar-thumb-border-radius: 5px;
 }
 
-[data-bs-theme="light"],
-html[data-bs-theme="auto"][data-auto-theme="light"] {
+[data-theme="light"],
+html[data-theme="auto"][data-auto-theme="light"] {
     --text-color: #000000;
     --bg-color: #86A0CA;
     --mouse-down: #000000;
@@ -60,8 +60,8 @@ html[data-bs-theme="auto"][data-auto-theme="light"] {
     /* About me */
 }
 
-[data-bs-theme="dark"],
-html[data-bs-theme="auto"][data-auto-theme="dark"] {
+[data-theme="dark"],
+html[data-theme="auto"][data-auto-theme="dark"] {
     --text-color: #FFFFFF;
     --bg-color: #0C4194;
     --mouse-down: #FFFFFF;
