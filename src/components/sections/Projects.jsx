@@ -1,5 +1,5 @@
 import '../../css/sections/projects.css';
-import {Carousel, CarouselItem} from "react-bootstrap";
+import {Carousel, CarouselItem, Ratio} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCss3, faHtml5} from "@fortawesome/free-brands-svg-icons";
 import useEtudes from "../hooks/useEtudes";
@@ -392,12 +392,12 @@ function Projects() {
                         <p>
                             J'ai participé à la création d'une vidéo pour une séquence de 5 à 10 minutes qui se déroule exclusivement par le biais d'appels téléphoniques et de SMS.
                         </p>
-                        <p className="ratio ratio-16x9">
+                        <Ratio aspectRatio="16x9">
                             <iframe src="https://www.youtube.com/embed/6cWJObySlfc"
                                     title="Wrong number : a very embarrassing misunderstanding Video"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-                        </p>
+                        </Ratio>
                     </div>
                     <div className="project-item">
                         <h3 className="title-project">Coding Flash</h3>
@@ -405,11 +405,11 @@ function Projects() {
                         <p>
                             J'ai monté une vidéo à partir de trois extraits de la série <span className="flash">The Flash</span>, avec mon équipe nous devions ajouter des sous-titres personnalisés dans ces extraits.
                         </p>
-                        <p className="ratio ratio-16x9">
+                        <Ratio aspectRatio="16x9">
                             <iframe src="https://www.youtube.com/embed/E3ukMn0_F5c" title="Coding Flash Video"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-                        </p>
+                        </Ratio>
                     </div>
                 </div>
             </div>

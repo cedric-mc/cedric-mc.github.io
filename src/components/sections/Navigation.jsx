@@ -6,25 +6,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import {NavbarBrand, NavbarCollapse} from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuildingColumns, faUserTie } from "@fortawesome/free-solid-svg-icons";
+import ThemeSelector from "../common/ThemeSelector";
+import {iconText} from "../common/Functions";
 
-function iconText(icon, text) {
-    /* Si l'icone est un string, on retourne un span contenant l'icone et le texte */
-    if (typeof icon === "string") {
-        return (
-            <span>
-                <img alt="" src={icon} className="d-inline-block align-text-top spinner"/>{' '}
-                {text}
-            </span>
-        );
-    } else if (typeof icon === "object") {
-        return (
-            <span>
-                {icon}{' '}
-                {text}
-            </span>
-        );
-    }
-}
 /* TODO: Enlever le font-size dans animation.css */
 function Navigation() {
     return (
@@ -63,26 +47,7 @@ function Navigation() {
                         <Nav.Link href="#contact">
                             {iconText("/img/navbar/contact.png", "Me Contacter")}
                         </Nav.Link>
-                        <NavDropdown title={iconText("/img/navbar/colors.png", "Apparence")}>
-                            <NavDropdown.Item data-bs-theme-toggle data-bs-theme-value="light">
-                                <svg className="spinner">
-                                    <use xlinkHref="#sun-fill"></use>
-                                </svg>{' '}
-                                Clair
-                            </NavDropdown.Item>
-                            <NavDropdown.Item data-bs-theme-toggle data-bs-theme-value="dark">
-                                <svg className="spinner">
-                                    <use xlinkHref="#moon-stars-fill"></use>
-                                </svg>{' '}
-                                Sombre
-                            </NavDropdown.Item>
-                            <NavDropdown.Item data-bs-theme-toggle data-bs-theme-value="auto">
-                                <svg className="spinner">
-                                    <use xlinkHref="#circle-half"></use>
-                                </svg>{' '}
-                                Auto
-                            </NavDropdown.Item>
-                        </NavDropdown>
+                        <ThemeSelector/>
                     </Nav>
                 </NavbarCollapse>
             </Container>
