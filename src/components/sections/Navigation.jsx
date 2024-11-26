@@ -35,11 +35,11 @@ function Navigation() {
                             {iconText("/img/navbar/skills.png", "Compétences")}
                         </Nav.Link>
                         <NavDropdown title={iconText("/img/navbar/projects.png", "Projets")}>
-                            <NavDropdown.Item href="#projets/projects-pro">
+                            <NavDropdown.Item href="#projects-pro">
                                 <FontAwesomeIcon icon={faUserTie} className="spinner" />{' '}
                                 Projets Professionnels
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#projets/projects-univ">
+                            <NavDropdown.Item href="#projects-univ">
                                 <FontAwesomeIcon icon={faBuildingColumns} className="spinner" />{' '}
                                 Projets Universitaires
                             </NavDropdown.Item>
