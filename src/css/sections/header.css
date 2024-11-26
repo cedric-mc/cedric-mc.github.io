@@ -1,3 +1,9 @@
+#header {
+    background-size: cover;
+    background: url("https://as2.ftcdn.net/v2/jpg/02/18/53/75/1000_F_218537567_Z4W3By4FP4VTi8ncqA0Uv1RiGdcuKWnk.jpg") no-repeat center center;
+    height: 80vh;
+}
+
 #name-container {
     margin: 1rem 0;
     padding: 1rem 0;

@@ -33,7 +33,7 @@
 }
 
 [data-theme="light"],
-html[data-theme="auto"][data-auto-theme="light"] {
+[data-theme="auto"][data-auto-theme="light"] {
     --text-color: #000000;
     --bg-color: #86A0CA;
     --mouse-down: #000000;
@@ -61,7 +61,7 @@ html[data-theme="auto"][data-auto-theme="light"] {
 }
 
 [data-theme="dark"],
-html[data-theme="auto"][data-auto-theme="dark"] {
+[data-theme="auto"][data-auto-theme="dark"] {
     --text-color: #FFFFFF;
     --bg-color: #0C4194;
     --mouse-down: #FFFFFF;
