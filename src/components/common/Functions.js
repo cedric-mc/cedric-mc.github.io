@@ -17,4 +17,31 @@ function iconText(icon, text) {
     }
 }
 
-export { iconText };
+// Fonction pour calculer le thème basé sur l'heure actuelle
+function themeBasedOnTime() {
+    const hour = new Date().getHours();
+    return hour >= 6 && hour < 18 ? "light" : "dark"; // Clair entre 6h et 18h, sinon sombre
+}
+
+// Fonction pour appliquer le thème global
+function updateThemeAttribute(attribute, value) {
+    const elements = document.querySelectorAll("[data-bs-theme]");
+    elements.forEach((element) => {
+        element.setAttribute(attribute, value);
+    });
+}
+
+// Fonction pour calculer le thème initial
+function calculateTheme(storageTheme) {
+    if (storageTheme && storageTheme !== "auto") {
+        return storageTheme;
+    }
+
+    if (storageTheme === "auto" || !storageTheme) {
+        return themeBasedOnTime();
+    }
+
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+export { iconText, themeBasedOnTime, updateThemeAttribute, calculateTheme };

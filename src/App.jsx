@@ -36,7 +36,7 @@ function calculateTheme({ storageThem }) {
     // Si aucune condition n'est remplie, on utilise la préférence système
     return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
-/* TODO: Ajouter le système de thème automatique en fonction de l'heure de la journée */
+
 function App() {
     // Récupération du thème de la page web depuis le localStorage
     const storageThem = localStorage.getItem('theme');

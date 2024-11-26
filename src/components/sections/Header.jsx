@@ -1,6 +1,21 @@
 import '../../css/sections/header.css';
+import { useEffect, useState } from 'react';
 
 function Header() {
+    const [debug, setDebug] = useState(false);
+
+    // Vérification du paramètre GET `debug`
+    useEffect(() => {
+        const queryParams = new URLSearchParams(window.location.search);
+        setDebug(queryParams.get("debug") === "1");
+
+        // Si le paramètre GET `debug` est présent, on affiche le thème actuel dans theme-display
+        if (queryParams.get("debug") === "1") {
+            const themeDisplay = document.getElementById("theme-display");
+            themeDisplay.textContent = `Thème : ${localStorage.getItem("theme") || "auto"}`;
+        }
+    }, []);
+
     return (
         <header id="header">
             <div id="name-container">

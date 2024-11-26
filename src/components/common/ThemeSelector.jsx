@@ -1,11 +1,12 @@
 import NavDropdown from "react-bootstrap/NavDropdown";
 import ThemeOption from "./ThemeOption";
-import {iconText} from "./Functions";
+import {iconText, themeBasedOnTime} from "./Functions";
 import {useEffect, useState} from "react"; // Assurez-vous que ce composant est importé
 
 const ThemeSelector = () => {
     // Utiliser un état pour stocker le thème actif
     const [theme, setTheme] = useState(localStorage.getItem("theme") || "auto");
+    const [debug, setDebug] = useState(false);
 
     // Fonction pour mettre à jour le thème
     const handleThemeChange = (newTheme) => {
@@ -14,9 +15,12 @@ const ThemeSelector = () => {
         setTheme(newTheme); // Met à jour l'état local pour forcer le rendu
     };
 
+    // Mise à jour du thème auto en fonction de l'heure
     useEffect(() => {
-        // Applique le thème depuis localStorage lors du montage du composant
-        document.querySelector("body").setAttribute("data-theme", theme);
+        if (theme === "auto") {
+            const autoTheme = themeBasedOnTime();
+            document.querySelector("body").setAttribute("data-auto-theme", autoTheme);
+        }
     }, [theme]);
 
     return (
@@ -37,7 +41,7 @@ const ThemeSelector = () => {
                 </NavDropdown.Item>
             )}
             <NavDropdown.Divider/>
-            <NavDropdown.Item disabled>
+            <NavDropdown.Item eventKey="disabled" disabled className="disabled">
                 <ThemeOption
                     theme={theme}
                     svg={
@@ -54,6 +58,7 @@ const ThemeSelector = () => {
                                 ? "Sombre"
                                 : "Auto"
                     }
+                    className="disabled"
                 />
             </NavDropdown.Item>
         </NavDropdown>
