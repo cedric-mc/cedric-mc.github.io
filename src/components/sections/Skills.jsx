@@ -1,4 +1,4 @@
-import '../../css/sections/skills.css';
+import '../../css/sections/Skills.css';
 import { useState } from "react";
 import {
     Button,

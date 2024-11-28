@@ -1,4 +1,4 @@
-import '../../css/sections/footer.css';
+import '../../css/sections/Footer.css';
 import React from 'react';
 import Container from "react-bootstrap/Container";
 import {Button, Col, Form, FormControl, FormGroup, FormLabel, Row} from "react-bootstrap";

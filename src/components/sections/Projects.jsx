@@ -1,4 +1,4 @@
-import '../../css/sections/projects.css';
+import '../../css/sections/Projects.css';
 import {Carousel, CarouselItem, Ratio} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCss3, faHtml5} from "@fortawesome/free-brands-svg-icons";

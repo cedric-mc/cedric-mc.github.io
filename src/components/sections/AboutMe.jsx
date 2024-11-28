@@ -1,4 +1,4 @@
-import '../../css/sections/about-me.css';
+import '../../css/sections/AboutMe.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {Col, Row} from "react-bootstrap";
@@ -23,6 +23,7 @@ function AboutMe() {
             console.error("Erreur lors du chargement de l'animation Lottie :", error);
         }
     }, []); // Exécuter une seule fois après le montage du composant
+
     return (
         <section id="about-me">
             <h2 className="title-section">Qui suis-je ?</h2>
@@ -52,7 +53,6 @@ function AboutMe() {
                             <FontAwesomeIcon icon={faGithub} className="spinner"/>{' '}GitHub
                         </a>.
                     </p>
-                    <div id="scrollUp-container"></div>
                 </Col>
                 <Col md={6} className="text-end d-flex justify-content-end">
                     <img src="/img/photo.jpg" alt="Profil" className="profil-photo img-fluid"/>

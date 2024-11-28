@@ -1,4 +1,4 @@
-import '../../css/sections/header.css';
+import '../../css/sections/Header.css';
 import { useEffect, useState } from 'react';
 import useDebug from "../hooks/useDebug";
 
