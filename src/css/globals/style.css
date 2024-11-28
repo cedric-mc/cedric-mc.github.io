@@ -6,6 +6,11 @@
     scroll-margin-top: 80px;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 body {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -62,7 +67,7 @@ section {
     pointer-events: none; /* Empêche l'interaction avec le fond */
 }
 
-#lottie-container {
+#scrollDown-container {
     fill: var(--mouse-down) !important;
     width: 4vw;
     height: 4vw;
@@ -71,7 +76,7 @@ section {
     margin: 0.5rem auto 1.5rem auto;
 }
 
-#lottie-container svg path {
+#scrollDown-container svg path {
     fill: var(--mouse-down) !important;
 }
 
@@ -130,22 +135,17 @@ main {
     transform: scale(1.5) rotate(360deg);
 }
 
-.badge-img {
-    width: max-content;
-    height: auto !important;
-}
-
 .btn-up {
-    width: 50px;
-    height: 50px;
+    width: /*var(--btn-up-size);*/ 1rem;
+    height: /*var(--btn-up-size);*/ 1rem;
     background: var(--btn-up-bg);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 1rem;
+    bottom: 1rem;
     cursor: pointer;
     transition: background 0.5s ease;
     z-index: 3;
@@ -197,21 +197,6 @@ main {
     100% {
         transform: translateY(0);
     }
-}
-
-#btn-retour-haut {
-    display: block;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-    font-size: 2rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 15px;
-    color: var(--up-arrow);
-    transition: color 0.3s ease;
 }
 
 /* Taille écran d'ordinateur */
