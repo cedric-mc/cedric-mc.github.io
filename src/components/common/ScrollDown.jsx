@@ -5,7 +5,7 @@ function ScrollDown() {
     const [isVisible, setIsVisible] = useState(true);
     useEffect(() => {
         const animationInstance = lottie.loadAnimation({
-            container: document.getElementById('lottie-container'),
+            container: document.getElementById('scrollDown-container'),
             renderer: 'svg',
             loop: true,
             autoplay: true,
@@ -36,7 +36,7 @@ function ScrollDown() {
 
     return (
         <div id="arrow-container" className={!isVisible ? 'hidden' : ''}>
-            <div id="lottie-container"></div>
+            <div id="scrollDown-container"></div>
         </div>
     );
 }
