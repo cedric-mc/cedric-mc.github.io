@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './css/globals/root.css';
+import {initTheme} from "./components/hooks/initTheme";
+
+// Initialisation du thème avant le montage de React
+initTheme();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
