@@ -68,3 +68,19 @@
 .navbar .dropdown-menu .dropdown-item:hover {
     background-color: var(--navbar-hover-bg);
 }
+
+[data-theme="light"] #navbar .disabled,
+[data-theme="auto"][data-auto-theme="light"] #navbar .disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #f8f9fa !important;
+    color: #6c757d !important;
+}
+
+[data-theme="dark"] #navbar .disabled,
+[data-theme="auto"][data-auto-theme="dark"] #navbar .disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #343a40 !important;
+    color: #6c757d !important;
+}
