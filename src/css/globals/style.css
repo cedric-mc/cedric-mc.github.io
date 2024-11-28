@@ -135,68 +135,25 @@ main {
     transform: scale(1.5) rotate(360deg);
 }
 
-.btn-up {
-    width: /*var(--btn-up-size);*/ 1rem;
-    height: /*var(--btn-up-size);*/ 1rem;
-    background: var(--btn-up-bg);
-    border-radius: 50%;
+#scrollUp-container {
+    fill: var(--btn-up-bg) !important;
+    width: 6vw;
+    height: 6vw;
+    margin: 1.5rem auto 0.5rem auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     right: 1rem;
     bottom: 1rem;
     cursor: pointer;
-    transition: background 0.5s ease;
     z-index: 3;
 }
 
-.btn-up.btn-hidden {
+#scrollUp-container svg path {
+    /*fill: var(--icon-up-color) !important;*/
+}
+
+.btn-hidden {
     display: none;
-}
-
-@keyframes btn-up-on {
-    0% {
-        transform: scale(0);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes btn-up-off {
-    0% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(0);
-    }
-}
-
-.icon-up {
-    width: 25px;
-    height: 25px;
-    filter: var(--icon-up-color);
-    transition: filter 0.5s ease;
-    animation: arrowAnimation 1.5s normal;
-}
-
-/* Pour l'animation de la flèche */
-@keyframes arrowAnimation {
-    0% {
-        transform: translateY(0);
-    }
-    30% {
-        transform: translateY(-8px); /* Montée subtile */
-    }
-    70% {
-        transform: translateY(8px); /* Descente subtile */
-    }
-    100% {
-        transform: translateY(0);
-    }
 }
 
 /* Taille écran d'ordinateur */
