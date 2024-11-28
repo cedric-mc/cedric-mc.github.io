@@ -1,7 +1,7 @@
 import './css/globals/style.css';
 import './css/globals/animation.css';
 import SvgDefs from "./components/common/SvgDefs";
-import ScrollToTop from "./components/common/ScrollToTop";
+import ScrollUp from "./components/common/ScrollUp";
 import ScrollDown from "./components/common/ScrollDown";
 import { Navigation, Header, AboutMe, Parcours, Skills, Projects, Footer } from "./components/sections";
 
@@ -18,7 +18,7 @@ function App() {
                 <Skills/>
                 <Projects/>
             </main>
-            <ScrollToTop/>
+            <ScrollUp/>
             <Footer/>
             <div className="scroll-watcher"></div>
         </div>
