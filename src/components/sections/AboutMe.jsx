@@ -3,8 +3,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {Col, Row} from "react-bootstrap";
 import {faDownload} from "@fortawesome/free-solid-svg-icons";
+import {useEffect} from "react";
+import lottie from "lottie-web";
 
 function AboutMe() {
+    useEffect(() => {
+        try {
+            const animationInstance = lottie.loadAnimation({
+                container: document.getElementById('scrollUp-container'),
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                animationData: require('../../data/scrollUp.json') // Remplacez par votre fichier JSON valide
+            });
+
+            // Nettoyage : détruire l'animation pour éviter les fuites mémoire
+            return () => animationInstance.destroy();
+        } catch (error) {
+            console.error("Erreur lors du chargement de l'animation Lottie :", error);
+        }
+    }, []); // Exécuter une seule fois après le montage du composant
     return (
         <section id="about-me">
             <h2 className="title-section">Qui suis-je ?</h2>
@@ -34,6 +52,7 @@ function AboutMe() {
                             <FontAwesomeIcon icon={faGithub} className="spinner"/>{' '}GitHub
                         </a>.
                     </p>
+                    <div id="scrollUp-container"></div>
                 </Col>
                 <Col md={6} className="text-end d-flex justify-content-end">
                     <img src="/img/photo.jpg" alt="Profil" className="profil-photo img-fluid"/>
