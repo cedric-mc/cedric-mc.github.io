@@ -4,14 +4,13 @@ import {iconText, themeBasedOnTime} from "./Functions";
 import {useEffect, useState} from "react"; // Assurez-vous que ce composant est importé
 
 const ThemeSelector = () => {
-    // Utiliser un état pour stocker le thème actif
-    const [theme, setTheme] = useState(localStorage.getItem("theme") || "auto");
-    const [debug, setDebug] = useState(false);
+    const [theme, setTheme] = useState(localStorage.getItem("theme") || "auto"); // Utiliser un état pour stocker le thème actif
 
     // Fonction pour mettre à jour le thème
     const handleThemeChange = (newTheme) => {
         document.querySelector("body").setAttribute("data-theme", newTheme); // Met à jour l'attribut du body
         localStorage.setItem("theme", newTheme); // Sauvegarde dans localStorage
+        window.dispatchEvent(new Event("themeChange")); // Notifie les autres composants
         setTheme(newTheme); // Met à jour l'état local pour forcer le rendu
     };
 
@@ -20,6 +19,7 @@ const ThemeSelector = () => {
         if (theme === "auto") {
             const autoTheme = themeBasedOnTime();
             document.querySelector("body").setAttribute("data-auto-theme", autoTheme);
+            localStorage.setItem("auto-theme", autoTheme);
         }
     }, [theme]);
 

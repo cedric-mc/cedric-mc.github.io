@@ -1,20 +1,34 @@
 import '../../css/sections/header.css';
 import { useEffect, useState } from 'react';
+import useDebug from "../hooks/useDebug";
 
 function Header() {
-    const [debug, setDebug] = useState(false);
+    const [display, setDisplay] = useState("Thème : auto");
+    const debug = useDebug();
 
-    // Vérification du paramètre GET `debug`
-    useEffect(() => {
-        const queryParams = new URLSearchParams(window.location.search);
-        setDebug(queryParams.get("debug") === "1");
-
-        // Si le paramètre GET `debug` est présent, on affiche le thème actuel dans theme-display
-        if (queryParams.get("debug") === "1") {
-            const themeDisplay = document.getElementById("theme-display");
-            themeDisplay.textContent = `Thème : ${localStorage.getItem("theme") || "auto"}`;
+    // Fonction pour mettre à jour l'affichage du thème
+    const updateThemeDisplay = () => {
+        const theme = localStorage.getItem("theme");
+        if (theme === "auto") {
+            const autoTheme = localStorage.getItem("auto-theme");
+            setDisplay(`Thème : auto + ${autoTheme}`);
+        } else {
+            setDisplay(`Thème : ${theme}`);
         }
-    }, []);
+    };
+
+    // Effet pour gérer les changements de thème
+    useEffect(() => {
+        if (debug) {
+            updateThemeDisplay(); // Initialise l'affichage
+
+            // Ajoute un écouteur pour l'événement personnalisé
+            window.addEventListener("themeChange", updateThemeDisplay);
+
+            // Nettoyage de l'écouteur
+            return () => window.removeEventListener("themeChange", updateThemeDisplay);
+        }
+    }, [debug]);
 
     return (
         <header id="header">
@@ -22,7 +36,7 @@ function Header() {
                 <h1 className="name lobster-regular">Cédric Mariya Constantine</h1>
                 <div id="wrapper">
                     <h2 className="etudiant-animation yatra-one-regular">Étudiant en informatique</h2>
-                    <div id="theme-display"></div>
+                    {debug && <div id="theme-display">{display}</div>}
                 </div>
             </div>
         </header>
