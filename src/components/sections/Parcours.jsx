@@ -33,7 +33,7 @@ function Parcours() {
                                         </p>
                                     </Col>
                                     <Col sm={6} className="d-flex justify-content-center">
-                                        <img src="/img/univ-gustave-eiffel.png" alt="Université Gustave Eiffel" className="parcours-image"/>
+                                        <img src="img/univ-gustave-eiffel.png" alt="Université Gustave Eiffel" className="parcours-image"/>
                                     </Col>
                                 </Row>
                             </TabPane>
@@ -49,7 +49,7 @@ function Parcours() {
                                         </p>
                                     </Col>
                                     <Col sm={6} className="d-flex justify-content-center">
-                                        <img src="/img/gaston-bachelard.png" alt="Lycée Gaston Bachelard" className="parcours-image"/>
+                                        <img src="img/gaston-bachelard.png" alt="Lycée Gaston Bachelard" className="parcours-image"/>
                                     </Col>
                                 </Row>
                             </TabPane>
@@ -67,7 +67,7 @@ function Parcours() {
                             <TabPane eventKey="#list-stage-dev-web-list">
                                 <Row>
                                     <Col sm={6} className="d-flex justify-content-center">
-                                        <img src="/img/crgn-logo.png" alt="CRGN" className="parcours-image"/>
+                                        <img src="img/crgn-logo.png" alt="CRGN" className="parcours-image"/>
                                     </Col>
                                     <Col sm={6} className="d-flex flex-column justify-content-center">
                                         <h4 className="parcours-name">Stage de développeur web</h4>
@@ -83,7 +83,7 @@ function Parcours() {
                             <TabPane eventKey="#list-stage-3eme-list">
                                 <Row>
                                     <Col sm={6} className="d-flex justify-content-center">
-                                        <img src="/img/bulles-dogs.webp" alt="Bulles Dogs" className="parcours-image"/>
+                                        <img src="img/bulles-dogs.webp" alt="Bulles Dogs" className="parcours-image"/>
                                     </Col>
                                     <Col sm={6} className="d-flex flex-column justify-content-center">
                                         <h4 className="parcours-name">Stage d'observation de 3<sup>ème</sup></h4>

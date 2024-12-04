@@ -17,7 +17,7 @@ function Navigation() {
                 <NavbarBrand href="#top-page">
                     <img
                         alt=""
-                        src="/img/navbar/home.png"
+                        src="img/navbar/home.png"
                         className="d-inline-block align-text-top spinner"
                     />{' '}
                     Accueil
@@ -26,15 +26,15 @@ function Navigation() {
                 <NavbarCollapse id="navbar">
                     <Nav className="navbar-nav custom-navbar-nav navbar-nav-scroll">
                         <Nav.Link href="#about-me">
-                            {iconText("/img/navbar/about-me.png", "Me Connaître")}
+                            {iconText("img/navbar/about-me.png", "Me Connaître")}
                         </Nav.Link>
                         <Nav.Link href="#parcours">
-                            {iconText("/img/navbar/parcours.png", "Parcours")}
+                            {iconText("img/navbar/parcours.png", "Parcours")}
                         </Nav.Link>
                         <Nav.Link href="#skills">
-                            {iconText("/img/navbar/skills.png", "Compétences")}
+                            {iconText("img/navbar/skills.png", "Compétences")}
                         </Nav.Link>
-                        <NavDropdown title={iconText("/img/navbar/projects.png", "Projets")}>
+                        <NavDropdown title={iconText("img/navbar/projects.png", "Projets")}>
                             <NavDropdown.Item href="#projects-pro">
                                 <FontAwesomeIcon icon={faUserTie} className="spinner" />{' '}
                                 Projets Professionnels
@@ -45,7 +45,7 @@ function Navigation() {
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="#contact">
-                            {iconText("/img/navbar/contact.png", "Me Contacter")}
+                            {iconText("img/navbar/contact.png", "Me Contacter")}
                         </Nav.Link>
                         <ThemeSelector/>
                     </Nav>

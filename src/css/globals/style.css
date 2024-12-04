@@ -9,6 +9,7 @@
 html,
 body {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -148,9 +149,9 @@ main {
     z-index: 3;
 }
 
-#scrollUp-container svg path {
-    /*fill: var(--icon-up-color) !important;*/
-}
+/* #scrollUp-container svg path {
+    fill: var(--icon-up-color) !important;
+} */
 
 .btn-hidden {
     display: none;

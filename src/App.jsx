@@ -18,7 +18,7 @@ function App() {
                 <Skills/>
                 <Projects/>
             </main>
-            <ScrollUp/>
+            {/* <ScrollUp/> */}
             <Footer/>
             <div className="scroll-watcher"></div>
         </div>

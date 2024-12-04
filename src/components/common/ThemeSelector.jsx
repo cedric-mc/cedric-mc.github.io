@@ -24,7 +24,7 @@ const ThemeSelector = () => {
     }, [theme]);
 
     return (
-        <NavDropdown title={iconText("/img/navbar/colors.png", "Apparence")}>
+        <NavDropdown title={iconText("img/navbar/colors.png", "Apparence")}>
             {theme !== "light" && (
                 <NavDropdown.Item onClick={() => handleThemeChange("light")}>
                     <ThemeOption theme="light" svg="#sun-fill" name="Clair"/>

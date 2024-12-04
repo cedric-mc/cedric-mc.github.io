@@ -42,7 +42,7 @@ function AboutMe() {
                             Télécharger&nbsp;<FontAwesomeIcon icon={faDownload}/>
                         </a>
                     </p>
-                    <p>Je maîtrise différentes langues en dehors du français : l'Anglais <img className="p-img" src="/img/navbar/eng.png" alt="icon flag english"/> bien entendu et le Tamoul <img className="p-img" src="/img/tamil.png" alt="icon flag tamil"/> (langue maternelle).</p>
+                    <p>Je maîtrise différentes langues en dehors du français : l'Anglais <img className="p-img" src="img/navbar/eng.png" alt="icon flag english"/> bien entendu et le Tamoul <img className="p-img" src="img/tamil.png" alt="icon flag tamil"/> (langue maternelle).</p>
                     <p>Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !</p>
                     <p>
                         Vous pouvez également me contacter via le formulaire de contact et me suivre sur :{' '}
@@ -55,7 +55,7 @@ function AboutMe() {
                     </p>
                 </Col>
                 <Col md={6} className="text-end d-flex justify-content-end">
-                    <img src="/img/photo.jpg" alt="Profil" className="profil-photo img-fluid"/>
+                    <img src="img/photo.jpg" alt="Profil" className="profil-photo img-fluid"/>
                 </Col>
             </Row>
         </section>

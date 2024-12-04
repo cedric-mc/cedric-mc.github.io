@@ -38,16 +38,16 @@ function Projects() {
                         </div>
                         <Carousel fade data-bs-theme="dark">
                             <CarouselItem>
-                                <img src="/img/projects/atlas-gn-1.png" className="d-block w-100" alt="Atlas GN 1"/>
+                                <img src="img/projects/atlas-gn-1.png" className="d-block w-100" alt="Atlas GN 1"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/atlas-gn-2.png" className="d-block w-100" alt="Atlas GN 2"/>
+                                <img src="img/projects/atlas-gn-2.png" className="d-block w-100" alt="Atlas GN 2"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/atlas-gn-3.png" className="d-block w-100" alt="Atlas GN 3"/>
+                                <img src="img/projects/atlas-gn-3.png" className="d-block w-100" alt="Atlas GN 3"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/atlas-gn-4.png" className="d-block w-100" alt="Atlas GN 4"/>
+                                <img src="img/projects/atlas-gn-4.png" className="d-block w-100" alt="Atlas GN 4"/>
                             </CarouselItem>
                         </Carousel>
                     </div>
@@ -101,22 +101,22 @@ function Projects() {
                         </p>
                         <Carousel fade>
                             <CarouselItem>
-                                <img src="/img/projects/SEMONKEY1.png" className="d-block w-100" alt="Semonkey 1"/>
+                                <img src="img/projects/SEMONKEY1.png" className="d-block w-100" alt="Semonkey 1"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/SEMONKEY2.png" className="d-block w-100" alt="Semonkey 2"/>
+                                <img src="img/projects/SEMONKEY2.png" className="d-block w-100" alt="Semonkey 2"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/SEMONKEY3.png" className="d-block w-100" alt="Semonkey 3"/>
+                                <img src="img/projects/SEMONKEY3.png" className="d-block w-100" alt="Semonkey 3"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/SEMONKEY4.png" className="d-block w-100" alt="Semonkey 4"/>
+                                <img src="img/projects/SEMONKEY4.png" className="d-block w-100" alt="Semonkey 4"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/SEMONKEY5.png" className="d-block w-100" alt="Semonkey 5"/>
+                                <img src="img/projects/SEMONKEY5.png" className="d-block w-100" alt="Semonkey 5"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/SEMONKEY6.png" className="d-block w-100" alt="Semonkey 6"/>
+                                <img src="img/projects/SEMONKEY6.png" className="d-block w-100" alt="Semonkey 6"/>
                             </CarouselItem>
                         </Carousel>
                     </div>
@@ -142,22 +142,22 @@ function Projects() {
                         </p>
                         <Carousel fade data-bs-theme="dark">
                             <CarouselItem>
-                                <img src="/img/projects/CNIL1.png" className="d-block w-100" alt="CNIL 1"/>
+                                <img src="img/projects/CNIL1.png" className="d-block w-100" alt="CNIL 1"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/CNIL2.png" className="d-block w-100" alt="CNIL 2"/>
+                                <img src="img/projects/CNIL2.png" className="d-block w-100" alt="CNIL 2"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/CNIL3.png" className="d-block w-100" alt="CNIL 3"/>
+                                <img src="img/projects/CNIL3.png" className="d-block w-100" alt="CNIL 3"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/CNIL4.png" className="d-block w-100" alt="CNIL 4"/>
+                                <img src="img/projects/CNIL4.png" className="d-block w-100" alt="CNIL 4"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/CNIL5.png" className="d-block w-100" alt="CNIL 5"/>
+                                <img src="img/projects/CNIL5.png" className="d-block w-100" alt="CNIL 5"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/CNIL6.png" className="d-block w-100" alt="CNIL 6"/>
+                                <img src="img/projects/CNIL6.png" className="d-block w-100" alt="CNIL 6"/>
                             </CarouselItem>
                         </Carousel>
                     </div>
@@ -175,7 +175,7 @@ function Projects() {
                                 Compétence Administrer : Ce projet m'a permis de mettre à disposition un pare-feu et une translation d'adresse sur un réseau local.
                                 <br/>
                             </p>
-                            <img src="/img/projects/RESEAU1.png" className="d-block w-100" alt="Réseau"/>
+                            <img src="img/projects/RESEAU1.png" className="d-block w-100" alt="Réseau"/>
                         </div>
                     </div>
                 }
@@ -211,34 +211,34 @@ function Projects() {
                         </p>
                         <Carousel fade>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK1.png" className="d-block w-100" alt="Banklink 1"/>
+                                <img src="img/projects/BANKLINK1.png" className="d-block w-100" alt="Banklink 1"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK2.png" className="d-block w-100" alt="Banklink 2"/>
+                                <img src="img/projects/BANKLINK2.png" className="d-block w-100" alt="Banklink 2"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK3.png" className="d-block w-100" alt="Banklink 3"/>
+                                <img src="img/projects/BANKLINK3.png" className="d-block w-100" alt="Banklink 3"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK4.png" className="d-block w-100" alt="Banklink 4"/>
+                                <img src="img/projects/BANKLINK4.png" className="d-block w-100" alt="Banklink 4"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK5.png" className="d-block w-100" alt="Banklink 5"/>
+                                <img src="img/projects/BANKLINK5.png" className="d-block w-100" alt="Banklink 5"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK6.png" className="d-block w-100" alt="Banklink 6"/>
+                                <img src="img/projects/BANKLINK6.png" className="d-block w-100" alt="Banklink 6"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK7.png" className="d-block w-100" alt="Banklink 7"/>
+                                <img src="img/projects/BANKLINK7.png" className="d-block w-100" alt="Banklink 7"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK8.png" className="d-block w-100" alt="Banklink 8"/>
+                                <img src="img/projects/BANKLINK8.png" className="d-block w-100" alt="Banklink 8"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK9.png" className="d-block w-100" alt="Banklink 9"/>
+                                <img src="img/projects/BANKLINK9.png" className="d-block w-100" alt="Banklink 9"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BANKLINK10.png" className="d-block w-100" alt="Banklink 10"/>
+                                <img src="img/projects/BANKLINK10.png" className="d-block w-100" alt="Banklink 10"/>
                             </CarouselItem>
                         </Carousel>
                     </div>
@@ -247,7 +247,7 @@ function Projects() {
                 <div id="toledo">
                     <div className="project-item">
                         <h3 className="title-project">Projet de médiation culturelle et numérique en partenariat avec le
-                            forum de l'UNESCO <img className="img-spin" src="/img/projects/unesco.png" alt="UNESCO"/></h3>
+                            forum de l'UNESCO <img className="img-spin" src="img/projects/unesco.png" alt="UNESCO"/></h3>
                         <h4 className="project-language">HTML, CSS, JS, PHP, SQL</h4>
                         <p>
                             En partenariat avec le forum de l'UNESCO, ce projet consistait à réaliser un site web pour le forum de l'UNESCO, en présentant la ville avec sa culture, son histoire et bien entendu ses incontournables d'aujourd'hui.
@@ -268,19 +268,19 @@ function Projects() {
                         </p>
                         <Carousel fade data-bs-theme="dark">
                             <CarouselItem>
-                                <img src="/img/projects/TO1.png" className="d-block w-100" alt="Toledo 1"/>
+                                <img src="img/projects/TO1.png" className="d-block w-100" alt="Toledo 1"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/TO2.png" className="d-block w-100" alt="Toledo 2"/>
+                                <img src="img/projects/TO2.png" className="d-block w-100" alt="Toledo 2"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/TO3.png" className="d-block w-100" alt="Toledo 3"/>
+                                <img src="img/projects/TO3.png" className="d-block w-100" alt="Toledo 3"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/TO4.png" className="d-block w-100" alt="Toledo 4"/>
+                                <img src="img/projects/TO4.png" className="d-block w-100" alt="Toledo 4"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/TO5.png" className="d-block w-100" alt="Toledo 5"/>
+                                <img src="img/projects/TO5.png" className="d-block w-100" alt="Toledo 5"/>
                             </CarouselItem>
                         </Carousel>
                     </div>
@@ -306,22 +306,22 @@ function Projects() {
                         </p>
                         <Carousel fade>
                             <CarouselItem>
-                                <img src="/img/projects/BDD1.png" className="d-block w-100" alt="Hedelma 1"/>
+                                <img src="img/projects/BDD1.png" className="d-block w-100" alt="Hedelma 1"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDD2.png" className="d-block w-100" alt="Hedelma 2"/>
+                                <img src="img/projects/BDD2.png" className="d-block w-100" alt="Hedelma 2"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDD3.png" className="d-block w-100" alt="Hedelma 3"/>
+                                <img src="img/projects/BDD3.png" className="d-block w-100" alt="Hedelma 3"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDD4.png" className="d-block w-100" alt="Hedelma 4"/>
+                                <img src="img/projects/BDD4.png" className="d-block w-100" alt="Hedelma 4"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDD5.png" className="d-block w-100" alt="Hedelma 5"/>
+                                <img src="img/projects/BDD5.png" className="d-block w-100" alt="Hedelma 5"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDD6.png" className="d-block w-100" alt="Hedelma 6"/>
+                                <img src="img/projects/BDD6.png" className="d-block w-100" alt="Hedelma 6"/>
                             </CarouselItem>
                         </Carousel>
                     </div>
@@ -357,29 +357,29 @@ function Projects() {
                         </p>
                         <h5 className="caption-title">Les Variantes du jeu Bataille des Boules</h5>
                         <p>
-                            Vous pouvez jouer avec 6 variantes différentes : <img src="/img/projects/hourglass.png" className="p-img" alt="sablier"/> le Sablier,<img src="/img/projects/scores.png" className="p-img" alt="scores"/> les Scores,<img src="/img/projects/taille-des-boules.png" className="p-img" alt="taille-des-boules"/> la Taille de Boules,<img src="/img/projects/dynamique.png" className="p-img" alt="dynamique"/> la Version Dynamique, <img src="/img/projects/terminaison.png" className="p-img" alt="terminaison"/> la Terminaison et <img src="/img/projects/obstacles.png" className="p-img" alt="obstacles"/> les Obstacles.
+                            Vous pouvez jouer avec 6 variantes différentes : <img src="img/projects/hourglass.png" className="p-img" alt="sablier"/> le Sablier,<img src="img/projects/scores.png" className="p-img" alt="scores"/> les Scores,<img src="img/projects/taille-des-boules.png" className="p-img" alt="taille-des-boules"/> la Taille de Boules,<img src="img/projects/dynamique.png" className="p-img" alt="dynamique"/> la Version Dynamique, <img src="img/projects/terminaison.png" className="p-img" alt="terminaison"/> la Terminaison et <img src="img/projects/obstacles.png" className="p-img" alt="obstacles"/> les Obstacles.
                         </p>
                         <Carousel fade>
                             <CarouselItem>
-                                <img src="/img/projects/BDB1.png" className="d-block w-100" alt="Bataille de Boules 1"/>
+                                <img src="img/projects/BDB1.png" className="d-block w-100" alt="Bataille de Boules 1"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDB2.png" className="d-block w-100" alt="Bataille de Boules 2"/>
+                                <img src="img/projects/BDB2.png" className="d-block w-100" alt="Bataille de Boules 2"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDB3.png" className="d-block w-100" alt="Bataille de Boules 3"/>
+                                <img src="img/projects/BDB3.png" className="d-block w-100" alt="Bataille de Boules 3"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDB4.png" className="d-block w-100" alt="Bataille de Boules 4"/>
+                                <img src="img/projects/BDB4.png" className="d-block w-100" alt="Bataille de Boules 4"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDB5.png" className="d-block w-100" alt="Bataille de Boules 5"/>
+                                <img src="img/projects/BDB5.png" className="d-block w-100" alt="Bataille de Boules 5"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDB6.png" className="d-block w-100" alt="Bataille de Boules 6"/>
+                                <img src="img/projects/BDB6.png" className="d-block w-100" alt="Bataille de Boules 6"/>
                             </CarouselItem>
                             <CarouselItem>
-                                <img src="/img/projects/BDB7.png" className="d-block w-100" alt="Bataille de Boules 7"/>
+                                <img src="img/projects/BDB7.png" className="d-block w-100" alt="Bataille de Boules 7"/>
                             </CarouselItem>
                         </Carousel>
                     </div>

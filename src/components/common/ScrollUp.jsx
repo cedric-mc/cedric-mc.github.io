@@ -34,7 +34,7 @@ const ScrollUp = () => {
     };
     return (
         /*<div className={`btn-up ${isTop ? 'btn-hidden' : 'btn-visible'}`} onClick={handleScrollToTop}>
-            <img src="/img/arrow-up-solid.svg" className="icon-up" alt="Up Arrow"/>
+            <img src="img/arrow-up-solid.svg" className="icon-up" alt="Up Arrow"/>
         </div>*/
         <div id="scrollUp-container" onClick={handleScrollToTop} className={`${isTop ? 'btn-hidden' : 'btn-visible'}`}></div>
     );

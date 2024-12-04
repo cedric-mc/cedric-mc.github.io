@@ -13,12 +13,12 @@ function Footer() {
                         <ul id="social-networks">
                             <li>
                                 <a className="link" href="https://github.com/cedric-mc" target="_blank" rel="noreferrer">
-                                    <img className="p-img" src="/img/skills/github.png" alt="github"/> GitHub
+                                    <img className="p-img" src="img/skills/github.png" alt="github"/> GitHub
                                 </a>
                             </li>
                             <li>
                                 <a className="link" href="https://www.linkedin.com/in/cédric-mariya-constantine-a3a52325a/" target="_blank" rel="noreferrer">
-                                    <img className="p-img" src="/img/linkedin.png" alt="linkedin"/> Linkedin
+                                    <img className="p-img" src="img/linkedin.png" alt="linkedin"/> Linkedin
                                 </a>
                             </li>
                         </ul>
