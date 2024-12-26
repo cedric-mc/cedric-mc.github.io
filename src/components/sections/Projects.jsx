@@ -3,7 +3,7 @@ import {Carousel, CarouselItem, Ratio} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCss3, faHtml5} from "@fortawesome/free-brands-svg-icons";
 import useEtudes from "../hooks/useEtudes";
-
+// TODO: Modifier le lien githubPages pour le projet python
 function Projects() {
     const [isEtudes] = useEtudes();
 
