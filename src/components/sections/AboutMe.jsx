@@ -6,7 +6,7 @@ import {faDownload} from "@fortawesome/free-solid-svg-icons";
 import {useEffect} from "react";
 import lottie from "lottie-web";
 
-function AboutMe() {
+export default function AboutMe() {
     useEffect(() => {
         try {
             const animationInstance = lottie.loadAnimation({
@@ -61,5 +61,3 @@ function AboutMe() {
         </section>
     );
 }
-
-export default AboutMe;

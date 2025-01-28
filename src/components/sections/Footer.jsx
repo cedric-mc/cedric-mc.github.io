@@ -3,7 +3,7 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import {Button, Col, Form, FormControl, FormGroup, FormLabel, Row} from "react-bootstrap";
 
-function Footer() {
+export default function Footer() {
     return (
         <footer id="footer" className="footer">
             <Container>
@@ -51,5 +51,3 @@ function Footer() {
         </footer>
     );
 }
-
-export default Footer;

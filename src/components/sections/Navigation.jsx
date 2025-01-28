@@ -10,7 +10,7 @@ import ThemeSelector from "../common/ThemeSelector";
 import {iconText} from "../common/Functions";
 
 /* TODO: Enlever le font-size dans animation.css */
-function Navigation() {
+export default function Navigation() {
     return (
         <Navbar expand="lg" fixed='top' sticky="top" data-bs-theme="auto">
             <Container fluid>
@@ -54,5 +54,3 @@ function Navigation() {
         </Navbar>
     );
 }
-
-export default Navigation;

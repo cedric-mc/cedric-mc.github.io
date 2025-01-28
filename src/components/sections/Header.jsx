@@ -2,7 +2,7 @@ import '../../css/sections/Header.css';
 import { useEffect, useState } from 'react';
 import useDebug from "../hooks/useDebug";
 
-function Header() {
+export default function Header() {
     const [display, setDisplay] = useState("Thème : auto");
     const debug = useDebug();
 
@@ -42,5 +42,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;

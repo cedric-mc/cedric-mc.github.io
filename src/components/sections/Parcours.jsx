@@ -1,7 +1,7 @@
 import '../../css/sections/Parcours.css';
 import {Col, ListGroup, ListGroupItem, Row, TabContainer, TabContent, TabPane} from "react-bootstrap";
 
-function Parcours() {
+export default function Parcours() {
     return (
         <section id="parcours">
             <h2 className="title-section">Mon Parcours</h2>
@@ -113,5 +113,3 @@ function Parcours() {
         </section>
     );
 }
-
-export default Parcours;

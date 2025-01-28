@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const ScrollUp = () => {
+export default function ScrollUp() {
     const [isVisible, setIsVisible] = useState(true); // Par défaut, le bouton est caché.
 
     useEffect(() => {
@@ -24,18 +24,6 @@ const ScrollUp = () => {
         };
     }, []);
 
-    /* useEffect(() => {
-        const handleScroll = () => {
-            setIsVisible(window.scrollY > 100); // Affiche si on a scrollé plus de 100px
-        };
-    
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []); */
-    
-
     const handleScrollToTop = () => {
         // Défilement fluide vers le haut
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -47,5 +35,3 @@ const ScrollUp = () => {
         </div>
     );
 };
-
-export default ScrollUp;

@@ -1,9 +1,8 @@
 import '../../css/sections/Projects.css';
 import { Carousel, CarouselItem, Ratio } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import useEtudes from "../hooks/useEtudes";
 // TODO: Modifier le lien githubPages pour le projet python
-function Projects() {
+export default function Projects() {
     const [isEtudes] = useEtudes();
 
     return (
@@ -437,5 +436,3 @@ function Projects() {
         </section>
     );
 }
-
-export default Projects;

@@ -1,7 +1,7 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import lottie from "lottie-web";
 
-function ScrollDown() {
+export default function ScrollDown() {
     const [isVisible, setIsVisible] = useState(true);
     useEffect(() => {
         const animationInstance = lottie.loadAnimation({
@@ -40,5 +40,3 @@ function ScrollDown() {
         </div>
     );
 }
-
-export default ScrollDown;
