@@ -12,7 +12,7 @@ import {iconText} from "../common/Functions";
 /* TODO: Enlever le font-size dans animation.css */
 function Navigation() {
     return (
-        <Navbar expand="lg" sticky="top" data-bs-theme="auto">
+        <Navbar expand="lg" fixed='top' sticky="top" data-bs-theme="auto">
             <Container fluid>
                 <NavbarBrand href="#top-page">
                     <img
