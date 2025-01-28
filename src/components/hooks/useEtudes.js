@@ -11,7 +11,7 @@ const useEtudes = () => {
         }
     }, []);
 
-    return [isEtudes, setIsEtudes];
+    return isEtudes;
 };
 
 export default useEtudes;

@@ -3,7 +3,7 @@ import { Carousel, CarouselItem, Ratio } from "react-bootstrap";
 import useEtudes from "../hooks/useEtudes";
 // TODO: Modifier le lien githubPages pour le projet python
 export default function Projects() {
-    const [isEtudes] = useEtudes();
+    const isEtudes = useEtudes();
 
     return (
         <section id="projects">

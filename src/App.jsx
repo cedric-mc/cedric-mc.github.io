@@ -14,7 +14,7 @@ import SkillsUniv from './components/sections/SkillsUniv';
 import useEtudes from "./components/hooks/useEtudes";
 
 function App() {
-    const [isEtudes, setIsEtudes] = useEtudes();
+    const isEtudes = useEtudes();
 
     return (
         <div id="top-page" className="background">
