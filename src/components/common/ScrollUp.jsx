@@ -1,42 +1,50 @@
-import React, {useState, useEffect} from 'react';
-import lottie from "lottie-web";
+import React, { useState, useEffect } from 'react';
 
 const ScrollUp = () => {
-    const [isTop, setIsTop] = useState(true);
+    const [isVisible, setIsVisible] = useState(true); // Par défaut, le bouton est caché.
 
     useEffect(() => {
-        const animationInstance = lottie.loadAnimation({
-            container: document.getElementById('scrollUp-container'),
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            animationData: require('../../data/scrollUp.json') // Remplacez par votre fichier JSON valide
-        });
+        // Gestion de la visibilité du composant
+        const header = document.getElementById('header');
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setIsVisible(!entry.isIntersecting); // Cache ScrollUp si le header est visible
+            },
+            { root: null, threshold: 0.5 }
+        );        
 
-        const handleScroll = () => {
-            if (window.scrollY > 100) {
-                setIsTop(false);
-            } else {
-                setIsTop(true);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
+        if (header) {
+            observer.observe(header);
+        }
 
         return () => {
-            window.removeEventListener('scroll', handleScroll);
-            // animationInstance.destroy(); // Nettoyage : détruire l'animation pour éviter les fuites mémoire
+            if (header) {
+                observer.disconnect();
+            }
         };
     }, []);
 
+    /* useEffect(() => {
+        const handleScroll = () => {
+            setIsVisible(window.scrollY > 100); // Affiche si on a scrollé plus de 100px
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []); */
+    
+
     const handleScrollToTop = () => {
-        window.scrollTo({top: 0});
+        // Défilement fluide vers le haut
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
+
     return (
-        /*<div className={`btn-up ${isTop ? 'btn-hidden' : 'btn-visible'}`} onClick={handleScrollToTop}>
-            <img src="img/arrow-up-solid.svg" className="icon-up" alt="Up Arrow"/>
-        </div>*/
-        <div id="scrollUp-container" onClick={handleScrollToTop} className={`${isTop ? 'btn-hidden' : 'btn-visible'}`}></div>
+        <div id="scrollUp-container" className={!isVisible ? 'hidden' : ''} onClick={handleScrollToTop}>
+            {/* <img src="img/arrow-up-solid.svg" className="icon-up" alt="Up Arrow"/> */}
+        </div>
     );
 };
 
