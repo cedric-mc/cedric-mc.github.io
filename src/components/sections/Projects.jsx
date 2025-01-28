@@ -1,7 +1,6 @@
 import '../../css/sections/Projects.css';
-import {Carousel, CarouselItem, Ratio} from "react-bootstrap";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCss3, faHtml5} from "@fortawesome/free-brands-svg-icons";
+import { Carousel, CarouselItem, Ratio } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import useEtudes from "../hooks/useEtudes";
 // TODO: Modifier le lien githubPages pour le projet python
 function Projects() {
@@ -60,19 +59,41 @@ function Projects() {
                     Dans cette section, vous trouverez les projets que j'ai réalisés dans le cadre de mes études
                     universitaires.
                 </p>
+                <div id='ingrid'>
+                    <div className='project-item'>
+                        <h3 className='title-project'>Projet I.N.G.R.I.D (Projet Eiffel Time), Application de gestion universitaire</h3>
+                        <h4 className='project-language'>HTML, CSS, JS, TS, React Native, Node.js, Express, PostgreSQL</h4>
+                        <p>
+                            L'application I.N.G.R.I.D est une application web et mobile qui permet de gérer les notes, les absences et de visualiser l'emploi du temps des différents acteurs de l'université Gustave Eiffel.
+                            Ces acteurs sont les étudiants, les enseignants, les secrétaires, les directeurs, les gestionnaires et l'administrateur.
+                        </p>
+                        <Carousel fade>
+                            <CarouselItem>
+                                <img src='img/projects/INGRID1.png' className='d-block w-100' alt='INGRID 1'/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img src='img/projects/INGRID2.png' className='d-block w-100' alt='INGRID 2'/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img src='img/projects/INGRID3.png' className='d-block w-100' alt='INGRID 3'/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img src='img/projects/INGRID4.png' className='d-block w-100' alt='INGRID 4'/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img src='img/projects/INGRID5.png' className='d-block w-100' alt='INGRID 5'/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img src='img/projects/INGRID6.png' className='d-block w-100' alt='INGRID 6'/>
+                            </CarouselItem>
+                        </Carousel>
+                    </div>
+                </div>
                 <div id="semonkey">
                     <div className="project-item">
                         <h3 className="title-project">Semonkey, Jeu en ligne à un ou plusieurs joueurs</h3>
                         <h4 className="project-language">
-                            <FontAwesomeIcon className="character" icon={faHtml5}/> <FontAwesomeIcon className="character" icon={faCss3}/>,
-                            PHP&ensp;<i className="fa-brands fa-php character"></i>,
-                            SQL&ensp;<i className="fa-solid fa-database character"></i>,
-                            JS&ensp;<i className="fa-brands fa-square-js character"></i>,
-                            C&ensp;<i className="fa-solid fa-c character"></i>,
-                            Java&ensp;<i className="fa-brands fa-java character"></i>,
-                            TypeScript&ensp;,
-                            React&ensp;<i className="fa-brands fa-react character"></i>,
-                            Android&ensp;<i className="fa-brands fa-android character"></i>
+                            HTML, CSS, PHP, SQL, C, Java, TypeScript, React, Android
                         </h4>
                         <p>
                             Semonkey est un jeu en ligne à un ou plusieurs joueurs.
