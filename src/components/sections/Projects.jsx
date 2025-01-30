@@ -30,8 +30,8 @@ export default function Projects() {
                                 l'histoire de France, des entités (unités et gendarmes) ayant composée la Maréchaussée,
                                 sous l'Ancien Régime, puis la Gendarmerie Nationale (depuis 1791)."
                                 <br/>
-                                {/*Site :&ensp;<a href="https://atlas-gendarmerie.fr/" target="_blank" rel="noreferrer"><span className="code-icon spinner"/></a><br/>*/}
-                                {/*Description :&ensp;<a href="https://atlas-gendarmerie.fr/?p=le_projet" target="_blank" rel="noreferrer"><span className="documentation-icon spinner"/></a>*/}
+                                Site :&ensp;<a href="https://atlas-gendarmerie.fr/" target="_blank" rel="noreferrer"><span className="code-icon spinner"/></a><br/>
+                                Description :&ensp;<a href="https://atlas-gendarmerie.fr/?p=le_projet" target="_blank" rel="noreferrer"><span className="documentation-icon spinner"/></a>
                             </p>
                         </div>
                         <Carousel fade data-bs-theme="dark">
@@ -66,7 +66,7 @@ export default function Projects() {
                             L'application I.N.G.R.I.D est une application web et mobile qui permet de gérer les notes, les absences et de visualiser l'emploi du temps des différents acteurs de l'université Gustave Eiffel.
                             Ces acteurs sont les étudiants, les enseignants, les secrétaires, les directeurs, les gestionnaires et l'administrateur.
                         </p>
-                        <Carousel fade>
+                        <Carousel fade data-bs-theme='dark'>
                             <CarouselItem>
                                 <img src='img/projects/INGRID1.png' className='d-block w-100' alt='INGRID 1'/>
                             </CarouselItem>
@@ -84,6 +84,12 @@ export default function Projects() {
                             </CarouselItem>
                             <CarouselItem>
                                 <img src='img/projects/INGRID6.png' className='d-block w-100' alt='INGRID 6'/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img src='img/projects/INGRID7.png' className='d-block w-100' alt='INGRID 7'/>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <img src='img/projects/INGRID8.png' className='d-block w-100' alt='INGRID 8'/>
                             </CarouselItem>
                         </Carousel>
                     </div>
