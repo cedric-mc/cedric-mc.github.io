@@ -1,0 +1,90 @@
+.navbar {
+	background: var(--navbar-bg);
+	color: var(--navbar-text);
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.navbar-brand,
+#navbar .nav-link {
+	color: inherit;
+}
+
+.navbar-brand {
+	/* Pour centrer le texte et l'icône */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.navbar-brand img {
+	width: calc(var(--text-size) * 1.5);
+}
+
+.navbar-brand:hover {
+	color: inherit;
+}
+
+.navbar-toggler {
+	border-color: var(--navbar-toggler-border) !important;
+	color: var(--navbar-toggler-color) !important;
+}
+
+.navbar-toggler-icon {
+	background-image: var(--navbar-toggler-icon);
+}
+
+#navbar svg {
+	flex-shrink: 0;
+	width: var(--text-size);
+	height: var(--text-size);
+	fill: currentColor;
+	transition: 0.2s ease-in-out transform;
+}
+
+.nav-item .nav-link img,
+.nav-item ul.dropdown-menu li a.dropdown-item img {
+	height: auto;
+}
+
+/* Pour customiser / personnaliser la navbar de bootstrap */
+.custom-navbar-nav {
+	margin-left: auto;
+	/* Aligner à droite */
+}
+
+.svg {
+	width: var(--text-size);
+	height: auto;
+}
+
+.navbar .dropdown-menu,
+.navbar .dropdown-menu .dropdown-item {
+	background: var(--navbar-bg);
+	color: var(--navbar-text);
+	transition: none;
+	transform: none;
+	animation: none;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+	background-color: var(--navbar-hover-bg);
+}
+
+[data-theme='light'] #navbar .disabled,
+[data-theme='auto'][data-auto-theme='light'] #navbar .disabled {
+	cursor: not-allowed;
+	pointer-events: none;
+	background-color: #f8f9fa !important;
+	color: #6c757d !important;
+}
+
+[data-theme='dark'] #navbar .disabled,
+[data-theme='auto'][data-auto-theme='dark'] #navbar .disabled {
+	cursor: not-allowed;
+	pointer-events: none;
+	background-color: #343a40 !important;
+	color: #6c757d !important;
+}

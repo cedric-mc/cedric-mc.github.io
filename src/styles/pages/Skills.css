@@ -1,0 +1,166 @@
+#skills {
+	color: var(--text-color);
+	font-size: var(--text-size);
+}
+
+.character {
+	transition: all 0.3s ease;
+}
+
+.character:hover {
+	transform: scale(1.5) rotateY(360deg);
+}
+
+.realiser {
+	border-color: #b80905;
+	color: #b80905;
+}
+
+.bg-realiser {
+	background: #b80905;
+	color: white;
+}
+
+Button.bg-realiser:hover {
+	background: white;
+	color: #b80905;
+	border-color: #b80905;
+}
+
+.optimiser {
+	border-color: #ed8c51;
+	color: #ed8c51;
+}
+
+.bg-optimiser {
+	background: #ed8c51;
+	color: black;
+}
+
+Button.bg-optimiser:hover {
+	background: white;
+	color: #ed8c51;
+	border-color: #ed8c51;
+}
+
+.administrer {
+	border-color: #efba11;
+	color: #efba11;
+}
+
+.bg-administrer {
+	background: #efba11;
+	color: black;
+}
+
+Button.bg-administrer:hover {
+	background: white;
+	color: #efba11;
+	border-color: #efba11;
+}
+
+.gerer {
+	border-color: #8cc850;
+	color: #8cc850;
+}
+
+.bg-gerer {
+	background: #8cc850;
+	color: black;
+}
+
+Button.bg-gerer:hover {
+	background: white;
+	color: #8cc850;
+	border-color: #8cc850;
+}
+
+.conduire {
+	border-color: #0a215e;
+	color: #0a215e;
+}
+
+.bg-conduire {
+	background: #0a215e;
+	color: white;
+}
+
+Button.bg-conduire:hover {
+	background: white;
+	color: #0a215e;
+	border-color: #0a215e;
+}
+
+.collaborer {
+	border-color: #0f0f0f;
+	color: #0f0f0f;
+}
+
+.bg-collaborer {
+	background: #0f0f0f;
+	color: white;
+}
+
+Button.bg-collaborer:hover {
+	background: white;
+	color: #0f0f0f;
+	border-color: #0f0f0f;
+}
+
+.skills-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.skills-list li {
+	list-style: none;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.skills-list li img {
+	width: calc(var(--text-size) * 2);
+	height: auto;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.gradient-button {
+	position: relative;
+	padding: 10px 20px;
+	font-size: 16px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background: linear-gradient(
+		90deg,
+		#b80905,
+		#ed8c51,
+		#efba11,
+		#8cc850,
+		#0a215e,
+		#0f0f0f,
+		#b80905
+	); /* 6 colors looping back to the first */
+	background-size: 600%;
+	animation: gradient-flow 16s ease-in-out infinite;
+	outline: none;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+
+.button-container .gradient-button:nth-child(1) {
+	animation-delay: 0s;
+}
+.button-container .gradient-button:nth-child(2) {
+	animation-delay: 5.33s;
+}
+.button-container .gradient-button:nth-child(3) {
+	animation-delay: 10.67s;
+}

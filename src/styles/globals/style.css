@@ -1,0 +1,211 @@
+#about-me,
+#parcours,
+#skills,
+#projects,
+#contact {
+    scroll-margin-top: 80px;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.background {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    width: inherit;
+    height: auto;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#home {
+    width: 100%;
+    height: 100%;
+    margin-top: 2.5rem;
+}
+
+.text-background {
+    color: var(--bg-color) !important;
+}
+
+main,
+header#header {
+    padding: 0.521vw 5.208vw;
+    margin: 0.5em;
+}
+
+section {
+    /* min-height: 100vh; */
+    padding: 0.625rem 1.15rem;
+    margin: 0.5em;
+    min-height: 100vh;
+}
+
+#arrow-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    pointer-events: none;
+    /* Empêche l'interaction avec le conteneur */
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+#arrow-container.hidden {
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#arrow-container::before {
+    content: '';
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-mouse-down);
+    z-index: -1;
+    /* Derrière le contenu */
+    pointer-events: none;
+    /* Empêche l'interaction avec le fond */
+}
+
+#scrollDown-container {
+    fill: var(--mouse-down) !important;
+    width: 4vw;
+    height: 4vw;
+    display: block;
+    /* margin 4 : top right bottom left */
+    margin: 0.5rem auto 1.5rem auto;
+}
+
+#scrollDown-container svg path {
+    fill: var(--mouse-down) !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+main {
+    font-family: 'Lato', serif !important;
+}
+
+/* pour l'animation de la bordure */
+.all-border {
+    border-width: 5px;
+    border-style: solid;
+    /*border-image: linear-gradient(red, orange, yellow, green, aqua, blue, purple, pink) 1;*/
+    animation: Gradient-border 2s infinite;
+    height: fit-content;
+}
+
+/* titre de bloc / section */
+.title-section {
+    font-family: 'Lato', serif;
+    font-size: var(--title-section-size);
+    font-weight: bold;
+}
+
+.subtitle-section {
+    font-family: 'Lato', serif;
+    font-size: var(--subtitle-section-size);
+    font-weight: bold;
+}
+
+.p-img {
+    /* Pour l'image à la même taille que le texte */
+    width: 2.5rem !important;
+    height: auto;
+    transition: transform 0.3s ease-out;
+}
+
+.p-img:hover {
+    transform: scale(1.5) rotate(360deg);
+    /* Pour faire tourner et agrandir l'image lorsque l'on survole l'image */
+}
+
+/* Version plus grande de p-img, même animation */
+.img-spin {
+    width: 4rem;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    transition: transform 0.3s ease-out;
+}
+
+.img-spin:hover {
+    transform: scale(1.5) rotate(360deg);
+}
+
+#scrollUp-container {
+    fill: var(--btn-up-bg) !important;
+    width: 5vw;
+    height: 5vw;
+    margin: inherit auto 0.5rem auto;
+    display: flex;
+    position: fixed;
+    right: 1rem;
+    bottom: 0.5rem;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#scrollUp-container.hidden {
+    display: none;
+}
+
+/* #scrollUp-container svg path {
+    fill: var(--icon-up-color) !important;
+} */
+
+/* Taille écran d'ordinateur */
+@media screen and (min-width: 769px) {
+
+    header,
+    main {
+        padding: 10px 100px;
+        margin: 0.5em;
+    }
+}
+
+.lobster-regular {
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.yatra-one-regular {
+    font-family: 'Yatra One', system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 1.25vw;
+}
