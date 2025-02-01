@@ -18,12 +18,12 @@ export function AboutMe() {
                         d'une entreprise qui me permettra de mettre en pratique mes connaissances et mes compétences
                         dans le domaine du développement informatique.
                     </p>
-                    <p>
+                    {/* <p>
                         Voici mon CV, il est à votre disposition :&nbsp;
                         <a id="cv-btn" className="btn btn-danger heartbeat heartbeat-hover" href="/CV_CEDRIC_MARIYA-CONSTANTINE.pdf" target="_blank">
                             Télécharger&nbsp;<FontAwesomeIcon icon={faDownload}/>
                         </a>
-                    </p>
+                    </p> */}
                     <p>Je maîtrise différentes langues en dehors du français : l'Anglais <img className="p-img" src="img/navbar/eng.png" alt="icon flag english"/> bien entendu et le Tamoul <img className="p-img" src="img/tamil.png" alt="icon flag tamil"/> (langue maternelle).</p>
                     <p>Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !</p>
                     <p>
