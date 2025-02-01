@@ -39,15 +39,18 @@ export function Navigation({ isEtudes }:NavLinkProps) {
                                 <NavLink to="/skills" className="nav-link">
                                     <IconText icon={skills} text="Compétences"/>
                                 </NavLink>
-                                <NavDropdown title={<IconText icon={projects} text="Projets"/>}>
-                                    <NavDropdown.Item href="/projects/#projects-pro">
+                                <NavLink to="/projects" className="nav-link">
+                                    <IconText icon={projects} text="Projets"/>
+                                </NavLink>
+                                {/* <NavDropdown title={<IconText icon={projects} text="Projets"/>}>
+                                    <NavDropdown.Item href="/projects">
                                         <FontAwesomeIcon icon={faUserTie} className="spinner" />{' '} Projets Professionnels
                                     </NavDropdown.Item>
-                                    <NavDropdown.Item href="/projects/#projects-univ">
+                                    <NavDropdown.Item href="/projects">
                                         <FontAwesomeIcon icon={faBuildingColumns} className="spinner" />{' '}
                                         Projets Universitaires
                                     </NavDropdown.Item>
-                                </NavDropdown>
+                                </NavDropdown> */}
                             </>
                         ) : (
                             <>

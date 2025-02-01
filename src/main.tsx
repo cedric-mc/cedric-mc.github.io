@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import '@styles/globals/root.css';
-import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 
 const root = document.getElementById('root') as HTMLElement;
