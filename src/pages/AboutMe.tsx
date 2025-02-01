@@ -28,10 +28,10 @@ export function AboutMe() {
                     <p>Je vous invite à me découvrir à travers ce Portfolio, tout en prenant une petite collation !</p>
                     <p>
                         Vous pouvez également me contacter via le formulaire de contact et me suivre sur :{' '}
-                        <a href="https://www.linkedin.com/in/cédric-mariya-constantine-a3a52325a/" target="_blank" rel="noreferrer" className="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover social-link">
+                        <a href="https://www.linkedin.com/in/cédric-mariya-constantine-a3a52325a/" target="_blank" rel="noreferrer" className="link-body link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover social-link">
                             <FontAwesomeIcon icon={faLinkedin} className="spinner"/>{' '}LinkedIn
                         </a> et{' '}
-                        <a href="https://github.com/cedric-mc/" target="_blank" rel="noreferrer" className="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover social-link">
+                        <a href="https://github.com/cedric-mc/" target="_blank" rel="noreferrer" className="link-body link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover social-link">
                             <FontAwesomeIcon icon={faGithub} className="spinner"/>{' '}GitHub
                         </a>.
                     </p>
