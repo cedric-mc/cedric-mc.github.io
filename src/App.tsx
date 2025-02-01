@@ -3,7 +3,7 @@ import { themeBasedOnTime } from './hooks/useTheme';
 import { RouterProvider } from 'react-router';
 import { router } from './router';
 
-function App() {
+function App() { //TODO: Augmenter la taille des marges pour les écrans larges
     useEffect(() => {
         const savedTheme = localStorage.getItem("theme") || "auto";
         const body = document.querySelector("body") as HTMLElement;
