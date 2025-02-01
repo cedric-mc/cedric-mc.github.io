@@ -1,5 +1,6 @@
 import '../../css/sections/Parcours.css';
-import {Col, ListGroup, ListGroupItem, Row, TabContainer, TabContent, TabPane} from "react-bootstrap";
+import {Badge, Col, ListGroup, ListGroupItem, Row, Stack, TabContainer, TabContent, TabPane} from "react-bootstrap";
+import SkillBadge from "../SkillBadge";
 
 export default function Parcours() {
     return (
@@ -77,6 +78,15 @@ export default function Parcours() {
                                             Paris<br/>
                                             Développement web applicatif pour la gendarmerie nationale avec utilisation de données
                                         </p>
+                                        {/* <SkillBadge skill="HTML"/> */}
+                                        {/* <Stack direction='horizontal' gap={3}>
+                                            <Badge bg="light" className='text-background'>HTML</Badge>
+                                            <Badge bg="light" className='text-background'>CSS</Badge>
+                                            <Badge bg="light" className='text-background'>JavaScript</Badge>
+                                            <Badge bg="light" className='text-background'>PHP</Badge>
+                                            <Badge bg="light" className='text-background'>SQL/MySQL</Badge>
+                                            <Badge bg="light" className='text-background'>Python</Badge>
+                                        </Stack> */}
                                     </Col>
                                 </Row>
                             </TabPane>
