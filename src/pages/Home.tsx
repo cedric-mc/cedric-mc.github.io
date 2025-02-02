@@ -16,6 +16,8 @@ export function Home() {
                 <br/>
                 Bonne visite !
             </p>
+            {/* TODO: Faire une page avec les évènements d'un dépôt GitHub */}
+            {/* TODO: Indiquer si possible à l'aide de Google Analytics le nombre de visiteurs en tout + le nombre de visiteurs de la journée en mode debug */}
         </div>
     );
 }
