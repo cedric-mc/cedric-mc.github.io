@@ -73,7 +73,7 @@
 [data-theme='dark'],
 [data-theme='auto'][data-auto-theme='dark'] {
 	--text-color: #ffffff;
-	--bg-color: #0c4194;
+	--bg-color: #0C4194;
 	--mouse-down: #ffffff;
 	--bg-mouse-down: linear-gradient(
 		to top,
