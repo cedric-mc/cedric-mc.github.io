@@ -1,6 +1,12 @@
+import { Header } from "../components/Header";
+import { AboutMe } from "./AboutMe";
+
 export function Home() {
     return (
-        <div className='home'>
+        <div>
+            <Header />
+            <AboutMe />
+            {/* <div className='home'>
             <h1 className='home-title'>Bienvenue sur mon portfolio</h1>
             <p className='home-text'>
                 Je suis un développeur web passionné par les nouvelles technologies et les défis techniques.
@@ -15,9 +21,10 @@ export function Home() {
                 N'hésitez pas à me contacter pour plus d'informations.
                 <br/>
                 Bonne visite !
-            </p>
+            </p> */}
             {/* TODO: Faire une page avec les évènements d'un dépôt GitHub */}
             {/* TODO: Indiquer si possible à l'aide de Google Analytics le nombre de visiteurs en tout + le nombre de visiteurs de la journée en mode debug */}
+            {/* </div> */}
         </div>
     );
 }
