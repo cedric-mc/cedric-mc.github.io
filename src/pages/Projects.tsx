@@ -25,8 +25,8 @@ export function Projects() {
                 </p>
                 <div id="atlas-gendarmerie">
                     <div className="project-item">
-                        <h3 className="title-project">Atlas historique de la Gendarmerie Nationale</h3>
-                        <h4 className="project-language">HTML, CSS, JS, PHP, SQL</h4>
+                        <h4 className="title-project">Atlas historique de la Gendarmerie Nationale</h4>
+                        <h5 className="project-language">HTML, CSS, JS, PHP, SQL</h5>
                         <div>
                             <p>
                                 Description officielle : "Le projet Atlas historique de la Gendarmerie est un projet
@@ -67,11 +67,11 @@ export function Projects() {
                 </p>
                 <div id='ingrid'>
                     <div className='project-item'>
-                        <h3 className='title-project'>Projet I.N.G.R.I.D (Projet Eiffel Time), Application de gestion universitaire</h3>
+                        <h3 className='title-project'>Projet I.N.G.R.I.D. (Eiffel Time), Application de gestion universitaire</h3>
                         <h4 className='project-language'>HTML, CSS, JS, TS, React Native, Node.js, Express, PostgreSQL</h4>
                         <p>
                             L'application I.N.G.R.I.D est une application web et mobile qui permet de gérer les notes, les absences et de visualiser l'emploi du temps des différents acteurs de l'université Gustave Eiffel.
-                            Ces acteurs sont les étudiants, les enseignants, les secrétaires, les directeurs, les gestionnaires et l'administrateur.
+                            Ces acteurs sont les étudiants, les enseignants et le personnel (secrétaires, directeurs d'étude...).
                         </p>
                         <Carousel fade data-bs-theme='dark'>
                             <CarouselItem>
