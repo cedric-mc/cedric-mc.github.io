@@ -16,7 +16,7 @@ function App() { //TODO: Augmenter la taille des marges pour les écrans larges
         } else {
             body.setAttribute("data-theme", savedTheme);
         }
-    }, []);
+    }, [localStorage]);
 
     return <RouterProvider router={router} />;
 }
