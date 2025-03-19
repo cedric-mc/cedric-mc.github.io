@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ButtonGroup, Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavDropdown, NavItem } from "react-bootstrap";
+import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavDropdown } from "react-bootstrap";
 import { IconText } from "./IconText";
-import { faBuildingColumns, faUserTie } from "@fortawesome/free-solid-svg-icons";
+import { faBuildingColumns, faDiagramProject, faUserTie } from "@fortawesome/free-solid-svg-icons";
 import { ThemeSelector } from "./ThemeSelector";
 import '@styles/components/Navigation.css'; // TODO: Déplacer le fichier CSS
 import home from '@assets/navbar/home.png';
@@ -35,6 +35,7 @@ export function Navigation({ isEtudes }: NavLinkProps) {
             </NavLink>
             <NavDropdown title={<IconText icon={projects} text="Projets" />}>
               <NavDropdown.Item as={NavLink} to="/projects">
+                <FontAwesomeIcon icon={faDiagramProject} className="spinner" />{' '}
                 Tous les Projets
               </NavDropdown.Item>
               <NavDropdown.Divider />
