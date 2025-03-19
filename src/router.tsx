@@ -4,9 +4,13 @@ import { Parcours } from "./pages/Parcours";
 import { Skills } from "./pages/Skills";
 import { Projects } from "./pages/Projects";
 import { Home } from "./pages/Home";
+import { useEtudes } from "./hooks/useEtudes";
+import { useEffect, useState } from "react";
 
 const theme = localStorage.getItem("theme") || "auto";
+const finalTheme = theme === "auto" ? localStorage.getItem("auto-theme") || "light" : theme;
 const invertTheme = theme === "light" ? "dark" : "light";
+
 
 export const router = createBrowserRouter([
     {
