@@ -20,6 +20,7 @@ export function Layout() {
                 <Outlet />
             </main>
             <Footer />
+            {/* TODO: Ajouter un bouton pour remonter en haut de la page */}
         </div>
     );
 }
