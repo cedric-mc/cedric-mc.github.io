@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavDropdown } from "react-bootstrap";
+import { ButtonGroup, Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavDropdown, NavItem } from "react-bootstrap";
 import { IconText } from "./IconText";
 import { faBuildingColumns, faUserTie } from "@fortawesome/free-solid-svg-icons";
 import { ThemeSelector } from "./ThemeSelector";
@@ -12,50 +12,63 @@ import contact from '@assets/navbar/contact.png';
 import { NavLink } from "react-router";
 
 interface NavLinkProps {
-    isEtudes: boolean;
+  isEtudes: boolean;
 }
 
-export function Navigation({ isEtudes }:NavLinkProps) {
-    return (
-        <Navbar expand="lg" fixed="top" data-bs-theme="auto">
-            <Container fluid>
-                <NavLink to="/" className="navbar-brand">
-                    <NavbarBrand>
-                        <img alt="" src={home} className="d-inline-block align-text-top spinner" />{' '} Accueil
-                    </NavbarBrand>
-                </NavLink>
-                <Navbar.Toggle aria-controls="navbar" className="justify-content-end"/>
-                <NavbarCollapse id="navbar">
-                    <Nav className="navbar-nav custom-navbar-nav navbar-nav-scroll">
-                        <NavLink to="/parcours" className="nav-link">
-                            <IconText icon={parcours} text="Parcours"/>
-                        </NavLink>
-                        {!isEtudes ? (
-                            <>
-                                <NavLink to="/skills" className="nav-link">
-                                    <IconText icon={skills} text="Compétences"/>
-                                </NavLink>
-                                <NavDropdown title={<IconText icon={projects} text="Projets"/>}>
-                                    <NavDropdown.Item as={NavLink} to="/projects#projects-pro">
-                                        <FontAwesomeIcon icon={faUserTie} className="spinner" />{' '} Projets Professionnels
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item as={NavLink} to="/projects#projects-univ">
-                                        <FontAwesomeIcon icon={faBuildingColumns} className="spinner" />{' '}
-                                        Projets Universitaires
-                                    </NavDropdown.Item>
-                                </NavDropdown>
-                            </>
-                        ) : (
-                            <>
-                            </>
-                        )}
-                        <Nav.Link href="#contact">
-                            <IconText icon={contact} text="Me Contacter"/>
-                        </Nav.Link>
-                        <ThemeSelector/>
-                    </Nav>
-                </NavbarCollapse>
-            </Container>
-        </Navbar>
-    );
+export function Navigation({ isEtudes }: NavLinkProps) {
+  return (
+    <Navbar expand="lg" fixed="top" data-bs-theme="auto">
+      <Container fluid>
+        <NavLink to="/" className="navbar-brand">
+          <NavbarBrand>
+            <img alt="" src={home} className="d-inline-block align-text-top spinner" />{' '} Accueil
+          </NavbarBrand>
+        </NavLink>
+        <Navbar.Toggle aria-controls="navbar" className="justify-content-end" />
+        <NavbarCollapse id="navbar">
+          <Nav className="navbar-nav custom-navbar-nav navbar-nav-scroll">
+            <NavLink to="/parcours" className="nav-link">
+              <IconText icon={parcours} text="Parcours" />
+            </NavLink>
+            <NavLink to="/skills" className="nav-link">
+              <IconText icon={skills} text="Compétences" />
+            </NavLink>
+            <NavDropdown title={<IconText icon={projects} text="Projets" />}>
+              <NavDropdown.Item as={NavLink} to="/projects">
+                Tous les Projets
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              {isEtudes ? (
+                <>
+                  <NavDropdown.Item as={NavLink} to="/projects#projects-pro">
+                    <FontAwesomeIcon icon={faUserTie} className="spinner" />{' '}
+                    Projets Professionnels
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/projects#projects-univ">
+                    <FontAwesomeIcon icon={faBuildingColumns} className="spinner" />{' '}
+                    Projets Universitaires
+                  </NavDropdown.Item>
+                </>
+              ) : (
+                <>
+                  <NavDropdown.Item as={NavLink} to="/projects#projects-univ">
+                    <FontAwesomeIcon icon={faBuildingColumns} className="spinner" />{' '}
+                    Projets Universitaires
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/projects#projects-pro">
+                    <FontAwesomeIcon icon={faUserTie} className="spinner" />{' '}
+                    Projets Professionnels
+                  </NavDropdown.Item>
+                </>
+              )}
+            </NavDropdown>
+            <Nav.Link href="#contact">
+              <IconText icon={contact} text="Me Contacter" />
+            </Nav.Link>
+            <ThemeSelector />
+          </Nav>
+        </NavbarCollapse>
+      </Container>
+    </Navbar>
+  );
 };
