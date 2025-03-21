@@ -7,15 +7,15 @@ import '@styles/globals/animation.css';
 import { useScrollToTop } from '../hooks/useScrollToTop';
 
 export function Layout() {
-    const queryParameters = new URLSearchParams(window.location.search);
-    const etudes = queryParameters.get('e') === '1';
+    // const queryParameters = new URLSearchParams(window.location.search);
+    // const etudes = queryParameters.get('e') === '1';
 
     useScrollToTop();
 
     return (
         <div className='app-container'>
             <SvgDefs />
-            <Navigation isEtudes={etudes} />
+            <Navigation />
             <main id='home' className='content'>
                 <Outlet />
             </main>
