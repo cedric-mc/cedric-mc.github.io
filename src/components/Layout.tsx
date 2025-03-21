@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { SvgDefs } from './SvgDefs';
-import { Navigation } from './Navigation';
+import { Navigation } from './Navigation/Navigation';
 import { Footer } from './Footer';
 import '@styles/globals/style.css';
 import '@styles/globals/animation.css';
