@@ -1,0 +1,136 @@
+[
+  {
+    "header": "Atlas historique de la Gendarmerie Nationale",
+    "title": "Atlas historique de la Gendarmerie Nationale",
+    "subtitle": "HTML, CSS, JS, PHP, SQL",
+    "text": "\"Le projet Atlas historique de la Gendarmerie est un projet interactif et collaboratif, composé de contributeurs variés (chercheurs, gendarmes, érudits, etc.). Le projet vise à rendre accessible en ligne l'identification géolocalisée, dans l'histoire de France, des entités (unités et gendarmes) ayant composée la Maréchaussée, sous l'Ancien Régime, puis la Gendarmerie Nationale (depuis 1791).\"",
+    "theme": "dark",
+    "badge": "Projet Professionnel",
+    "code": "https://atlas-gendarmerie.fr",
+    "doc": "https://atlas-gendarmerie.fr/?p=le_projet",
+    "carousel": {
+      "prefix": "atlas-gn",
+      "altPrefix": "Atlas GN",
+      "theme": "dark"
+    },
+    "etudes": false
+  },
+  {
+    "header": "Projet I.N.G.R.I.D. (Eiffel Time)",
+    "title": "Application de gestion universitaire",
+    "subtitle": "HTML, CSS, JS, TS, React Native, Node.js, Express, PostgreSQL",
+    "text": "L'application I.N.G.R.I.D est une application web et mobile qui permet de gérer les notes, les absences et de visualiser l'emploi du temps des différents acteurs de l'université Gustave Eiffel. Ces acteurs sont les étudiants, les enseignants et le personnel (secrétaires, directeurs d'étude...).",
+    "theme": "dark",
+    "badge": "Projet Universitaire",
+    "code": "https://github.com/mtelli4/eiffel_time",
+    "doc": "https://github.com/mtelli4/eiffel_time/blob/main/README.md",
+    "carousel": {
+      "prefix": "INGRID",
+      "altPrefix": "INGRID",
+      "theme": "dark"
+    },
+    "etudes": false
+  },
+  {
+    "header": "Semonkey",
+    "title": "Jeu en ligne à un ou plusieurs joueurs",
+    "subtitle": "HTML, CSS, PHP, SQL, C, Java, TypeScript, React, Android",
+    "text": "Semonkey est un jeu en ligne à un ou plusieurs joueurs. Chaque joueur reçoit un mot de départ et un mot cible et propose des mots proches afin de créer une chaîne de mots similaires pour relier le mot de départ au mot cible.",
+    "theme": "light",
+    "badge": "Projet Universitaire",
+    "carousel": {
+      "prefix": "SEMONKEY",
+      "altPrefix": "Semonkey",
+      "theme": "light"
+    },
+    "etudes": false
+  },
+  {
+    "header": "Contrôles CNIL",
+    "title": "Contrôles CNIL",
+    "subtitle": "HTML, CSS, JS, PHP, SQL",
+    "text": "Le projet Contrôles CNIL a pour objectif d'exploiter les données ouvertes concernant les contrôles réalisés par la CNIL de 2017 à 2022. L'objectif est de valoriser ces données en les présentant sous forme d'un site web comprenant une carte et des graphiques permettant une visualisation claire et interactive des informations, afin de créer un tableau de bord informatif.",
+    "theme": "dark",
+    "badge": "Projet Universitaire",
+    "carousel": {
+      "prefix": "CNIL",
+      "altPrefix": "CNIL",
+      "theme": "dark"
+    },
+    "etudes": false
+  },
+  {
+    "header": "TP Pare-feu et translation d'adresse",
+    "title": "TP Pare-feu et translation d'adresse",
+    "subtitle": "Bash, Linux",
+    "text": "Le TP Pare-feu et translation d'adresse a pour objectif de mettre en place un pare-feu sous Linux grâce à Netfilter et mettre en place une passerelle NAT (Network Address Translation).",
+    "theme": "dark",
+    "badge": "Projet Universitaire",
+    "carousel": {
+      "prefix": "RESEAU",
+      "altPrefix": "Réseau",
+      "theme": "dark"
+    },
+    "etudes": true
+  },
+  {
+    "header": "Banklink",
+    "title": "Portail Web de Gestion de paiements par carte bancaire",
+    "subtitle": "HTML, CSS, PHP, SQL, JS",
+    "text": "Le projet Banklink est un portail web de gestion de paiements par carte bancaire. Il permet de visualiser les transactions effectuées et de gérer les comptes clients.",
+    "theme": "light",
+    "badge": "Projet Universitaire",
+    "doc": "https://cedric-mc.github.io/Banklink",
+    "carousel": {
+      "prefix": "BANKLINK",
+      "altPrefix": "Banklink",
+      "theme": "light"
+    },
+    "etudes": false
+  },
+  {
+    "header": "Toledo",
+    "title": "Projet de médiation culturelle et numérique en partenariat avec le forum de l'UNESCO",
+    "subtitle": "HTML, CSS, JS, PHP, SQL",
+    "text": "En partenariat avec le forum de l'UNESCO, ce projet consistait à réaliser un site web pour le forum de l'UNESCO, en présentant la ville avec sa culture, son histoire et bien entendu ses incontournables d'aujourd'hui.",
+    "theme": "dark",
+    "badge": "Projet Universitaire",
+    "carousel": {
+      "prefix": "TO",
+      "altPrefix": "Toledo",
+      "theme": "dark"
+    },
+    "etudes": false
+  },
+  {
+    "header": "Hedelma, Primeurs-Passion",
+    "title": "Site web de vente de fruits et légumes",
+    "subtitle": "HTML, CSS, JS, PHP, SQL, PostgreSQL, Looping",
+    "text": "Ce projet consistait à réaliser un site web pour une entreprise fictive de vente de fruits et légumes.",
+    "theme": "dark",
+    "badge": "Projet Universitaire",
+    "carousel": {
+      "prefix": "BDD",
+      "altPrefix": "Hedelma",
+      "theme": "dark"
+    },
+    "etudes": false
+  },
+  {
+    "header": "Bataille de Boules",
+    "title": "Jeu de placement de boules",
+    "subtitle": "Python",
+    "text": "Le but de ce projet était de réaliser un jeu de placement de boules. Chaque utilisateur joue avec une couleur. Le but du jeu est d’occuper la plus grande aire avec sa couleur. Les joueurs contrôlent la souris chacun à leur tour, et on décide à l’avance du nombre de tours. Le projet était à réaliser à deux en 3 phases.",
+    "theme": "light",
+    "badge": "Projet Universitaire",
+    "code": "https://github.com/cedric-mc/BatailleBoules",
+    "doc": "https://cedric-mc.github.io/BatailleBoules/",
+    "carousel": {
+      "prefix": "BDB",
+      "altPrefix": "Bataille de Boules",
+      "theme": "light"
+    },
+    "etudes": false,
+    "competences": ""
+  }
+]
