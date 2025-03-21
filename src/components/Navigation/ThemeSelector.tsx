@@ -1,7 +1,7 @@
 import { NavDropdown } from "react-bootstrap";
-import { IconText } from "./IconText";
+import { IconText } from "../IconText";
 import { useEffect, useState } from "react";
-import { themeBasedOnTime } from "../hooks/useTheme";
+import { themeBasedOnTime } from "../../hooks/useTheme";
 import colors from "@assets/navbar/colors.png";
 
 interface ThemeOptionProps {
