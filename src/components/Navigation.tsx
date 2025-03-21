@@ -1,7 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse } from "react-bootstrap";
 import { IconText } from "./IconText";
-import { faBuildingColumns, faDiagramProject, faUserTie } from "@fortawesome/free-solid-svg-icons";
 import { ThemeSelector } from "./ThemeSelector";
 import '@styles/components/Navigation.css'; // TODO: Déplacer le fichier CSS
 import home from '@assets/navbar/home.png';
