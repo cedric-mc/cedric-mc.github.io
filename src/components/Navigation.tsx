@@ -33,36 +33,9 @@ export function Navigation({ isEtudes }: NavLinkProps) {
             <NavLink to="/skills" className="nav-link">
               <IconText icon={skills} text="Compétences" />
             </NavLink>
-            <NavDropdown title={<IconText icon={projects} text="Projets" />}>
-              <NavDropdown.Item as={NavLink} to="/projects">
-                <FontAwesomeIcon icon={faDiagramProject} className="spinner" />{' '}
-                Tous les Projets
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              {isEtudes ? (
-                <>
-                  <NavDropdown.Item as={NavLink} to="/projects#projects-pro">
-                    <FontAwesomeIcon icon={faUserTie} className="spinner" />{' '}
-                    Projets Professionnels
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/projects#projects-univ">
-                    <FontAwesomeIcon icon={faBuildingColumns} className="spinner" />{' '}
-                    Projets Universitaires
-                  </NavDropdown.Item>
-                </>
-              ) : (
-                <>
-                  <NavDropdown.Item as={NavLink} to="/projects#projects-univ">
-                    <FontAwesomeIcon icon={faBuildingColumns} className="spinner" />{' '}
-                    Projets Universitaires
-                  </NavDropdown.Item>
-                  <NavDropdown.Item as={NavLink} to="/projects#projects-pro">
-                    <FontAwesomeIcon icon={faUserTie} className="spinner" />{' '}
-                    Projets Professionnels
-                  </NavDropdown.Item>
-                </>
-              )}
-            </NavDropdown>
+            <NavLink to="/projects" className="nav-link">
+              <IconText icon={projects} text="Projets" />
+            </NavLink>
             <Nav.Link href="#contact">
               <IconText icon={contact} text="Me Contacter" />
             </Nav.Link>
