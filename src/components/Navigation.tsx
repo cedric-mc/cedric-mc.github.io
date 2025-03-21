@@ -11,11 +11,7 @@ import projects from '@assets/navbar/projects.png';
 import contact from '@assets/navbar/contact.png';
 import { NavLink } from "react-router";
 
-interface NavLinkProps {
-  isEtudes: boolean;
-}
-
-export function Navigation({ isEtudes }: NavLinkProps) {
+export function Navigation() {
   return (
     <Navbar expand="lg" fixed="top" data-bs-theme="auto">
       <Container fluid>
