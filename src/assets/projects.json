@@ -90,7 +90,7 @@
   },
   {
     "header": "Toledo",
-    "title": "Projet de médiation culturelle et numérique en partenariat avec le forum de l'UNESCO",
+    "title": "Projet de médiation culturelle et numérique",
     "subtitle": "HTML, CSS, JS, PHP, SQL",
     "text": "En partenariat avec le forum de l'UNESCO, ce projet consistait à réaliser un site web pour le forum de l'UNESCO, en présentant la ville avec sa culture, son histoire et bien entendu ses incontournables d'aujourd'hui.",
     "theme": "dark",
@@ -117,6 +117,7 @@
     "etudes": false
   },
   {
+    "children": "BatailleBoules",
     "header": "Bataille de Boules",
     "title": "Jeu de placement de boules",
     "subtitle": "Python",
