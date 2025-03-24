@@ -25,7 +25,7 @@ export function ProjectCarousel({ children, show, onClose, project, theme }: Pro
         <Modal.Title>{project.title}</Modal.Title>
       </ModalHeader>
       <ModalBody>
-        {project.children && <><div className="mb-3" dangerouslySetInnerHTML={{ __html: project.children }}>{children}<hr /></div></>}
+        {project.children && <><div className="mb-3">{children}<hr /></div></>}
         <Carousel fade data-bs-theme={project.carousel.theme}>
           {images.map((src, index) => (
             <CarouselItem key={index}>
