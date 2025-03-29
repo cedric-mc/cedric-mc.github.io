@@ -4,6 +4,8 @@ import { RouterProvider } from 'react-router';
 import { router } from './router';
 
 function App() { //TODO: Augmenter la taille des marges pour les écrans larges
+  // TODO: Regrouper les images qu'ils restent faire après le TODO des images regroupés par projet
+  // TODO: Changer auto en system
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") || "auto";
     const body = document.querySelector("body") as HTMLElement;
