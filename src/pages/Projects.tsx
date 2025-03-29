@@ -8,7 +8,6 @@ import projects from '@assets/projects.json';
 import { Project } from '../types/types';
 import { BatailleBoules } from '../assets/projects/BatailleBoules/BataillesBoules';
 
-// TODO: Pour la navbar fusionné les deux sections en une seule et mettre une mini navbar pour naviguer entre les deux sections directement ici
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [child, setChild] = useState<React.ReactNode | undefined>(undefined);
@@ -31,7 +30,7 @@ export function Projects() {
 
     return () => window.removeEventListener('storage', handleStorageChange);
   }, []);
-  
+
   const handleOpenProject = async (project: Project) => {
     setSelectedProject(project);
     // Importation manuelle des projets
@@ -59,7 +58,7 @@ export function Projects() {
       <p>
         Vous pourrez consulter (si disponible) le code source/lien <span className="code-icon spinner"></span> et la documentation et/ou description <span className="documentation-icon spinner"></span> dans le détail de chaque projet.
       </p>
-      <Row className="g-4 align-items-stretch" xs={1} md={2} lg={3}>
+      <Row className="g-4 justify-content-around" xs={1} md={2} lg={3}>
         {projects.map((project: Project) => /* Afficher tous les project.etudes qui sont en false et les project.etudes qui sont en true si isEtudes est true */
           (!project.etudes || (project.etudes && isEtudes)) &&
           <Col key={project.title}>
@@ -76,7 +75,7 @@ export function Projects() {
         )}
       </Row>
       <div id="videos">
-        <Row className="g-4 align-items-stretch" xs={1} md={1} lg={2}>
+        <Row className="g-4" xs={1} md={1} lg={2}>
           <Col>
             <div className="project-item">
               <h3 className="title-project">Wrong number : a very embarrassing misunderstanding</h3>
