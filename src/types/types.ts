@@ -14,5 +14,6 @@ export type Project = {
     altPrefix: string;
     theme: string;
   };
-  etudes: boolean;
+  isEtudes: boolean;
+  etudes: string;
 };
