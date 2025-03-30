@@ -22,7 +22,7 @@ export const useEtudes = (): boolean => {
       setIsEtudes(false);
       localStorage.setItem('isEtudes', 'false');
     }
-  }, [window.location.search]); // Je veux que l'effet soit exécuté à chaque fois que l'URL change
+  }, [window.location.search, localStorage]); // Je veux que l'effet soit exécuté à chaque fois que l'URL change
 
   return isEtudes;
 };
