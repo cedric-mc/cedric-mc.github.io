@@ -1,10 +1,10 @@
 import { Badge, Col, ListGroup, ListGroupItem, Row, Stack, TabContainer, TabContent, TabPane } from "react-bootstrap";
 import '@styles/pages/Parcours.css';
-import eiffel from '@assets/univ-gustave-eiffel.png';
-import bachelard from '@assets/gaston-bachelard.png';
-import crgn from '@assets/crgn-logo.png';
-import bullesDogs from '@assets/bulles-dogs.webp';
-import MI from '@assets/ministere_interieur.png';
+import eiffel from '@assets/parcours/univ-gustave-eiffel.png';
+import bachelard from '@assets/parcours/gaston-bachelard.png';
+import crgn from '@assets/parcours/crgn-logo.png';
+import bullesDogs from '@assets/parcours/bulles-dogs.webp';
+import MI from '@assets/parcours/ministere_interieur.png';
 
 export function Parcours({ theme }: { theme: string }) {
   return (
