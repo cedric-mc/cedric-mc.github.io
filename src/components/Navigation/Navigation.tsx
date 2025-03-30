@@ -8,8 +8,11 @@ import skills from '@assets/navbar/skills.png';
 import projects from '@assets/navbar/projects.png';
 import contact from '@assets/navbar/contact.png';
 import { NavLink } from "react-router";
+import { useEtudes } from "../../hooks/useEtudes";
 
 export function Navigation() {
+  const isEtudes = useEtudes();
+
   return (
     <Navbar expand="lg" fixed="top" data-bs-theme="auto">
       <Container fluid>
@@ -24,7 +27,7 @@ export function Navigation() {
             <NavLink to="/parcours" className="nav-link">
               <IconText icon={parcours} text="Parcours" />
             </NavLink>
-            <NavLink to="/skills" className="nav-link">
+            <NavLink to={isEtudes ? "/skills-univ" : "/skills"} className="nav-link">
               <IconText icon={skills} text="Compétences" />
             </NavLink>
             <NavLink to="/projects" className="nav-link">
