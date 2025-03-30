@@ -31,7 +31,7 @@ export function ProjectCarousel({ children, show, onClose, project, theme }: Pro
   return (
     <Modal show={show} onHide={onClose} data-bs-theme={theme} size="xl" backdrop="static">
       <ModalHeader closeButton>
-        <Modal.Title>{project.title} - Images</Modal.Title>
+        <Modal.Title>{project.title}</Modal.Title>
       </ModalHeader>
       <ModalBody>
         {project.children && <><div className="mb-3">{children}<hr /></div></>}
