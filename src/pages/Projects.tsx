@@ -7,11 +7,13 @@ import { ProjectCard } from '../components/Projects/ProjectCard';
 import projects from '@assets/projects.json';
 import { Project } from '../types/types';
 import { BatailleBoules } from '../assets/projects/BatailleBoules/BataillesBoules';
+import { ProjectStudies } from '../components/Projects/ProjectStudies';
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [projectChild, setProjectChild] = useState<React.ReactNode | undefined>(undefined);
   const [showProjectModal, setShowProjectModal] = useState(false);
+  const [showStudiesModal, setShowStudiesModal] = useState(false);
 
   const isEtudes = useEtudes();
 
@@ -31,7 +33,7 @@ export function Projects() {
     return () => window.removeEventListener('storage', handleStorageChange);
   }, []);
 
-  const handleOpenProject = async (project: Project) => {
+  const handleOpen = async (type: string, project: Project) => {
     setSelectedProject(project);
     // Importation manuelle des projets
     switch (project.children) {
@@ -42,13 +44,19 @@ export function Projects() {
         setProjectChild(undefined);
         break;
     }
-    setShowProjectModal(true);
+    
+    if (type === 'project') {
+      setShowProjectModal(true);
+    } else {
+      setShowStudiesModal(true);
+    }
   }
 
   const handleClose = () => {
     setSelectedProject(null);
     setProjectChild(undefined);
     setShowProjectModal(false);
+    setShowStudiesModal(false);
   };
 
 
@@ -60,16 +68,17 @@ export function Projects() {
       </p>
       <Row className="g-4 justify-content-around" xs={1} md={2} lg={3}>
         {projects.map((project: Project) => /* Afficher tous les project.etudes qui sont en false et les project.etudes qui sont en true si isEtudes est true */
-          (!project.etudes || (project.etudes && isEtudes)) &&
+          (!project.isEtudes || (project.isEtudes && isEtudes)) &&
           <Col key={project.title}>
             <ProjectCard
               header={project.header}
               title={project.title}
               subtitle={project.subtitle}
               text={project.text}
-              onClick={() => handleOpenProject(project)}
+              onProjectClick={() => handleOpen('project', project)}
+              onEtudesClick={() => handleOpen('etudes', project)}
               badge={project.badge}
-              etudes={isEtudes}
+              isEtudes={isEtudes}
               theme={theme}
             />
           </Col>
@@ -109,7 +118,7 @@ export function Projects() {
         </Row>
       </div>
       {showProjectModal && selectedProject && <ProjectCarousel show={showProjectModal} onClose={handleClose} project={selectedProject} theme={theme}>{projectChild}</ProjectCarousel>}
-
+      {showStudiesModal && selectedProject && <ProjectStudies show={showStudiesModal} onClose={handleClose} project={selectedProject} theme={theme} />}
     </section>
   );
 };
