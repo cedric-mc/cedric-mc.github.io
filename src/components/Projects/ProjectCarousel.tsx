@@ -16,18 +16,17 @@ export function ProjectCarousel({ children, show, onClose, project, theme }: Pro
   useEffect(() => {
     // Importer toutes les images une seule fois
     const allImages: Record<string, { default: string }> = import.meta.glob(
-      "/src/assets/projects/**/*.{png,jpg,svg}", 
+      "/src/assets/projects/**/*.{png,jpg,svg}",
       { eager: true }
     );
-  
+
     // Filtrer en fonction de `project.carousel.directory`
     const filteredImages = Object.keys(allImages)
-      .filter((key) => key.includes(`/assets/projects/${project.carousel.directory}/`) 
-                    && key.includes(project.carousel.prefix))
+      .filter((key) => key.includes(`/assets/projects/${project.carousel.directory}/`) && key.includes(project.carousel.prefix))
       .map((key) => allImages[key].default);
-  
+
     setImages(filteredImages);
-  }, [project.carousel.prefix]);  
+  }, [project.carousel.prefix]);
 
   return (
     <Modal show={show} onHide={onClose} data-bs-theme={theme} size="xl" backdrop="static">

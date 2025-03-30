@@ -10,8 +10,8 @@ import { BatailleBoules } from '../assets/projects/BatailleBoules/BataillesBoule
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
-  const [child, setChild] = useState<React.ReactNode | undefined>(undefined);
-  const [showModal, setShowModal] = useState(false);
+  const [projectChild, setProjectChild] = useState<React.ReactNode | undefined>(undefined);
+  const [showProjectModal, setShowProjectModal] = useState(false);
 
   const isEtudes = useEtudes();
 
@@ -36,19 +36,19 @@ export function Projects() {
     // Importation manuelle des projets
     switch (project.children) {
       case 'BatailleBoules':
-        setChild(<BatailleBoules />);
+        setProjectChild(<BatailleBoules />);
         break;
       default:
-        setChild(undefined);
+        setProjectChild(undefined);
         break;
     }
-    setShowModal(true);
+    setShowProjectModal(true);
   }
 
   const handleClose = () => {
     setSelectedProject(null);
-    setChild(undefined);
-    setShowModal(false);
+    setProjectChild(undefined);
+    setShowProjectModal(false);
   };
 
 
@@ -108,7 +108,8 @@ export function Projects() {
           </Col>
         </Row>
       </div>
-      {showModal && selectedProject && <ProjectCarousel show={showModal} onClose={handleClose} project={selectedProject} theme={theme}>{child}</ProjectCarousel>}
+      {showProjectModal && selectedProject && <ProjectCarousel show={showProjectModal} onClose={handleClose} project={selectedProject} theme={theme}>{projectChild}</ProjectCarousel>}
+
     </section>
   );
 };
