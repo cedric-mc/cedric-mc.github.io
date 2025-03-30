@@ -9,6 +9,7 @@ export type Project = {
   code: string;
   doc: string;
   carousel: {
+    directory: string;
     prefix: string;
     altPrefix: string;
     theme: string;
