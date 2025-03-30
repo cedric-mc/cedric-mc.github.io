@@ -1,7 +1,7 @@
 import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse } from "react-bootstrap";
 import { IconText } from "../IconText";
 import { ThemeSelector } from "./ThemeSelector";
-import '@styles/components/Navigation.css'; // TODO: Déplacer le fichier CSS
+import '@styles/components/Navigation.css';
 import home from '@assets/navbar/home.png';
 import parcours from '@assets/navbar/parcours.png';
 import skills from '@assets/navbar/skills.png';
