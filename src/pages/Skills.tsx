@@ -25,19 +25,8 @@ import vscode from '@assets/skills/vscode.png';
 import git from '@assets/skills/git.png';
 import github from '@assets/skills/github.png';
 import jetbrains from '@assets/skills/jetbrains.png';
-import { useNavigate } from 'react-router';
-import { useEtudes } from '../hooks/useEtudes';
-import { useEffect } from 'react';
 
 export function Skills() {
-  const navigate = useNavigate();
-  const isEtudes = useEtudes();
-  useEffect(() => {
-    if (isEtudes) {
-      navigate('/skills-univ');
-    }
-  }, [isEtudes, navigate]);
-
   return (
     <section id="skills">
       <h2 className="title-section">Mes Compétences</h2>

@@ -1,16 +1,4 @@
-import { useNavigate } from "react-router";
-import { useEtudes } from "../hooks/useEtudes";
-import { useEffect } from "react";
-
 export function SkillsUniv() {
-  const navigate = useNavigate();
-  const isEtudes = useEtudes();
-  useEffect(() => {
-    if (!isEtudes) {
-      navigate('/skills');
-    }
-  }, [isEtudes, navigate]);
-
   return (
     <section id="skills">
       <h2 className="title-section">Mes blocs de compétences</h2>
