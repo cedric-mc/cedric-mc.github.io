@@ -12,7 +12,6 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ header, title, subtitle, text, onClick, badge, etudes, theme }: ProjectCardProps) {
-
   return (
     <Card
       className="g-4 h-100"
