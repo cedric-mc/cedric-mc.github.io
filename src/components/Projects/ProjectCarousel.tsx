@@ -28,10 +28,12 @@ export function ProjectCarousel({ children, show, onClose, project, theme }: Pro
     setImages(filteredImages);
   }, [project.carousel.prefix]);
 
+  console.log(project);
+
   return (
     <Modal show={show} onHide={onClose} data-bs-theme={theme} size="xl" backdrop="static">
       <ModalHeader closeButton>
-        <Modal.Title>{project.title}</Modal.Title>
+        <Modal.Title>{project.header}</Modal.Title>
       </ModalHeader>
       <ModalBody>
         {project.children && <><div className="mb-3">{children}<hr /></div></>}
@@ -44,7 +46,6 @@ export function ProjectCarousel({ children, show, onClose, project, theme }: Pro
         </Carousel>
       </ModalBody>
       <ModalFooter>
-        {/* {project.carousel.altPrefix} */}
         {project.code && (<><a href={project.code} target="_blank" rel="noreferrer"><span className="code-icon spinner" /></a><br /></>)}
         {project.doc && (<a href={project.doc} target="_blank" rel="noreferrer"><span className="documentation-icon spinner" /></a>)}
       </ModalFooter>
