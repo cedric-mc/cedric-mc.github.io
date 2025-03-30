@@ -1,7 +1,6 @@
 import { NavDropdown } from "react-bootstrap";
 import { IconText } from "../IconText";
 import { useEffect, useState } from "react";
-import { themeBasedOnTime } from "../../hooks/useTheme";
 import colors from "@assets/navbar/colors.png";
 
 interface ThemeOptionProps {
@@ -23,7 +22,7 @@ function ThemeOption({ name, theme, svg, className }: ThemeOptionProps) {
 };
 
 export function ThemeSelector() {
-    const [theme, setTheme] = useState(localStorage.getItem("theme") || "auto"); // Utiliser un état pour stocker le thème actif
+    const [theme, setTheme] = useState(localStorage.getItem("theme") || "system");
     
     const handleThemeChange = (newTheme: string) => {
         (document.querySelector("body") as HTMLElement).setAttribute("data-theme", newTheme); // Met à jour l'attribut du body
@@ -33,10 +32,10 @@ export function ThemeSelector() {
     };
 
     useEffect(() => {
-        if (theme === "auto") {
-            const autoTheme = themeBasedOnTime();
-            (document.querySelector("body") as HTMLElement).setAttribute("data-auto-theme", autoTheme);
-            localStorage.setItem("auto-theme", autoTheme);
+        if (theme === "system") {
+            const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            (document.querySelector("body") as HTMLElement).setAttribute("data-system-theme", systemTheme);
+            localStorage.setItem("system-theme", systemTheme);
         }
     }, [theme]);
 
@@ -52,9 +51,9 @@ export function ThemeSelector() {
                     <ThemeOption theme="dark" svg="#moon-stars-fill" name="Sombre"/>
                 </NavDropdown.Item>
             )}
-            {theme !== "auto" && (
-                <NavDropdown.Item onClick={() => handleThemeChange("auto")}>
-                    <ThemeOption theme="auto" svg="#circle-half" name="Auto"/>
+            {theme !== "system" && (
+                <NavDropdown.Item onClick={() => handleThemeChange("system")}>
+                    <ThemeOption theme="system" svg="#circle-half" name="Système"/>
                 </NavDropdown.Item>
             )}
             <NavDropdown.Divider/>
@@ -62,7 +61,7 @@ export function ThemeSelector() {
                 <ThemeOption
                     theme={theme}
                     svg={theme === "light" ? "#sun-fill" : theme === "dark" ? "#moon-stars-fill" : "#circle-half"}
-                    name={theme === "light" ? "Clair" : theme === "dark" ? "Sombre" : "Auto"}
+                    name={theme === "light" ? "Clair" : theme === "dark" ? "Sombre" : "Système"}
                     className="disabled"
                 />
             </NavDropdown.Item>

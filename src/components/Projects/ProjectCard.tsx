@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Card, Button, Badge } from "react-bootstrap";
 
 interface ProjectCardProps {
@@ -9,24 +8,10 @@ interface ProjectCardProps {
   onClick: () => void;
   badge: string;
   etudes?: boolean;
+  theme: string;
 }
 
-export function ProjectCard({ header, title, subtitle, text, onClick, badge, etudes }: ProjectCardProps) {
-  const [theme, setTheme] = useState('')
-
-  useEffect(() => {
-    const handleStorageChange = () => {
-      setTheme(localStorage.getItem("theme") === 'auto'
-        ? localStorage.getItem("auto-theme") || 'light'
-        : localStorage.getItem("theme") || 'dark'
-      );
-    };
-
-    window.addEventListener('storage', handleStorageChange);
-    handleStorageChange(); // Initialisation
-
-    return () => window.removeEventListener('storage', handleStorageChange);
-  }, []);
+export function ProjectCard({ header, title, subtitle, text, onClick, badge, etudes, theme }: ProjectCardProps) {
 
   return (
     <Card
@@ -34,6 +19,7 @@ export function ProjectCard({ header, title, subtitle, text, onClick, badge, etu
       bg={theme}
       text={theme === "dark" ? "light" : "dark"}
       style={{ minHeight: "20rem" }}
+      data-bs-theme={theme}
     >
       <Card.Header>{header}</Card.Header>
       <Card.Body>

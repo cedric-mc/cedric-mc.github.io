@@ -19,8 +19,8 @@ export function Projects() {
 
   useEffect(() => {
     const handleStorageChange = () => {
-      setTheme(localStorage.getItem("theme") === 'auto'
-        ? localStorage.getItem("auto-theme") || 'light'
+      setTheme(localStorage.getItem("theme") === 'system'
+        ? localStorage.getItem("system-theme") || 'dark'
         : localStorage.getItem("theme") || 'dark'
       );
     };
@@ -70,6 +70,7 @@ export function Projects() {
               onClick={() => handleOpenProject(project)}
               badge={project.badge}
               etudes={isEtudes}
+              theme={theme}
             />
           </Col>
         )}

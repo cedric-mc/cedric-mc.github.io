@@ -6,7 +6,10 @@ import crgn from '@assets/parcours/crgn-logo.png';
 import bullesDogs from '@assets/parcours/bulles-dogs.webp';
 import MI from '@assets/parcours/ministere_interieur.png';
 
-export function Parcours({ theme }: { theme: string }) {
+export function Parcours() {
+  const finalTheme = localStorage.getItem("system-theme") || localStorage.getItem("theme") || "dark";
+  const invertedTheme = finalTheme === "dark" ? "light" : "dark";
+
   return (
     <section id="parcours">
       <h2 className="title-section">Mon Parcours</h2>
@@ -96,12 +99,12 @@ export function Parcours({ theme }: { theme: string }) {
                       Développement web applicatif pour la gendarmerie nationale avec utilisation de données
                     </p>
                     <Stack direction='horizontal' gap={3}>
-                      <Badge bg={theme} className='text-background'>HTML</Badge>
-                      <Badge bg={theme} className='text-background'>CSS</Badge>
-                      <Badge bg={theme} className='text-background'>JavaScript</Badge>
-                      <Badge bg={theme} className='text-background'>PHP</Badge>
-                      <Badge bg={theme} className='text-background'>SQL/MySQL</Badge>
-                      <Badge bg={theme} className='text-background'>Python</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>HTML</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>CSS</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>JavaScript</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>PHP</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>SQL/MySQL</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>Python</Badge>
                     </Stack>
                   </Col>
                 </Row>

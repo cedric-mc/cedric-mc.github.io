@@ -33,7 +33,7 @@
 }
 
 [data-theme='light'],
-[data-theme='auto'][data-auto-theme='light'] {
+[data-theme='system'][data-system-theme='light'] {
 	--text-color: #000000;
 	--bg-color: #86a0ca;
 	--mouse-down: #000000;
@@ -71,7 +71,7 @@
 }
 
 [data-theme='dark'],
-[data-theme='auto'][data-auto-theme='dark'] {
+[data-theme='system'][data-system-theme='dark'] {
 	--text-color: #ffffff;
 	--bg-color: #0C4194;
 	--mouse-down: #ffffff;
