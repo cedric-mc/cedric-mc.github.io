@@ -13,7 +13,7 @@ export function ProjectStudies({ show, onClose, project, theme }: ProjectStudies
   return (
     <Modal show={show} onHide={onClose} data-bs-theme={theme} size="xl" backdrop="static">
       <ModalHeader closeButton>
-        <Modal.Title>{project.title}</Modal.Title>
+        <Modal.Title>{project.title} - Études</Modal.Title>
       </ModalHeader>
       <ModalBody>
       </ModalBody>
