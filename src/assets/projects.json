@@ -14,7 +14,8 @@
       "altPrefix": "Atlas GN",
       "theme": "dark"
     },
-    "etudes": false
+    "isEtudes": false,
+    "etudes": ""
   },
   {
     "header": "Projet I.N.G.R.I.D. (Eiffel Time)",
@@ -31,7 +32,7 @@
       "altPrefix": "INGRID",
       "theme": "dark"
     },
-    "etudes": false
+    "isEtudes": false
   },
   {
     "header": "Semonkey",
@@ -46,7 +47,7 @@
       "altPrefix": "Semonkey",
       "theme": "light"
     },
-    "etudes": false
+    "isEtudes": false
   },
   {
     "header": "Contrôles CNIL",
@@ -61,7 +62,7 @@
       "altPrefix": "CNIL",
       "theme": "dark"
     },
-    "etudes": false
+    "isEtudes": false
   },
   {
     "header": "TP Pare-feu et translation d'adresse",
@@ -76,7 +77,7 @@
       "altPrefix": "Réseau",
       "theme": "dark"
     },
-    "etudes": true
+    "isEtudes": true
   },
   {
     "header": "Banklink",
@@ -92,7 +93,7 @@
       "altPrefix": "Banklink",
       "theme": "light"
     },
-    "etudes": false
+    "isEtudes": false
   },
   {
     "header": "Toledo",
@@ -107,7 +108,7 @@
       "altPrefix": "Toledo",
       "theme": "dark"
     },
-    "etudes": false
+    "isEtudes": false
   },
   {
     "header": "Hedelma, Primeurs-Passion",
@@ -122,7 +123,7 @@
       "altPrefix": "Hedelma",
       "theme": "dark"
     },
-    "etudes": false
+    "isEtudes": false
   },
   {
     "children": "BatailleBoules",
@@ -140,7 +141,7 @@
       "altPrefix": "Bataille de Boules",
       "theme": "light"
     },
-    "etudes": false,
+    "isEtudes": false,
     "competences": ""
   }
 ]
