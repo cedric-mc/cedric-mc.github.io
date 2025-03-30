@@ -12,7 +12,7 @@ interface ProjectCarouselProps {
 
 export function ProjectCarousel({ children, show, onClose, project, theme }: ProjectCarouselProps) {
   const [images, setImages] = useState<string[]>([]);
-  // TODO: Regrouper et donc modifier ici les images pour chaque projet
+
   useEffect(() => {
     // Importer toutes les images une seule fois
     const allImages: Record<string, { default: string }> = import.meta.glob(
