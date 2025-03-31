@@ -8,12 +8,26 @@ import projects from '@assets/projects.json';
 import { Project } from '../types/types';
 import { BatailleBoules } from '../assets/projects/BatailleBoules/BataillesBoules';
 import { ProjectStudies } from '../components/Projects/ProjectStudies';
+import { useSearchParams } from 'react-router';
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [projectChild, setProjectChild] = useState<React.ReactNode | undefined>(undefined);
   const [showProjectModal, setShowProjectModal] = useState(false);
   const [showStudiesModal, setShowStudiesModal] = useState(false);
+
+  const [searchParams] = useSearchParams();
+  const selectedKeyProject = searchParams.get("selected"); // Récupère le paramètre "selected" de l'URL
+
+  useEffect(() => {
+    if (selectedKeyProject) {
+      const project = projects.find((project: Project) => project.key === selectedKeyProject);
+      if (project) {
+        setSelectedProject(project);
+        setShowStudiesModal(true);
+      }
+    }
+  }, [selectedKeyProject]);
 
   const isEtudes = useEtudes();
 
@@ -69,7 +83,7 @@ export function Projects() {
       <Row className="g-4 justify-content-around" xs={1} md={2} lg={3}>
         {projects.map((project: Project) => /* Afficher tous les project.etudes qui sont en false et les project.etudes qui sont en true si isEtudes est true */
           (!project.isEtudes || (project.isEtudes && isEtudes)) &&
-          <Col key={project.title}>
+          <Col key={project.key}>
             <ProjectCard
               header={project.header}
               title={project.title}
