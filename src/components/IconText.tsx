@@ -7,7 +7,7 @@ export function IconText({ icon, text }: IconTextProps) {
     return (
         <span>
             {typeof icon === "string" ? (
-                <img alt="" src={icon} className="d-inline-block align-text-top spinner"/>
+                <img alt={icon + ' ' + text} src={icon} className="d-inline-block align-text-top spinner"/>
             ) : (
                 icon
             )}{' '}

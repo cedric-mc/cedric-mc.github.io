@@ -31,10 +31,10 @@ export function Footer() {
                     <Col md={6}>
                         <h4 id="contact">Contactez-moi</h4>
                         <p>
-                            Vous pouvez me contacter par mail à l'adresse suivante : <a href="mailto:cedric.mc11@gmail.com">cedric.mc11@gmail.com</a>
+                            Formulaire de contact désactivé pour le moment.
                         </p>
                         <p>
-                            Formulaire de contact désactivé pour le moment.
+                            Vous pouvez me contacter par mail à l'adresse suivante : <a href="mailto:cedric.mc11@gmail.com">cedric.mc11@gmail.com</a>
                         </p>
                         {/* <Form method="post">
                             <FormGroup className="mb-1" controlId="nomInput">

@@ -1,9 +1,5 @@
-#about-me,
-#parcours,
-#skills,
-#projects,
-#contact {
-    scroll-margin-top: 80px;
+* {
+    scroll-margin-top: 100px;
 }
 
 html,
@@ -12,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-body {
+* {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
@@ -117,12 +113,15 @@ main {
     font-family: 'Lato', serif;
     font-size: var(--title-section-size);
     font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .subtitle-section {
     font-family: 'Lato', serif;
     font-size: var(--subtitle-section-size);
     font-weight: bold;
+    text-decoration: underline dotted;
 }
 
 .p-img {

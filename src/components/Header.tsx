@@ -3,15 +3,15 @@ import { useEffect, useState } from "react";
 import { useDebug } from "../hooks/useDebug";
 
 export function Header() {
-    const [display, setDisplay] = useState("Thème : auto");
+    const [display, setDisplay] = useState("Thème : système");
     const debug = useDebug();
 
     // Fonction pour mettre à jour l'affichage du thème
     const updateThemeDisplay = () => {
         const theme = localStorage.getItem("theme");
-        if (theme === "auto") {
-            const autoTheme = localStorage.getItem("auto-theme");
-            setDisplay(`Thème : auto + ${autoTheme}`);
+        if (theme === "system") {
+            const systemTheme = localStorage.getItem("system-theme");
+            setDisplay(`Thème : système + ${systemTheme}`);
         } else {
             setDisplay(`Thème : ${theme}`);
         }
