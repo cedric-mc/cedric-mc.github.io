@@ -6,12 +6,14 @@ export function SkillsUniv() {
       <h2 className="title-section">Mes blocs de compétences</h2>
       <p>Voici les différents blocs de compétences que j'ai acquis durant ma formation :</p>
       <div>
-        <h3 className="subtitle-section">Blocs de compétences</h3>
+        <h3 className="subtitle-section">Compétences académiques</h3>
         <ul className="">
           <li>
             <h4 className="subtitle-list">Réaliser :</h4>
-            <p>
-              Adapter des applications sur un ensemble de supports (embarqué, web, mobile, loT ...)
+            <p className="mb-2 text-justify">
+              Adapter des applications sur un ensemble de supports (embarqué, web, mobile, loT ...). 
+              Cette compétence permet de réaliser des applications sur un ensemble de supports et de systèmes d'exploitation.
+              Elle se distingue par le fait qu'il faut réaliser/faire des applications/systèmes/outils/programmes.
             </p>
             <p>
               Projets associés au bloc de compétences : <br />
@@ -31,7 +33,9 @@ export function SkillsUniv() {
           <li>
             <h4 className="subtitle-list">Optimiser</h4>
             <p>
-              Analyser et optimiser des applications
+              Analyser et optimiser des applications. 
+              Cette compétence permet d'analyser et d'optimiser des applications comme le fait de les tester, de les profiler, de les déboguer, de les surveiller, de les auditer, de les monitorer, de les sécuriser, de les maintenir et/ou de les faire évoluer.
+              Elle se distingue par le fait qu'il faut optimiser/faire évoluer des applications/systèmes/outils/programmes.
             </p>
             <p>
               Projets associés au bloc de compétences : <br />
@@ -45,7 +49,9 @@ export function SkillsUniv() {
           <li>
             <h4 className="subtitle-list">Collaborer</h4>
             <p>
-              Manager une équipe informatique
+              Manager une équipe informatique. 
+              Cette compétence permet de manager une équipe informatique comme le fait de la gérer, de la coordonner, de la diriger, de la superviser, de la piloter, de la contrôler, de l'animer et/ou de l'encadrer.
+              Elle se distingue par le fait qu'il faut manager/diriger une équipe/système/outils/programmes.
             </p>
             <p>
               Projets associés au bloc de compétences : <br />
