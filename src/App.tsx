@@ -3,7 +3,6 @@ import { RouterProvider } from 'react-router';
 import { router } from './router';
 
 function App() { //TODO: Augmenter la taille des marges pour les écrans larges
-  // TODO: Changer auto en system
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme") || "system";
     const body = document.querySelector("body") as HTMLElement;
