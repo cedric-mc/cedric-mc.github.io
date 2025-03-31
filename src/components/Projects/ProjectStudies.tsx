@@ -19,9 +19,14 @@ export function ProjectStudies({ show, onClose, project, theme }: ProjectStudies
           <p>{project.text}</p>
           <hr />
           <h5>Compétences acquises</h5>
-          <ul>
-            {project.etudes}
-          </ul>
+          <p className="text-justify">
+            {project.etudes.split("\n").map((line, index) => (
+              <span key={index}>
+                {line}
+                <br />
+              </span>
+            ))}
+          </p>
         </div>
       </ModalBody>
       <ModalFooter>
