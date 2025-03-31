@@ -1,6 +1,7 @@
 export type Project = {
   children?: string;
   header: string;
+  key: string;
   title: string;
   subtitle: string;
   text: string;
