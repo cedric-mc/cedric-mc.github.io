@@ -11,7 +11,7 @@ function App() { //TODO: Augmenter la taille des marges pour les écrans larges
     if (savedTheme === "system") {
       const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
       body.setAttribute("data-theme", "system");
-      body.setAttribute("data-theme-system", systemTheme);
+      body.setAttribute("data-system-theme", systemTheme);
       localStorage.setItem("system-theme", systemTheme);
     } else {
       body.setAttribute("data-theme", savedTheme);
