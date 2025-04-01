@@ -23,7 +23,7 @@ export function AboutMe() {
                     </p>
                     <p>
                         Voici mon CV, il est à votre disposition :&nbsp;
-                        <a id="cv-btn" className="btn btn-danger heartbeat heartbeat-hover" href="/CV_CEDRIC_MARIYA-CONSTANTINE.pdf" target="_blank">
+                        <a id="cv-btn" className="btn btn-danger heartbeat heartbeat-hover disabled" href="/CV_CEDRIC_MARIYA-CONSTANTINE.pdf" target="_blank">
                             Télécharger&nbsp;<FontAwesomeIcon icon={faDownload}/>
                         </a>
                     </p>
