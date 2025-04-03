@@ -25,9 +25,10 @@ import vscode from '@assets/skills/vscode.png';
 import git from '@assets/skills/git.png';
 import github from '@assets/skills/github.png';
 import jetbrains from '@assets/skills/jetbrains.png';
+import laravel from '@assets/skills/laravel.png';
 
 export function Skills() {
-  return (
+  return ( // TODO: Essayer de voir pour les sprites CSS
     <section id="skills">
       <h2 className="title-section">Mes Compétences</h2>
       <p>Voici les langages informatiques, frameworks, bibliothèques, logiciels et outils que je maîtrise :</p>
@@ -59,6 +60,7 @@ export function Skills() {
           <li><img className="spinner" src={maven} alt="" />&nbsp;Maven</li>
           <li><img className="spinner" src={mysql} alt="" />&nbsp;MySQL</li>
           <li><img className="spinner" src={postgresql} alt="" />&nbsp;PostgreSQL</li>
+          <li><img className='spinner' src={laravel} alt='' />&nbsp;Laravel</li>
         </ul>
         <h3 className="subtitle-section">Logiciels et outils :</h3>
         <ul className="skills-list">
