@@ -27,7 +27,7 @@ import github from '@assets/skills/github.png';
 import jetbrains from '@assets/skills/jetbrains.png';
 import laravel from '@assets/skills/laravel.png';
 
-export function Skills() {
+export function Skills() { // TODO: Hover avec le nom des projets et compétences (savoir, savoir-être, savoir-faire) (savoir-faire = langages et +)
   return ( // TODO: Essayer de voir pour les sprites CSS
     <section id="skills">
       <h2 className="title-section">Mes Compétences</h2>
