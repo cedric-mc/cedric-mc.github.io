@@ -1,8 +1,8 @@
+import '@styles/sections/AboutMe.css';
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Row } from "react-bootstrap";
-import '@styles/pages/AboutMe.css';
 import photo from '@assets/photo.jpg';
 import english_flag from '@assets/navbar/eng.png';
 import tamil_flag from '@assets/tamil.png';

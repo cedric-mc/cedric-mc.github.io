@@ -1,5 +1,5 @@
+import '@styles/sections/Parcours.css';
 import { Badge, Col, ListGroup, ListGroupItem, Row, Stack, TabContainer, TabContent, TabPane } from "react-bootstrap";
-import '@styles/pages/Parcours.css';
 import eiffel from '@assets/parcours/univ-gustave-eiffel.png';
 import bachelard from '@assets/parcours/gaston-bachelard.png';
 import crgn from '@assets/parcours/crgn-logo.png';
@@ -29,22 +29,6 @@ export function Parcours() {
           </Col>
           <Col sm={8}>
             <TabContent>
-              <TabPane eventKey="#list-formation-but">
-                <Row>
-                  <Col className="d-flex flex-column justify-content-center">
-                    <h4 className="parcours-name">BUT Informatique</h4>
-                    <p className="fst-italic">
-                      <span className="fw-bold">2022 - 2025</span> (en cours)<br />
-                      Université Gustave Eiffel<br />
-                      Champs-sur-Marne<br />
-                      Parcours A : Réalisation d’applications : conception, développement, validation
-                    </p>
-                  </Col>
-                  <Col sm={4} className="d-flex justify-content-center">
-                    <img src={eiffel} alt="Université Gustave Eiffel" className="parcours-image" />
-                  </Col>
-                </Row>
-              </TabPane>
               <TabPane eventKey="#list-formation-bac">
                 <Row>
                   <Col className="d-flex flex-column justify-content-center">
@@ -61,6 +45,31 @@ export function Parcours() {
                   </Col>
                 </Row>
               </TabPane>
+              <TabPane eventKey="#list-formation-but">
+                <Row>
+                  <Col className="d-flex flex-column justify-content-center">
+                    <h4 className="parcours-name">BUT Informatique</h4>
+                    <p className="fst-italic">
+                      <span className="fw-bold">2022 - 2025</span> (en cours)<br />
+                      Université Gustave Eiffel<br />
+                      Champs-sur-Marne<br />
+                      Parcours A : Réalisation d’applications : conception, développement, validation
+                    </p>
+                  </Col>
+                  <Col sm={4} className="d-flex justify-content-center">
+                    <img src={eiffel} alt="Université Gustave Eiffel" className="parcours-image" />
+                  </Col>
+                </Row>
+              </TabPane>
+              <TabPane eventKey="#list-formation-mastere">
+                <Row>
+                  <Col className='d-flex flex-column justify-content-center'>
+                  </Col>
+                  <Col sm={4} className="d-flex justify-content-center">
+                    <img src="" alt="" className="parcours-image" />
+                  </Col>
+                </Row>
+              </TabPane>
             </TabContent>
           </Col>
         </Row>
@@ -68,19 +77,22 @@ export function Parcours() {
       <br />
       <h3 className="subtitle-section">Mon Parcours Professionnel</h3>
       <br />
-      <TabContainer id="list-tab-professionnel" defaultActiveKey="#list-stage-but2">
+      <TabContainer id="list-tab-professionnel" defaultActiveKey="#list-stage-but3">
         <Row>
           <Col sm={8}>
             <TabContent>
-              <TabPane eventKey="#list-stage-but3">
+              <TabPane eventKey="#list-stage-3eme">
                 <Row>
                   <Col sm={4} className="d-flex justify-content-center">
-                    <img src={MI} alt="Sous-bureau des cabinets" className="parcours-image" />
+                    <img src={bullesDogs} alt="Bulles Dogs" className="parcours-image" />
                   </Col>
                   <Col className="d-flex flex-column justify-content-center">
-                    <h4 className="parcours-name">Stage de développeur php</h4>
+                    <h4 className="parcours-name">Stage d'observation de 3<sup>ème</sup></h4>
                     <p className="fst-italic">
-
+                      <span className="fw-bold">Semaine du lundi 4 au samedi 9 février 2019</span><br />
+                      Bulles Dogs<br />
+                      Chelles<br />
+                      Toilettage canin
                     </p>
                   </Col>
                 </Row>
@@ -109,19 +121,26 @@ export function Parcours() {
                   </Col>
                 </Row>
               </TabPane>
-              <TabPane eventKey="#list-stage-3eme">
+              <TabPane eventKey="#list-stage-but3">
                 <Row>
                   <Col sm={4} className="d-flex justify-content-center">
-                    <img src={bullesDogs} alt="Bulles Dogs" className="parcours-image" />
+                    <img src={MI} alt="Sous-bureau des cabinets" className="parcours-image" />
                   </Col>
                   <Col className="d-flex flex-column justify-content-center">
-                    <h4 className="parcours-name">Stage d'observation de 3<sup>ème</sup></h4>
+                    <h4 className="parcours-name">Stage de développeur php</h4>
                     <p className="fst-italic">
-                      <span className="fw-bold">Semaine du lundi 4 au samedi 9 février 2019</span><br />
-                      Bulles Dogs<br />
-                      Chelles<br />
-                      Toilettage canin
+                      <span className="fw-bold">Du 17 juin au 9 août 2024</span><br />
+                      Centre de recherche de la gendarmerie nationale<br />
+                      Paris<br />
+                      Développement web applicatif pour la gendarmerie nationale avec utilisation de données
                     </p>
+                    <Stack direction='horizontal' gap={3}>
+                      <Badge bg={invertedTheme} className='text-background'>HTML</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>CSS</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>JavaScript</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>PHP/Framework Laravel</Badge>
+                      <Badge bg={invertedTheme} className='text-background'>SQL/PostGreSQL</Badge>
+                    </Stack>
                   </Col>
                 </Row>
               </TabPane>
@@ -129,7 +148,7 @@ export function Parcours() {
           </Col>
           <Col sm={4}>
             <ListGroup>
-              <ListGroupItem action href="#list-stage-but3" variant="info" disabled>
+              <ListGroupItem action href="#list-stage-but3" variant="info">
                 Stage de développeur php
               </ListGroupItem>
               <ListGroupItem action href="#list-stage-but2" variant="info">

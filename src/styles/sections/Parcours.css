@@ -16,7 +16,6 @@
 }
 
 .parcours-image {
-	/* the size of the image is 75% of the width of the container next to it */
 	width: 75%;
 	height: auto;
 	border-radius: 10%;

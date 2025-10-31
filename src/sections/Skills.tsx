@@ -1,4 +1,4 @@
-import '@styles/pages/Skills.css';
+import '@styles/sections/Skills.css';
 import html from '@assets/skills/html.png';
 import css from '@assets/skills/css.png';
 import js from '@assets/skills/js.png';
@@ -11,7 +11,6 @@ import sql from '@assets/skills/sql.png';
 import xml from '@assets/skills/xml.png';
 import json from '@assets/skills/json.png';
 import markdown from '@assets/skills/markdown.png';
-// import latex from '@assets/skills/latex.png';
 import shell from '@assets/skills/shell.png';
 import bootstrap from '@assets/skills/bootstrap.png';
 import jquery from '@assets/skills/jquery.png';

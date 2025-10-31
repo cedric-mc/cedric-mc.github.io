@@ -1,6 +1,8 @@
-import React from 'react';
-import ReactDOM from "react-dom/client";
 import '@styles/globals/root.css';
+import React from 'react';
+import './scss/styles.scss';
+import ReactDOM from "react-dom/client";
+// Import our custom CSS
 import App from './App';
 
 const root = document.getElementById('root') as HTMLElement;

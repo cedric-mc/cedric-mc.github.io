@@ -1,4 +1,4 @@
-import { NavLink } from "react-router";
+import { Nav } from "react-bootstrap";
 
 export function SkillsUniv() {
   return (
@@ -16,15 +16,15 @@ export function SkillsUniv() {
             <p>
               Projets associés au bloc de compétences : <br />
               <ul>
-                <li><NavLink to="/projects?selected=AtlasGN" className="nav-link link-opacity-75-hover">Atlas</NavLink></li>
-                <li><NavLink to="/projects?selected=INGRID" className="nav-link link-opacity-75-hover">Projet I.N.G.R.I.D</NavLink></li>
-                <li><NavLink to="/projects?selected=SEMONKEY" className="nav-link link-opacity-75-hover">Semonkey</NavLink></li>
-                <li><NavLink to="/projects?selected=CNIL" className="nav-link link-opacity-75-hover">Contrôles CNIL</NavLink></li>
-                <li><NavLink to="/projects?selected=TP_PAREFEU" className="nav-link link-opacity-75-hover">TP Pare-feu et translation d'adresse</NavLink></li>
-                <li><NavLink to="/projects?selected=BANKLINK" className="nav-link link-opacity-75-hover">Banklink</NavLink></li>
-                <li><NavLink to="/projects?selected=TOLEDO" className="nav-link link-opacity-75-hover">Toledo</NavLink></li>
-                <li><NavLink to="/projects?selected=HEDELMA" className="nav-link link-opacity-75-hover">Hedelma</NavLink></li>
-                <li><NavLink to="/projects?selected=BDB" className="nav-link link-opacity-75-hover">Bataille de Boules</NavLink></li>
+                <li><Nav.Link href="#projects?selected=AtlasGN" className="nav-link link-opacity-75-hover">Atlas</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=INGRID" className="nav-link link-opacity-75-hover">Projet I.N.G.R.I.D</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=SEMONKEY" className="nav-link link-opacity-75-hover">Semonkey</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=CNIL" className="nav-link link-opacity-75-hover">Contrôles CNIL</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=TP_PAREFEU" className="nav-link link-opacity-75-hover">TP Pare-feu et translation d'adresse</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=BANKLINK" className="nav-link link-opacity-75-hover">Banklink</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=TOLEDO" className="nav-link link-opacity-75-hover">Toledo</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=HEDELMA" className="nav-link link-opacity-75-hover">Hedelma</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=BDB" className="nav-link link-opacity-75-hover">Bataille de Boules</Nav.Link></li>
               </ul>
             </p>
           </li>
@@ -36,9 +36,9 @@ export function SkillsUniv() {
             <p>
               Projets associés au bloc de compétences : <br />
               <ul>
-                <li><NavLink to="/projects?selected=AtlasGN" className="nav-link link-opacity-75-hover">Atlas</NavLink></li>
-                <li><NavLink to="/projects?selected=BANKLINK" className="nav-link link-opacity-75-hover">Banklink</NavLink></li>
-                <li><NavLink to="/projects?selected=BDB" className="nav-link link-opacity-75-hover">Bataille de Boules</NavLink></li>
+                <li><Nav.Link href="#projects?selected=AtlasGN" className="nav-link link-opacity-75-hover">Atlas</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=BANKLINK" className="nav-link link-opacity-75-hover">Banklink</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=BDB" className="nav-link link-opacity-75-hover">Bataille de Boules</Nav.Link></li>
               </ul>
             </p>
           </li>
@@ -50,9 +50,9 @@ export function SkillsUniv() {
             <p>
               Projets associés au bloc de compétences : <br />
               <ul>
-                <li><NavLink to="/projects?selected=INGRID" className="nav-link link-opacity-75-hover">Projet I.N.G.R.I.D</NavLink></li>
-                <li><NavLink to="/projects?selected=SEMONKEY" className="nav-link link-opacity-75-hover">Semonkey</NavLink></li>
-                <li><NavLink to="/projects?selected=CNIL" className="nav-link link-opacity-75-hover">Contrôles CNIL</NavLink></li>
+                <li><Nav.Link href="#projects?selected=INGRID" className="nav-link link-opacity-75-hover">Projet I.N.G.R.I.D</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=SEMONKEY" className="nav-link link-opacity-75-hover">Semonkey</Nav.Link></li>
+                <li><Nav.Link href="#projects?selected=CNIL" className="nav-link link-opacity-75-hover">Contrôles CNIL</Nav.Link></li>
               </ul>
             </p>
           </li>

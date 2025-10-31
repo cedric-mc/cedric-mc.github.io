@@ -1,4 +1,4 @@
-import '@styles/pages/Projects.css';
+import '@styles/sections/Projects.css';
 import { Col, Ratio, Row } from "react-bootstrap";
 import { useEtudes } from "../hooks/useEtudes";
 import { useEffect, useState } from 'react';
@@ -8,7 +8,6 @@ import projects from '@assets/projects.json';
 import { Project } from '../types/types';
 import { BatailleBoules } from '../assets/projects/BatailleBoules/BataillesBoules';
 import { ProjectStudies } from '../components/Projects/ProjectStudies';
-import { useSearchParams } from 'react-router';
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
@@ -16,8 +15,7 @@ export function Projects() {
   const [showProjectModal, setShowProjectModal] = useState(false);
   const [showStudiesModal, setShowStudiesModal] = useState(false);
 
-  const [searchParams] = useSearchParams();
-  const selectedKeyProject = searchParams.get("selected"); // Récupère le paramètre "selected" de l'URL
+  const selectedKeyProject = new URLSearchParams(window.location.search).get("selected") || undefined; // Récupère le paramètre "selected" de l'URL
 
   useEffect(() => {
     if (selectedKeyProject) {
