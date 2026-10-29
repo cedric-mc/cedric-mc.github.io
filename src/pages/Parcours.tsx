@@ -16,7 +16,7 @@ export function Parcours() {
       <h2 className="title-section">Mon Parcours</h2>
       <h3 className="subtitle-section">Mon Parcours de Formation</h3>
       <br />
-      <TabContainer id="list-tab-formation" defaultActiveKey="#list-formation-but">
+      <TabContainer id="list-tab-formation" defaultActiveKey="#list-formation-mdev">
         <Row>
           <Col sm={4}>
             <ListGroup>
