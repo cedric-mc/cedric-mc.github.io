@@ -7,7 +7,7 @@ import parcours from '@assets/navbar/parcours.png';
 import skills from '@assets/navbar/skills.png';
 import projects from '@assets/navbar/projects.png';
 import contact from '@assets/navbar/contact.png';
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 import { useEtudes } from "../../hooks/useEtudes";
 
 export function Navigation() {
@@ -16,23 +16,26 @@ export function Navigation() {
   return (
     <Navbar expand="lg" fixed="top" data-bs-theme="auto">
       <Container fluid>
-        <NavLink to="/" className="navbar-brand">
+        <Link to="/" className="navbar-brand">
           <NavbarBrand>
             <img alt="" src={home} className="d-inline-block align-text-top spinner" />{' '} Accueil
           </NavbarBrand>
-        </NavLink>
+        </Link>
         <Navbar.Toggle aria-controls="navbar" className="justify-content-end" />
         <NavbarCollapse id="navbar">
           <Nav className="navbar-nav custom-navbar-nav navbar-nav-scroll">
-            <NavLink to="/parcours" className="nav-link">
+            <Link to="#about-me" className="nav-link">
+              <IconText icon={parcours} text="Qui suis-je ?" />
+            </Link>
+            <Link to="#parcours" className="nav-link">
               <IconText icon={parcours} text="Parcours" />
-            </NavLink>
-            <NavLink to={isEtudes ? "/skills-univ" : "/skills"} className="nav-link">
+            </Link>
+            <Link to={isEtudes ? "#skills" : "#skills"} className="nav-link">
               <IconText icon={skills} text="Compétences" />
-            </NavLink>
-            <NavLink to="/projects" className="nav-link">
+            </Link>
+            <Link to="#projects" className="nav-link">
               <IconText icon={projects} text="Projets" />
-            </NavLink>
+            </Link>
             <Nav.Link href="#contact">
               <IconText icon={contact} text="Me Contacter" />
             </Nav.Link>

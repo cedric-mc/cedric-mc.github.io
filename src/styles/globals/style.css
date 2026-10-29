@@ -37,10 +37,9 @@ header#header {
 }
 
 section {
-    /* min-height: 100vh; */
-    padding: 0.625rem 1.15rem;
-    margin: 0.5em;
-    min-height: 100vh;
+    padding: var(--section-padding) 2rem;
+    margin: var(--section-spacing) 1rem;
+    min-height: auto;
 }
 
 #arrow-container {
@@ -115,6 +114,7 @@ main {
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 2rem;
 }
 
 .subtitle-section {
@@ -122,6 +122,8 @@ main {
     font-size: var(--subtitle-section-size);
     font-weight: bold;
     text-decoration: underline dotted;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .p-img {
@@ -172,11 +174,15 @@ main {
 
 /* Taille écran d'ordinateur */
 @media screen and (min-width: 769px) {
-
     header,
     main {
         padding: 10px 100px;
-        margin: 0.5em;
+        margin: 1rem;
+    }
+    
+    section {
+        padding: var(--section-padding) 3rem;
+        margin: var(--section-spacing) 2rem;
     }
 }
 

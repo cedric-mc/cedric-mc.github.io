@@ -1,17 +1,22 @@
 #about-me {
 	font-size: var(--text-size);
 	color: var(--text-color) !important;
+	padding: var(--section-padding) 2rem;
+	margin: var(--section-spacing) 1rem;
 }
 
 #about-me .row {
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
 }
 
 #about-me .col-md-6 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	gap: 1rem;
 }
 
 #about-me .profil-photo {
@@ -27,12 +32,16 @@
 .profil-photo {
 	width: 75%;
 	height: auto;
-	/* décaler légèrement vers la droite */
 	margin-left: 1rem;
-	/* décaler légèrement vers le bas */
 	margin-top: 1rem;
-	border-radius: 10%;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profil-photo:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 15px 40px rgba(99, 102, 241, 0.3);
 }
 
 .social-link {
@@ -54,4 +63,6 @@
 #about-me p {
 	text-align: justify;
 	color: var(--text-color) !important;
+	line-height: 1.7;
+	margin-bottom: 1.25rem;
 }

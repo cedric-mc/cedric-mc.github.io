@@ -1,5 +1,5 @@
 import '@styles/pages/Projects.css';
-import { Col, Ratio, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { useEtudes } from "../hooks/useEtudes";
 import { useEffect, useState } from 'react';
 import { ProjectCarousel } from '../components/Projects/ProjectCarousel';
@@ -8,26 +8,12 @@ import projects from '@assets/projects.json';
 import { Project } from '../types/types';
 import { BatailleBoules } from '../assets/projects/BatailleBoules/BataillesBoules';
 import { ProjectStudies } from '../components/Projects/ProjectStudies';
-import { useSearchParams } from 'react-router';
 
 export function Projects() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [projectChild, setProjectChild] = useState<React.ReactNode | undefined>(undefined);
   const [showProjectModal, setShowProjectModal] = useState(false);
   const [showStudiesModal, setShowStudiesModal] = useState(false);
-
-  const [searchParams] = useSearchParams();
-  const selectedKeyProject = searchParams.get("selected"); // Récupère le paramètre "selected" de l'URL
-
-  useEffect(() => {
-    if (selectedKeyProject) {
-      const project = projects.find((project: Project) => project.key === selectedKeyProject);
-      if (project) {
-        setSelectedProject(project);
-        setShowStudiesModal(true);
-      }
-    }
-  }, [selectedKeyProject]);
 
   const isEtudes = useEtudes();
 
@@ -98,39 +84,6 @@ export function Projects() {
           </Col>
         )}
       </Row>
-      <div id="videos">
-        <Row className="g-4" xs={1} md={1} lg={2}>
-          <Col>
-            <div className="project-item">
-              <h3 className="title-project">Wrong number : a very embarrassing misunderstanding</h3>
-              <h4 className="project-language">Logiciel : ClipChamp</h4>
-              <p>
-                J'ai participé à la création d'une vidéo pour une séquence de 5 à 10 minutes qui se déroule exclusivement par le biais d'appels téléphoniques et de SMS.
-              </p>
-              <Ratio aspectRatio="16x9">
-                <iframe src="https://www.youtube.com/embed/6cWJObySlfc"
-                  title="Wrong number : a very embarrassing misunderstanding Video"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-              </Ratio>
-            </div>
-          </Col>
-          <Col>
-            <div className="project-item">
-              <h3 className="title-project">Coding Flash</h3>
-              <h4 className="project-language">Logiciel : ClipChamp</h4>
-              <p>
-                J'ai monté une vidéo à partir de trois extraits de la série <span className="flash">The Flash</span>, avec mon équipe nous devions ajouter des sous-titres personnalisés dans ces extraits.
-              </p>
-              <Ratio aspectRatio="16x9">
-                <iframe src="https://www.youtube.com/embed/E3ukMn0_F5c" title="Coding Flash Video"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-              </Ratio>
-            </div>
-          </Col>
-        </Row>
-      </div>
       {showProjectModal && selectedProject && <ProjectCarousel show={showProjectModal} onClose={handleClose} project={selectedProject} theme={theme}>{projectChild}</ProjectCarousel>}
       {showStudiesModal && selectedProject && <ProjectStudies show={showStudiesModal} onClose={handleClose} project={selectedProject} theme={theme} />}
     </section>

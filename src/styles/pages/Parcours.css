@@ -1,23 +1,39 @@
 #parcours {
 	color: var(--text-color);
+	padding: var(--section-padding) 2rem;
+	margin: var(--section-spacing) 1rem;
 }
 
 #parcours div[role='tablist'] a.list-group-item-action {
 	font-size: var(--text-size) !important;
+	transition: all 0.3s ease;
+}
+
+#parcours div[role='tablist'] a.list-group-item-action:hover {
+	transform: translateX(5px);
 }
 
 #parcours div[role='tabpanel'] p {
 	font-size: var(--text-size) !important;
+	line-height: 1.7;
 }
 
 .parcours-name {
 	font-weight: bold;
 	text-decoration: underline;
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
 }
 
 .parcours-image {
-	/* the size of the image is 75% of the width of the container next to it */
 	width: 75%;
 	height: auto;
-	border-radius: 10%;
+	border-radius: 15px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.parcours-image:hover {
+	transform: scale(1.05);
+	box-shadow: 0 15px 40px rgba(2, 132, 199, 0.4);
 }

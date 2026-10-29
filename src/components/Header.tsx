@@ -35,7 +35,7 @@ export function Header() {
             <div id="name-container">
                 <h1 className="name lobster-regular">Cédric Mariya Constantine</h1>
                 <div id="wrapper">
-                    <h2 className="etudiant-animation yatra-one-regular">Étudiant en informatique</h2>
+                    <h2 className="etudiant-animation yatra-one-regular">Étudiant en développement informatique</h2>
                     {debug && <div id="theme-display">{display}</div>}
                 </div>
             </div>
