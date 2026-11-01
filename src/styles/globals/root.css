@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 /* responsive font-size */
 @media (max-width: 576px) {
 	:root {

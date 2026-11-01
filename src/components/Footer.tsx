@@ -34,7 +34,7 @@ export function Footer() {
                             Formulaire de contact désactivé pour le moment.
                         </p>
                         <p>
-                            Vous pouvez me contacter par mail à l'adresse suivante : <a href="mailto:cedric.mc11@gmail.com">cedric.mc11@gmail.com</a>
+                            Vous pouvez me contacter par mail à l'adresse suivante : <a href="mailto:cedric.mariya.constantine@gmx.fr">cedric.mariya.constantine@gmx.fr</a>
                         </p>
                         {/* <Form method="post">
                             <FormGroup className="mb-1" controlId="nomInput">
